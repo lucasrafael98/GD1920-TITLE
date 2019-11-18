@@ -16,3 +16,5 @@ dialog_begin(DIALOG_INTRO_6);
 dialog_begin(DIALOG_INTRO_7);
 dialog_begin(DIALOG_INTRO_8);
 dialog_begin(DIALOG_INTRO_9);
+dialog_begin(DIALOG_INTRO_10);
+dialog_begin(DIALOG_INTRO_11);

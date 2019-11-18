@@ -58,3 +58,13 @@ dialog_add_string(DIALOG_INTRO_8, "Anyway, enough with long-winded explanations.
 
 #macro DIALOG_INTRO_9 9
 dialog_add_string(DIALOG_INTRO_9, "Check that he doesn\'t get out before you can identify him, because you\'ll have just wasted your time, and you ain\'t got much of it. Good luck.\"");
+
+#macro DIALOG_INTRO_10 10
+dialog_add_string(DIALOG_INTRO_10, "I'm new to this, but I should probably focus on what I'm good at.");
+
+#macro DIALOG_INTRO_11 11
+dialog_add_string(DIALOG_INTRO_11, "What... am I good at?");
+dialog_add_branch(DIALOG_INTRO_11, 0, intro_cpass, "Checking people's passes.");
+dialog_add_branch(DIALOG_INTRO_11, 1, intro_eaves, "Eavesdropping on conversations.");
+dialog_add_branch(DIALOG_INTRO_11, 2, intro_rlips, "Reading lips.");
+dialog_add_branch(DIALOG_INTRO_11, 3, intro_glanc, "Glancing at objects.");

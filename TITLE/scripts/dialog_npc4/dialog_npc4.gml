@@ -13,12 +13,10 @@ dialog_add_branch(DIALOG_NPC4_1, 3, dialog_npc4_14, "You can\'t enter if you\'re
 
 #macro DIALOG_NPC4_11 11
 dialog_add_string(DIALOG_NPC4_11, "\"And make a scene with her? You saw how she spoke, even to you. I would have gained nothing by attempting to take my rightful place in the queue.\"");
-dialog_begin(DIALOG_NPC4_1);
 
 #macro DIALOG_NPC4_12 12
 dialog_add_string(DIALOG_NPC4_12, "\"Computer Engineering. I suppose typing till my hands fall off for some barely working government mess does beat having to go to the Western front as"+
 								  " a more hardware oriented engineer. Hardware is those metal things with circuitry, mind you.\"");
-dialog_begin(DIALOG_NPC4_1);
 								 
 #macro DIALOG_NPC4_13 13
 dialog_add_string(DIALOG_NPC4_13, "He doesn\'t say a word and gets on the bus.");

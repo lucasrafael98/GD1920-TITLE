@@ -8,7 +8,7 @@ dialog_add_branch(DIALOG_NPC1_1, 0, DO_NOTHING, "[check her pass]");
 dialog_add_string(DIALOG_NPC1_2, "Everything seems to be in order. Right photo, female, around the right height. Travelling to get to work in real estate. Not the hottest area right now,"+
 								 " which probably explains her fairly gaunt figure.");
 								 
-dialog_add_branch(DIALOG_NPC1_2, 0,DO_NOTHING, "Everything in order. You can come in. ");
+dialog_add_branch(DIALOG_NPC1_2, 0, accept_npc1, "Everything in order. You can come in. ");
 dialog_add_branch(DIALOG_NPC1_2, 1, refuse_npc1, "Step out of the bus, ma\'am.");
 
 #macro DIALOG_NPC1_REFUSAL 3
