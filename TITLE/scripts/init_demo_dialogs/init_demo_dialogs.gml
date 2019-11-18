@@ -19,7 +19,6 @@ dialog_add_string(MISSING, "Missing dialog.");
 //
 //	A dialog without branches
 //
-
 #macro DIALOG_PORTAL_APERTURE 0
 dialog_add_string(DIALOG_PORTAL_APERTURE, "The enrichment center would like to announce a new employee initiative of forced voluntary participation. " +
 										  "If any Aperture Science employee would like to opt out of this new voluntary testing program, please remember; science rhymes with compliance." +

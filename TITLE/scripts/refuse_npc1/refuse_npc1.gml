@@ -1,0 +1,1 @@
+dialog_begin(DIALOG_NPC1_REFUSAL);
