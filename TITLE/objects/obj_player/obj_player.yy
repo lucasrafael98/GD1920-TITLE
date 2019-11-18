@@ -2,7 +2,7 @@
     "id": "fa9e124d-a050-42a2-ac29-6f0adfc698b4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "OBJMainChar",
+    "name": "obj_player",
     "eventList": [
         {
             "id": "fda528be-4761-4ff9-b292-9d751f6b678a",
@@ -25,7 +25,7 @@
             "m_owner": "fa9e124d-a050-42a2-ac29-6f0adfc698b4"
         }
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "dbb881e7-5c19-4694-aabc-29ff23812f5f",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "505b99c1-389e-4135-aecd-a96adedbff54",
+    "spriteId": "87729a38-3fe5-49fa-a056-86c2d1cad428",
     "visible": true
 }
