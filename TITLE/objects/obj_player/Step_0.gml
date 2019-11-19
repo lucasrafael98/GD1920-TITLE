@@ -22,16 +22,16 @@ if(moveY == 0){ moveX = (input_right - input_left) * spd;}
 
 if(moveX < 0){
 	image_speed = spd/2;
-	sprite_index = spt_c_left;
+	sprite_index = S_P_LEFT;
 } else if(moveX > 0){
 	image_speed = spd/2;
-	sprite_index = spt_c_right;
+	sprite_index = S_P_RIGHT;
 } else if(moveY < 0){
 	image_speed = spd/2;
-	sprite_index = spt_c_up;
+	sprite_index = S_P_UP;
 } else if(moveY > 0){
 	image_speed = spd/2;
-	sprite_index = spt_c_down;
+	sprite_index = S_P_DOWN;
 }else{
 	image_speed = 0;
 	image_index = 0;
@@ -50,7 +50,7 @@ if(moveX != 0){
 	}
 }
 
-if(moveY != 0){
+if(moveY != 0){         
 	if(place_meeting(x,y+moveY,obj_wall)){
 		repeat(abs(moveY)){
 			if(!place_meeting(x,y+sign(moveY),obj_wall)){
