@@ -15,4 +15,4 @@ text = [
 	"STFU"
 ];
 speakers = [id, obj_player,id,id];
-next_line = [0, [2,3], -1,-1]
+next_line = [0, [2,3], -1,-1];
