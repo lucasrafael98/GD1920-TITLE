@@ -72,7 +72,7 @@ if(keyboard_check_pressed(global.interact_key)){
 	
 		if(inst != noone){
 			with(inst){
-				var tbox = create_textbox(text,speakers,next_line);
+				var tbox = create_textbox(text,speakers,next_line,scripts);
 			}
 			active_tbox = tbox;
 		}

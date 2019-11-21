@@ -1,4 +1,3 @@
-dialog_begin(DIALOG_NPC3_FORGERY_1);
 with (obj_npc3){
 	event_user(1);
 }

@@ -1,4 +1,3 @@
-dialog_begin(DIALOG_NPC2_REFUSAL_2);
 with (obj_npc2){
 	event_user(1);
 }

@@ -1,5 +1,4 @@
 player_increase_suspicion();
-dialog_begin(DIALOG_NPC1_REFUSAL);
 with (obj_npc1){
 	event_user(1);
 }

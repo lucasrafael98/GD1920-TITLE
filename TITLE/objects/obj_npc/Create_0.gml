@@ -10,3 +10,4 @@ name = "Anonymous";
 text = ["Default text"];
 speakers = [id];
 next_line = [0];
+scripts = -1;
