@@ -10,7 +10,7 @@
         "aa3bc004-9590-4ed5-a26f-a13daf9456a8"
     ],
     "filterType": "GMSprite",
-    "folderName": "FatMan",
+    "folderName": "FatMan1",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

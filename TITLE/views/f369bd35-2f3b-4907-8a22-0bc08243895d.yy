@@ -15,7 +15,7 @@
         "8612df59-de7d-4d48-afd0-4b26423f7a1c"
     ],
     "filterType": "GMSprite",
-    "folderName": "Conductor",
+    "folderName": "Player",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

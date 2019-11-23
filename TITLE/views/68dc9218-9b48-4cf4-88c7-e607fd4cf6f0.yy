@@ -10,7 +10,7 @@
         "c9b9559b-4269-4b01-a65b-f53e39593c5c"
     ],
     "filterType": "GMSprite",
-    "folderName": "Homeless",
+    "folderName": "Homeless1",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

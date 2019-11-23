@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "1217e272-06b7-4bbb-905b-53c2d89440a2",
+            "Value": {
+                "id": "b3430b6e-a74e-4f14-ac08-cbd8def8c607",
+                "resourcePath": "sprites\\sprite37\\sprite37.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12c5fa4d-5e94-429b-bc75-cbd8fb636174",
             "Value": {
                 "id": "420bca11-e9df-44c4-9e67-c90c5f3204c6",
@@ -879,6 +887,14 @@
             }
         },
         {
+            "Key": "9a0cd7f8-6c0d-472a-8ffd-e3c0b0d7e260",
+            "Value": {
+                "id": "d9a690ac-ff7f-4d7e-acbb-d5521eae51ee",
+                "resourcePath": "views\\9a0cd7f8-6c0d-472a-8ffd-e3c0b0d7e260.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9c2cfa48-bf2d-46b6-a7fa-1707fd1e2e4d",
             "Value": {
                 "id": "4449ac04-cfa2-47b6-ba37-5c8d1f1633fb",
@@ -1420,6 +1436,14 @@
                 "id": "df4c0efd-a446-4c1b-b1ea-abfb92b51134",
                 "resourcePath": "objects\\obj_music\\obj_music.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f780545d-8482-47c1-a9f8-f647cd4dd858",
+            "Value": {
+                "id": "b95fd07e-e8e7-4e4e-b9e9-8dd5c9ee472a",
+                "resourcePath": "sprites\\S_H2_RIGHT\\S_H2_RIGHT.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

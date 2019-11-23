@@ -10,7 +10,7 @@
         "923255d0-c9e9-49e5-b80b-b6c3edce59d5"
     ],
     "filterType": "GMSprite",
-    "folderName": "BlackHLady",
+    "folderName": "BlackHLady1",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

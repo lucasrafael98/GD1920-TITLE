@@ -10,7 +10,7 @@
         "3462d648-e046-4429-a555-8458e6868060"
     ],
     "filterType": "GMSprite",
-    "folderName": "OldLady",
+    "folderName": "OldLady1",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

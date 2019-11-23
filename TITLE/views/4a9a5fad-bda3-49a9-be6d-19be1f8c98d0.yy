@@ -10,7 +10,7 @@
         "2f435f9c-ab39-4a69-a176-0b3eb9fbe1ac"
     ],
     "filterType": "GMSprite",
-    "folderName": "BigMan",
+    "folderName": "BigMan1",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
