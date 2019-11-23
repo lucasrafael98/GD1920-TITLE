@@ -1,11 +1,6 @@
 image_speed = 1;
 path_start(npc5_enter, 2, path_action_stop, false);
 
-  
-portrait_index = 0;
-voice = snd_sound0;
-name = "Fatmandamn";
-
 if (skillcheck(4,2)) {
    
 text = [
@@ -13,7 +8,7 @@ text = [
     "The incredibly fat man seems to be taking a phone call, a serious one from the look on his face. He seems to be whispering, so you\'d need to get way too close to hear him. You try and read his lips...",
 
 	[
-		"<Read Lips>"
+		"[Read Lips]"
 	], 
 	
 	"You\'re a rookie, but you\'ve got some practice. You can pick up on some things.",
@@ -40,7 +35,7 @@ else {
     "The incredibly fat man seems to be taking a phone call, a serious one from the look on his face. He seems to be whispering, so you\'d need to get way too close to hear him. You try and read his lips...",
 
 	[
-		"<Read Lips>"
+		"[Read Lips]"
 	], 
 	
     "But you\'re not really trained in this. You can barely understand: \"uyo njeodi dagl I mi\" ",
