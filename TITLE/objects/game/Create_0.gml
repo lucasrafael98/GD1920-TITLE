@@ -6,5 +6,6 @@ global.game_width = 1024;
 global.game_height = 768;
 
 global.interact_key = vk_space;
-
+global.choice_dialogue = false;
+global.in_dialogue = false;
 display_set_gui_size(global.game_width,global.game_height);

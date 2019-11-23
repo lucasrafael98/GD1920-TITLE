@@ -4,9 +4,4 @@
 if(keyboard_check(vk_space) && !inConversation && !passCheckDone){
 	inConversation = true;
 	passCheckDone = true;
-	dialog_init();
-	dialog_npc5();
-
-	dialog_begin(DIALOG_NPC5_0);
-	dialog_begin(DIALOG_NPC5_1); 	
 }

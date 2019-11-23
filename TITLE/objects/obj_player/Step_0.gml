@@ -17,8 +17,10 @@ if(input_walk or input_run){
 moveX = 0;
 moveY = 0;
 
-moveY = (input_down - input_up) * spd;
-if(moveY == 0){ moveX = (input_right - input_left) * spd;}
+if(!global.in_dialogue){
+	moveY = (input_down - input_up) * spd;
+	if(moveY == 0){ moveX = (input_right - input_left) * spd;}
+}
 
 if(moveX < 0){
 	image_speed = spd/2;
@@ -60,6 +62,24 @@ if(moveY != 0){
 			}
 		}
 		moveY = 0;
+	}
+}
+
+if(keyboard_check_pressed(global.interact_key)){
+	
+	if(active_tbox == noone){
+		var inst = collision_rectangle(x-radius,y-radius,x+radius,y+radius,obj_npc,false,false);
+	
+		if(inst != noone){
+			with(inst){
+				var tbox = create_textbox(text,speakers,next_line,scripts);
+			}
+			active_tbox = tbox;
+		}
+	}else{
+		if(!instance_exists(active_tbox)){
+			active_tbox = noone;
+		}
 	}
 }
 
