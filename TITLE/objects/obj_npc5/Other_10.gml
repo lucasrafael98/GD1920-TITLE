@@ -11,7 +11,7 @@ text = [
 		"[Read Lips]"
 	], 
 	
-	"You\'re a rookie, but you\'ve got some practice. You can pick up on some things.",
+	"You\'re a rookie, but you\'ve got some practice. You can pick up on some things. \"mi dagl I njeodi uyo\"",
 
 	[
 		"\"What seems to be the problem?\" ",

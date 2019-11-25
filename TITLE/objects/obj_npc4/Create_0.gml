@@ -21,7 +21,7 @@ text = [
 	"\"Computer Engineering. I suppose typing till my hands fall off for some barely working government mess does beat having to go to the Western front as"+
 								  " a more hardware oriented engineer. Hardware is those metal things with circuitry, mind you.\"",
 	"He doesn\'t say a word and gets on the bus.",
-	"\"What the fuck? Hey, I have every right to be on this…\" he remembers what could happen to his pass if he argues, and silently leaves. The other passengers"+
+	"\"What the fuck? Hey, I have every right to be on this...\" he remembers what could happen to his pass if he argues, and silently leaves. The other passengers"+
 								  " find your reply quite strange."
 ];
 speakers = [id, id,obj_player,id,id,id,id];

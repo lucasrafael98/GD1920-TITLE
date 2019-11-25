@@ -15,10 +15,10 @@ text = [
 	"Thankfully you have gloves, because you can\'t tell where these stains came from. You can\'t even make out the name, not that it matters since the reason for travel"+
 								 " is \"i ned to\". You\'re a bit of an amateur conductor, but even you know that\'s bullshit.",
 	[
-		"You… \"ned\" to?",
+		"You... \"ned\" to?",
 		"Alright, please get an actual pass next time. Out."
 	],
-	"\"Please sir, I need some money. The bus is the only place where there\'s people all the time. I can\'t get a job anywhere…\" the smell is just too much when he starts"+
+	"\"Please sir, I need some money. The bus is the only place where there\'s people all the time. I can\'t get a job anywhere...\" the smell is just too much when he starts"+
 										" talking. You\'re barely holding it in.",
 	[
 		"Look, I can\'t get you in like this. Get cleaner and we\'ll talk. Sorry.",

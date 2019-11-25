@@ -16,7 +16,7 @@ text = [
 		"Everything in order. You can come in.",
 		"Step out of the bus, ma\'am."
 	],
-	"She doesn\'t say a word and leaves. You can faintly hear some… unkind words being muttered as she does. The other passengers wonder why you\'ve just"+
+	"She doesn\'t say a word and leaves. You can faintly hear some... unkind words being muttered as she does. The other passengers wonder why you\'ve just"+
 									   " kicked out a passenger for no discernible reason."
 ];
 speakers = [id, obj_player,id,obj_player,id];

@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "54c58313-522a-4019-a6ff-548e15250ad1",
+            "Value": {
+                "id": "f168e2d1-846f-4aac-9bca-bc82f9cb1073",
+                "resourcePath": "sounds\\music02\\music02.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "55db17f4-8542-4517-9337-78658a654faa",
             "Value": {
                 "id": "7381bddf-65f2-42c4-9900-217b775a3173",
@@ -2356,6 +2364,14 @@
                 "id": "bf107aff-935a-408c-aa04-93cf38a08198",
                 "resourcePath": "sprites\\NM_R_LEFT\\NM_R_LEFT.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "af34c96f-5f5a-4be7-aa3e-005d99310815",
+            "Value": {
+                "id": "b1898d52-0c83-4c11-be97-d039b26365eb",
+                "resourcePath": "sounds\\music03\\music03.yy",
+                "resourceType": "GMSound"
             }
         },
         {

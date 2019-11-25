@@ -27,10 +27,10 @@ intro_text = [
 "What a stupid job.",
 
 "\"Go to the force\", they said. \"You\'ll investigate important things\", they said." +
-" Meanwhile, I\'m drafted into being undercover… as a fucking conductor? God damn, this job was a mistake.",
+" Meanwhile, I\'m drafted into being undercover... as a fucking conductor? God damn, this job was a mistake.",
 
 
-"You know, I tried being a decent cop but it\'s impossible. The “best” cops, they\'re just the ones that have friends or family higher above,"+
+"You know, I tried being a decent cop but it\'s impossible. The \"best\" cops, they\'re just the ones that have friends or family higher above,"+
 " up in the Institute of Stability. It\'s just impossible to compete when every single thing in this damn job is stacked against you.",
 
 
@@ -53,7 +53,7 @@ intro_text = [
 
 
 "Sometimes people don\'t have much to discuss, and they\'re just checking something on their phones or reading. Don\'t stare like some sort of weirdo at their "+
-"stuff or they\'ll catch on within seconds. Just… glance at it, and try to keep what you just saw in your memory. I know it\'s strange, and it ain\'t easy if you\'re"+
+"stuff or they\'ll catch on within seconds. Just... glance at it, and try to keep what you just saw in your memory. I know it\'s strange, and it ain\'t easy if you\'re"+
 " not too observant, but you\'ll get better over time.",
 
 
