@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "2404e8ea-3909-4958-81c7-9896d005fd0f",
+            "Value": {
+                "id": "1c195f47-5476-425b-b5ff-93a417638b09",
+                "resourcePath": "sounds\\music03\\music03.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "248e1798-7c1b-440f-bf1c-67599f9fcecf",
             "Value": {
                 "id": "da1da840-13a7-4520-837f-e2567d290ea1",
@@ -2215,6 +2223,14 @@
             }
         },
         {
+            "Key": "99169930-2c9d-4289-b2cc-16b97f9579b7",
+            "Value": {
+                "id": "3daf18ef-2c20-475a-a38b-618c9e43dc2c",
+                "resourcePath": "scripts\\rlips_npc5\\rlips_npc5.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "999a6941-9218-4aae-a333-4e2a7edbdbbd",
             "Value": {
                 "id": "3f8d15d2-dca8-456c-a3b9-87df8be617ab",
@@ -3683,6 +3699,7 @@
         "d999c1dc-1819-40ca-a5c5-259d114da4cf",
         "77f1c12d-db06-421f-9b79-fb4aad1e79d3",
         "18a5ce6b-da3c-471d-a0df-a7475707524f",
+        "99169930-2c9d-4289-b2cc-16b97f9579b7",
         "6d9db52e-2716-4db9-a1d9-910367108fea",
         "43be90ae-415c-471b-8531-253bfe8b3315",
         "8a91bba5-6262-4465-a44e-34e9122afe3b",

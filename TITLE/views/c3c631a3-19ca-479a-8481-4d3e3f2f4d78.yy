@@ -11,7 +11,8 @@
         "b4c2b2ac-5fa4-4a9c-9e34-843783dc06aa",
         "d999c1dc-1819-40ca-a5c5-259d114da4cf",
         "77f1c12d-db06-421f-9b79-fb4aad1e79d3",
-        "18a5ce6b-da3c-471d-a0df-a7475707524f"
+        "18a5ce6b-da3c-471d-a0df-a7475707524f",
+        "99169930-2c9d-4289-b2cc-16b97f9579b7"
     ],
     "filterType": "GMScript",
     "folderName": "pass_npc5",
