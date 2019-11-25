@@ -8,7 +8,9 @@
         "5c8258a9-b03f-46dc-a0fa-8ddd66a9896c",
         "84a184d2-2a0d-43a8-8c21-fb89230c97da",
         "f7853a96-bb71-4e81-9b1e-956873aee63f",
-        "b4c2b2ac-5fa4-4a9c-9e34-843783dc06aa"
+        "b4c2b2ac-5fa4-4a9c-9e34-843783dc06aa",
+        "d999c1dc-1819-40ca-a5c5-259d114da4cf",
+        "18a5ce6b-da3c-471d-a0df-a7475707524f"
     ],
     "filterType": "GMScript",
     "folderName": "pass_npc5",

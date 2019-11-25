@@ -30,4 +30,4 @@ text = [
 ];
 speakers = [id, id, obj_player,id,id,obj_player,id,obj_player,id];
 next_line = [0, 2, [3,4], -1, 5, [6,-1],7,[8],-1];
-scripts = [-1,-1,[[dialog_npc5_closedoor],-1],-1,-1,[-1,[dialog_npc5_accept]],-1,[[dialog_npc5_accept]],-1];
+scripts = [-1,-1,[[stopHighlight, id],-1],-1,-1,[-1,[dialog_npc5_accept]],-1,[[dialog_npc5_accept]],-1];

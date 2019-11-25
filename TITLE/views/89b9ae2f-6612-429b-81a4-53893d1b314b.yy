@@ -8,7 +8,9 @@
         "b84a09fe-3dfd-4288-930f-66b5020a5253",
         "3878e1b4-6e78-4de1-8ca3-8c61c3c85cd0",
         "1eba37f6-9528-42ee-a4c0-14e52f915e97",
-        "6dd6d831-086a-490b-bf2a-40687a459585"
+        "6dd6d831-086a-490b-bf2a-40687a459585",
+        "28bda58c-98ad-45ca-9635-ff5435f5cbd1",
+        "1fe6ebf3-0c22-457f-8ed9-10ee11bac90e"
     ],
     "filterType": "GMScript",
     "folderName": "pass_npc4",

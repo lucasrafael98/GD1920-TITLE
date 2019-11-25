@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
-
+canInteract = true;
+colorLevel = 120;
 portrait_index = 0;
 voice = snd_sound0;
 name = "Lmaobama";
@@ -28,4 +29,4 @@ text = [
 ];
 speakers = [id, obj_player,id,obj_player,id,obj_player,id];
 next_line = [1, [2,4], 3,[4,4],5,[6,-1],-1];
-scripts = [-1, [-1,-1], -1,[-1,-1],-1,[[refuse_npc2_2],[refuse_npc2_2]],-1];
+scripts = [-1, [-1,-1], -1,[-1,-1],-1,[[refuse_npc2_2],[refuse_npc2_2]],[stopHighlight,id]];

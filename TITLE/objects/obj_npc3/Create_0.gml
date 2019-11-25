@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
+canInteract = true;
+colorLevel = 120;
 
 portrait_index = 0;
 voice = snd_sound0;
@@ -36,4 +38,4 @@ text = [
 ];
 speakers = [id, obj_player,id,id,obj_player,id,obj_player,id,id,obj_player,id,obj_player,id,id];
 next_line = [0, [2,3],4,4,[-1],6,[-1],8,9,[10],11,[12,13],-1,-1];
-scripts = [-1, [-1,-1],-1,-1,[[npc3_continue]],-1,[[dialog_npc3_forgery_2]],-1,-1,[-1],-1,[[dialog_npc3_forgery_1],[dialog_npc3_forgery_2]],-1];
+scripts = [-1, [-1,-1],-1,-1,[[npc3_continue]],[stopHighlight,id],[[dialog_npc3_forgery_2]],-1,-1,[-1],-1,[[dialog_npc3_forgery_1],[dialog_npc3_forgery_2]],-1,-1];

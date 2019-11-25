@@ -1,6 +1,6 @@
 //image_speed = 1;
 //path_start(npc3_enter, 2, path_action_stop, false);
-
+canInteract = true;
 if (!skillcheck(2,1)) {
    
 text = [
@@ -16,7 +16,7 @@ text = [
 ];
 speakers = [id, obj_player,obj_player];
 next_line = [0, [2], -1];
-scripts = [-1,[-1],-1];
+scripts = [-1,[-1],[stopHighlight, id]];
 }
 
 else {
@@ -47,7 +47,7 @@ else {
 	" \"How... rude, and disrespectful!\" She storms off. \"Hey, thanks. Good to see not everyone on this city has just gone insane.\"",
 ];
 speakers = [id, obj_player,obj_player,obj_player,obj_npc4,obj_player,id,id];
-next_line = [0, [2], 3,[4,-1],5,[6,7],-1];
-scripts = [-1,[-1],-1,[-1,-1],-1,[-1,-1],-1];
+next_line = [0, [2], 3,[4,-1],5,[6,7],-1,-1];
+scripts = [-1,[-1],-1,[-1,-1],-1,[-1,-1],[letNPC3Sit],[letNPC4Sit]];
 
 }

@@ -23,7 +23,7 @@ portrait_index = 0;
 text_x = text_box_x + text_box_image_x + text_box_image_width + x_buffer;
 text_y = text_box_image_y +  y_buffer;
 
-text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width;
+text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width -15;
 
 voice = snd_sound0;
 counter = 0;

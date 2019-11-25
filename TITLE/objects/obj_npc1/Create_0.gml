@@ -2,6 +2,8 @@
 // You can write your code in this editor
 event_inherited();
 
+canInteract = true;
+colorLevel = 120;
 direction = 0;
 portrait_index = 0;
 voice = snd_sound0;
@@ -22,4 +24,4 @@ text = [
 ];
 speakers = [id, obj_player,id,obj_player,id];
 next_line = [1, [2], 3,[-1,4],-1];
-scripts = [-1, [-1], -1,[[accept_npc1],[refuse_npc1]],-1];
+scripts = [-1, [-1], -1,[[accept_npc1],[refuse_npc1]],[stopHighlight, id]];

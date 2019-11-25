@@ -9,3 +9,12 @@ if(direction >= 306 && direction <= 45){
 } else if(direction >= 226 && direction <= 305){
 	sprite_index = S_BM_DOWN;
 }
+
+if (canInteract){
+	image_blend = make_color_rgb(255, colorLevel, colorLevel);
+	colorLevel+=3;
+	if(colorLevel > 255) colorLevel = 120;
+} else if(colorLevel != 0) {
+	image_blend = -1;
+	colorLevel = 120;
+}

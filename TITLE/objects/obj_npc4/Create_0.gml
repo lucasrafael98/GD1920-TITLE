@@ -2,6 +2,8 @@
 // You can write your code in this editor
 event_inherited();
 
+canInteract = true;
+colorLevel = 120;
 portrait_index = 0;
 voice = snd_sound0;
 name = "WeebMaster";
@@ -26,4 +28,4 @@ text = [
 ];
 speakers = [id, id,obj_player,id,id,id,id];
 next_line = [0, 2, [3,4,5,6], 2,2,-1,-1];
-scripts = [-1,-1,[-1,-1,[dialog_npc4_13],[dialog_npc4_14]],-1,-1,-1,-1]
+scripts = [-1,-1,[-1,-1,[dialog_npc4_13],[dialog_npc4_14]],-1,-1,[accept_npc4],[stopHighlight, id]]
