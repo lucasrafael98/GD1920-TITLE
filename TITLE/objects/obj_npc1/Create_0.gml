@@ -21,5 +21,5 @@ text = [
 									   " kicked out a passenger for no discernible reason."
 ];
 speakers = [id, obj_player,id,obj_player,id];
-next_line = [1, [2], 3,[-1,4]];
-scripts = [-1, [-1], -1,[[accept_npc1],[refuse_npc1]]];
+next_line = [1, [2], 3,[-1,4],-1];
+scripts = [-1, [-1], -1,[[accept_npc1],[refuse_npc1]],-1];

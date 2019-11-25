@@ -20,7 +20,6 @@ text = [
 	"Thankfully, her pass is impeccably clean. Everything checks out, the reason only stating \"the following person is extremely old and currently leaving alone, and "+
 								 " requires the use of transport in order to obtain her daily allowance of food\".",
 	["Alright, this checks out. Please be a bit more... comprehensive next time."],
-	["[check her pass]"],
 	"Thankfully, her pass is impeccably clean. Everything checks out, the reason only stating \"the following person is extremely old and currently leaving alone, and "+
 								 " requires the use of transport in order to obtain her daily allowance of food\".",
 	"You notice something sticking out in this piece of paper. You peel a layer off, revealing a different photo.",
@@ -35,6 +34,6 @@ text = [
 	"\"Thank you, thank you so much.\" She almost seems to bow before you, and gets inside the bus."
 	
 ];
-speakers = [id, obj_player,id,id,obj_player,id,obj_player,obj_player,id,id,obj_player,id,obj_player,id,id];
-next_line = [0, [2,3],4,7,[5],6,[-1],[8],9,10,[11],12,[13,14],-1,-1];
-scripts = [-1, [-1,-1], -1,-1,[-1],-1,[[dialog_npc3_forgery_2]],[-1],-1,-1,[-1],-1,[[dialog_npc3_forgery_1],[dialog_npc3_forgery_2]],-1];
+speakers = [id, obj_player,id,id,obj_player,id,obj_player,id,id,obj_player,id,obj_player,id,id];
+next_line = [0, [2,3],4,4,[-1],6,[-1],8,9,[10],11,[12,13],-1,-1];
+scripts = [-1, [-1,-1],-1,-1,[[npc3_continue]],-1,[[dialog_npc3_forgery_2]],-1,-1,[-1],-1,[[dialog_npc3_forgery_1],[dialog_npc3_forgery_2]],-1];

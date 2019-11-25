@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(keyboard_check_pressed(global.interact_key)){
 	if(!global.choice_dialogue and counter < str_len){counter = str_len;}
-	else if(page < array_length_1d(text) - 1){
+	else if(page <= array_length_1d(text) - 1){
 		event_perform(ev_other,ev_user2);
 		
 		var line = next_line[page];

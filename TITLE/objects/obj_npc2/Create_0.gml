@@ -27,5 +27,5 @@ text = [
 	"\"Alright, alright.\" He leaves with no fuss. You feel a smidge of pity, overshadowed by the relief that is being able to breathe without holding everything in."
 ];
 speakers = [id, obj_player,id,obj_player,id,obj_player,id];
-next_line = [1, [2,-1], 3,[4,4],5,[6,-1],-1];
-scripts = [-1, [-1,-1], -1,[-1,-1],-1,[[refuse_npc2_2],[refuse_npc2_2],-1]];
+next_line = [1, [2,4], 3,[4,4],5,[6,-1],-1];
+scripts = [-1, [-1,-1], -1,[-1,-1],-1,[[refuse_npc2_2],[refuse_npc2_2]],-1];

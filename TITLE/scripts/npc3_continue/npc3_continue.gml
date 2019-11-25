@@ -1,6 +1,6 @@
 if(skillcheck(1,2)){
-	dialog_begin(DIALOG_NPC3_22);
-	dialog_begin(DIALOG_NPC3_23);
+	obj_npc3.next_line[4] = [7];
 } else{
-	dialog_begin(DIALOG_NPC3_2);
+	obj_npc3.next_line[4] = [5];
 }
+obj_text.next_line = obj_npc3.next_line;
