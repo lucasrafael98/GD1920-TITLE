@@ -4,13 +4,15 @@
     "mvc": "1.1",
     "name": "423495da-dcb5-4015-a64a-ff33b03b6bd9",
     "children": [
-        "39984c25-7af3-4dcf-aaf0-4f79f2f7726f",
-        "519a5689-90af-47cb-acc4-fab29f8de35b",
-        "fa896e48-7388-4747-a48a-46b11f433164",
-        "3462d648-e046-4429-a555-8458e6868060"
+        "c8d7d580-a9b9-436d-9789-04e0b40c6fee",
+        "a4c954f2-af87-4d97-afef-9f5f21149801",
+        "261ca777-746e-4e03-8ab0-03d976a26d8f",
+        "fd4508e5-9999-4966-8cff-5c380019b5a5",
+        "8a34bb44-bdf9-492d-b48f-e9a5c90243a2",
+        "ab202153-5526-4466-a0ac-bc04876ef64d"
     ],
     "filterType": "GMSprite",
-    "folderName": "OldLady1",
+    "folderName": "OldLady",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

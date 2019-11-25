@@ -4,13 +4,15 @@
     "mvc": "1.1",
     "name": "4a9a5fad-bda3-49a9-be6d-19be1f8c98d0",
     "children": [
-        "01555920-eb21-4ce2-bd4e-d0a3dde0ba28",
-        "5b953af1-b4ab-4aba-a795-cd169043617b",
-        "00ee7d11-d890-4032-b67b-287b40e9fd2f",
-        "2f435f9c-ab39-4a69-a176-0b3eb9fbe1ac"
+        "581237b8-8cc6-4832-a2aa-ebd38c2266f9",
+        "c23a7dd1-e9c4-46dd-b20a-f1407d92cc3a",
+        "2069496d-0c71-4ced-9078-437bed4eee8e",
+        "5386bdc7-f5cb-4498-9f81-8847053f7b5c",
+        "bfbdbc9b-10e6-4f2b-9d92-2c478b256f9d",
+        "3a897cfc-f767-43eb-a468-8bcceac299b1"
     ],
     "filterType": "GMSprite",
-    "folderName": "BigMan1",
+    "folderName": "BigMan",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
