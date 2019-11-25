@@ -41,7 +41,7 @@ next_line = [0,
 			
 scripts =  [-1,
 			  [[npc4_glance],[stopHighlight, id]],
-			-1,
+			[change_variable,obj_player,"glance_npc4", true],
 			  [-1,[stopHighlight, id]],
 			[player_increase_suspicion_end, id],
 			-1,

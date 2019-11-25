@@ -11,7 +11,8 @@
         "fb1decf5-1403-4288-94cd-9cc64a8e4df2",
         "ff059540-7a34-419a-a66b-19261ff51a7e",
         "2a10e7f0-e337-4d48-8d7f-b081da9c6fad",
-        "84c658d5-b943-48bc-93df-219afd7cc1aa"
+        "84c658d5-b943-48bc-93df-219afd7cc1aa",
+        "2c383cff-9ffc-4a7c-b87c-7fcb944ba052"
     ],
     "filterType": "GMScript",
     "folderName": "Creating Dialogues",

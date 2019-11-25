@@ -48,6 +48,6 @@ else {
 ];
 speakers = [id, obj_player,obj_player,obj_player,obj_npc4,obj_player,id,id];
 next_line = [0, [2], 3,[4,-1],5,[6,7],-1,-1];
-scripts = [-1,[-1],-1,[-1,-1],-1,[-1,-1],[letNPC3Sit],[letNPC4Sit]];
+scripts = [-1,[-1],-1,[[change_variable,obj_player,"eaves_i",true],-1],-1,[-1,-1],[letNPC3Sit],[letNPC4Sit]];
 
 }

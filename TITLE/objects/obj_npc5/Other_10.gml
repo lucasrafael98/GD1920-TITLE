@@ -25,7 +25,7 @@ speakers = [id, obj_player,obj_player, obj_player,id,id];
 
 
 next_line = [0, [2], 3, [4,-1], -1];
-scripts = [-1,[-1],-1,[[player_increase_suspicion],[stopHighlight, id]],[stopHighlight, id]];
+scripts = [-1,[-1],-1,[[player_increase_suspicion],[stopHighlight, id]],[activateReadLips, id]];
 }
 
 else {
@@ -50,6 +50,6 @@ else {
 ];
 speakers = [id, obj_player,obj_player, obj_player,id,id];
 next_line = [0, [2], 3, [4,-1], -1];
-scripts = [-1,[-1],-1,[[player_increase_suspicion],[startNPC5Event1]],[startNPC5Event1]];
+scripts = [-1,[-1],-1,[[player_increase_suspicion],[startNPC5Event1]],[activateReadLips2]];
 
 }

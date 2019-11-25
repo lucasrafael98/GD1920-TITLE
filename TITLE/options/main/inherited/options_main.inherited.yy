@@ -4,8 +4,8 @@
     },
     "option_gameguid": "3510c8d4-f284-4114-8b4c-cc164a34fc79",
     "option_game_speed": 60,
-    "option_lastchanged": "25 November 2019 1:39:27",
-    "option_sci_usesci": true
+    "option_lastchanged": "25 November 2019 19:27:12",
+    "option_sci_usesci": false
 }←be5f1418-b31b-48af-a023-f04cdf6e5121|{
     "textureGroups": {
         "Additions": [

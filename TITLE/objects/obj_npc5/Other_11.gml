@@ -60,7 +60,7 @@ next_line = [0,
 			 5];
 scripts = [-1,
 				[[npc5_glance], [stopHighlight, id]],
-			-1,
+			[change_variable,obj_player,"glance_npc5",true],
 				[-1,[stopHighlight, id]],
 			-1,
 				[-1,-1],

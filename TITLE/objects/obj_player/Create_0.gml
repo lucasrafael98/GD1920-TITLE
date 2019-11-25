@@ -15,6 +15,10 @@ s_readlips = 1;
 s_glance = 1;
 s_checkpasses = 1;
 
+eaves_i = false;
+glance_npc4 = false;
+glance_npc5 = false;
+readlips_npc5 = true;
 a_suspicion = 0;
 
 portrait_index = 0;
@@ -85,3 +89,34 @@ intro_scripts = [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
 	],
 ];
 create_textbox(intro_text,intro_speakers,intro_next_line,intro_scripts);
+
+exit_text = [
+"First day on the job. It wasn’t that bad, I suppose. Now, I only have to figure out who we’re looking for.",
+[
+	"That student. He’s too angry at the world to be any innocent.",
+	"The obese man. He’s got some strange ideas."
+],
+"He does sound quite angry at the world.",
+"He does look like he doesn’t want anything to do with strange people… even though he does watch some weird stuff.",
+"...Right?",
+[
+	"Yes.",
+	"Let’s think about this again."
+],
+"You don’t know what was up with that phone call. He looked pretty nervous.",
+"That book he was reading… very strange “friend”, obtaining books from outside the country. But noone would be dumb enough to be associated with terrorists and openly speak against the state of things.",
+"...Right?",
+[
+	"Yes.",
+	"Let’s think about this again."
+],
+"YOU GOT HIM!",
+"THE TERRORIST ESCAPED!",
+"He does sound quite angry at the world.",
+"He does look like he doesn’t want anything to do with strange people… even though he does watch some weird stuff.",
+"You don’t know what was up with that phone call. He looked pretty nervous.",
+"That book he was reading… very strange “friend”, obtaining books from outside the country. But noone would be dumb enough to be associated with terrorists and openly speak against the state of things.",
+];
+exit_speakers = [id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id];
+exit_next_line = [1,[-1,-1],4,4,5,[11,1],8,8,9,[10,1],-1,-1,13,4,15,8];
+exit_scripts = [-1,[[endCheckNpc4],[endCheckNpc5]],-1,-1,-1,[-1,-1],-1,-1,-1,[-1,-1],-1,-1,-1,-1,-1,-1];
