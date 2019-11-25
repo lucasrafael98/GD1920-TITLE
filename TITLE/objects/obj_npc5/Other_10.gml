@@ -1,6 +1,7 @@
-image_speed = 1;
-path_start(npc5_enter, 2, path_action_stop, false);
+/*image_speed = 1;
+path_start(npc5_enter, 2, path_action_stop, false);*/
 
+canInteract = true;
 if (skillcheck(4,2)) {
    
 text = [
@@ -24,7 +25,7 @@ speakers = [id, obj_player,obj_player, obj_player,id,id];
 
 
 next_line = [0, [2], 3, [4,-1], -1];
-scripts = [-1,[-1],-1,[[player_increase_suspicion],-1],-1];
+scripts = [-1,[-1],-1,[[player_increase_suspicion],[stopHighlight, id]],[stopHighlight, id]];
 }
 
 else {
@@ -49,6 +50,6 @@ else {
 ];
 speakers = [id, obj_player,obj_player, obj_player,id,id];
 next_line = [0, [2], 3, [4,-1], -1];
-scripts = [-1,[-1],-1,[[player_increase_suspicion],-1],-1];
+scripts = [-1,[-1],-1,[[player_increase_suspicion],[stopHighlight, id]],[stopHighlight,id]];
 
 }

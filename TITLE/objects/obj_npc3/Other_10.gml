@@ -1,5 +1,5 @@
-image_speed = 1;
-path_start(npc3_enter, 2, path_action_stop, false);
+//image_speed = 1;
+//path_start(npc3_enter, 2, path_action_stop, false);
 
 if (!skillcheck(2,1)) {
    
@@ -46,7 +46,7 @@ else {
 	"\"This is bullshit! Can\'t even sit wherever I please. This city\'s gone down the drain and someone has to change this\" He leaves, and the old woman sits on \'her\' spot, a radiant, victorious smirk on her face.",
 	" \"How... rude, and disrespectful!\" She storms off. \"Hey, thanks. Good to see not everyone on this city has just gone insane.\"",
 ];
-speakers = [id, obj_player,obj_player,obj_player,id,obj_player,id,id];
+speakers = [id, obj_player,obj_player,obj_player,obj_npc4,obj_player,id,id];
 next_line = [0, [2], 3,[4,-1],5,[6,7],-1];
 scripts = [-1,[-1],-1,[-1,-1],-1,[-1,-1],-1];
 

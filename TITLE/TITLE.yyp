@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "5410ffd1-971c-4541-b4e9-34d35c456888",
+            "Value": {
+                "id": "850c6412-da6c-4864-9053-fd4e9cc6c24f",
+                "resourcePath": "scripts\\stopHighlight\\stopHighlight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "54c58313-522a-4019-a6ff-548e15250ad1",
             "Value": {
                 "id": "f168e2d1-846f-4aac-9bca-bc82f9cb1073",
@@ -2367,14 +2375,6 @@
             }
         },
         {
-            "Key": "af34c96f-5f5a-4be7-aa3e-005d99310815",
-            "Value": {
-                "id": "b1898d52-0c83-4c11-be97-d039b26365eb",
-                "resourcePath": "sounds\\music03\\music03.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "af970b2e-6826-479d-9b45-2bc8a7a8e602",
             "Value": {
                 "id": "f90339cb-7360-44a5-a571-3d92d5753732",
@@ -3517,7 +3517,8 @@
         "6d9db52e-2716-4db9-a1d9-910367108fea",
         "8a91bba5-6262-4465-a44e-34e9122afe3b",
         "5e504dd0-188b-433c-b5db-bf4d6c728e01",
-        "797b7154-d770-4e35-bc9e-96633a1c61e9"
+        "797b7154-d770-4e35-bc9e-96633a1c61e9",
+        "5410ffd1-971c-4541-b4e9-34d35c456888"
     ],
     "tutorial": ""
 }

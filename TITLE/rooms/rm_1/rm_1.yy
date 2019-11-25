@@ -17,7 +17,12 @@
         "dcab152b-bd74-4690-a8cd-32b0591c1bf6",
         "d362e611-bde5-49ae-ab14-ff1e12abeea9",
         "00426da0-4007-4b49-ba93-db7110183d8c",
-        "3cccf73e-7a13-4590-afbe-202068545b01"
+        "3cccf73e-7a13-4590-afbe-202068545b01",
+        "8e04d330-1ad0-44a8-9cf3-c56aa70e3504",
+        "418b4339-761f-465c-a76b-50e7b03b4ed5",
+        "481e1727-c303-439d-98dd-22d26fac4632",
+        "3453f872-8f81-4370-9dc0-6b731c84252f",
+        "5e12fbb5-dc75-4da1-8838-8b21fdd37cc5"
     ],
     "IsDnD": false,
     "layers": [
@@ -28,7 +33,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -43,7 +48,7 @@
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
-                    "hierarchyVisible": true,
+                    "hierarchyVisible": false,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
                     "inheritSubLayers": false,
@@ -57,7 +62,7 @@
                     "pathId": "d62d9663-d8bc-48f4-831e-0e8405b3458e",
                     "mvc": "1.0",
                     "userdefined_depth": false,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
@@ -68,7 +73,7 @@
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
-                    "hierarchyVisible": true,
+                    "hierarchyVisible": false,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
                     "inheritSubLayers": false,
@@ -82,7 +87,7 @@
                     "pathId": "978d44d2-ed65-4ba1-a1ad-523a16483eb2",
                     "mvc": "1.0",
                     "userdefined_depth": false,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
@@ -93,7 +98,7 @@
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
-                    "hierarchyVisible": true,
+                    "hierarchyVisible": false,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
                     "inheritSubLayers": false,
@@ -107,7 +112,7 @@
                     "pathId": "f9e91127-f41f-4d99-a006-d56d2ad5b385",
                     "mvc": "1.0",
                     "userdefined_depth": false,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
@@ -118,7 +123,7 @@
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
-                    "hierarchyVisible": true,
+                    "hierarchyVisible": false,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
                     "inheritSubLayers": false,
@@ -132,7 +137,7 @@
                     "pathId": "453633dc-aa0c-41b7-bd21-8a7b5eb07436",
                     "mvc": "1.0",
                     "userdefined_depth": false,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
@@ -143,7 +148,7 @@
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
-                    "hierarchyVisible": true,
+                    "hierarchyVisible": false,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
                     "inheritSubLayers": false,
@@ -157,7 +162,7 @@
                     "pathId": "e89ac6d4-f3c8-431e-996f-680a15e6c735",
                     "mvc": "1.0",
                     "userdefined_depth": false,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
@@ -168,7 +173,7 @@
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
-                    "hierarchyVisible": true,
+                    "hierarchyVisible": false,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
                     "inheritSubLayers": false,
@@ -182,7 +187,7 @@
                     "pathId": "9074a0bd-7316-4abf-a089-18140419bde4",
                     "mvc": "1.0",
                     "userdefined_depth": false,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
@@ -193,7 +198,7 @@
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
-                    "hierarchyVisible": true,
+                    "hierarchyVisible": false,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
                     "inheritSubLayers": false,
@@ -207,7 +212,7 @@
                     "pathId": "ca6fb0fb-ae7a-41b5-92a0-9714faf45192",
                     "mvc": "1.0",
                     "userdefined_depth": false,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
@@ -218,7 +223,7 @@
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
-                    "hierarchyVisible": true,
+                    "hierarchyVisible": false,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
                     "inheritSubLayers": false,
@@ -232,7 +237,7 @@
                     "pathId": "b6aca181-4bbf-4c61-ba07-2d59fce3f292",
                     "mvc": "1.0",
                     "userdefined_depth": false,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
@@ -243,7 +248,7 @@
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
-                    "hierarchyVisible": true,
+                    "hierarchyVisible": false,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
                     "inheritSubLayers": false,
@@ -257,7 +262,7 @@
                     "pathId": "6158988e-603e-4203-81a4-2953e91752f0",
                     "mvc": "1.0",
                     "userdefined_depth": false,
-                    "visible": true
+                    "visible": false
                 }
             ],
             "m_parentID": "00000000-0000-0000-0000-000000000000",
@@ -265,7 +270,7 @@
             "modelName": "GMRLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": true
+            "visible": false
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
@@ -333,13 +338,13 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_37153786","id": "d473fc44-fd59-4ae8-9bf3-0af973c9b20d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_37153786","objId": "fa9e124d-a050-42a2-ac29-6f0adfc698b4","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 832,"y": 352},
+{"name": "inst_37153786","id": "d473fc44-fd59-4ae8-9bf3-0af973c9b20d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_37153786","objId": "fa9e124d-a050-42a2-ac29-6f0adfc698b4","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 832,"y": 341},
 {"name": "inst_28EA4A6","id": "b2285273-85d1-4b02-8219-b5f7ee8c5475","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_28EA4A6","objId": "69591082-486a-489e-9d88-e11b289efada","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 480,"y": 288},
-{"name": "inst_170CF693","id": "fb6a96a6-a425-40b9-82b9-f751b5ee0bba","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_170CF693","objId": "00e65a3e-00f5-437f-aa33-1387e822b572","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 832,"y": 384},
-{"name": "inst_5EABEB4A","id": "dcab152b-bd74-4690-a8cd-32b0591c1bf6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5EABEB4A","objId": "04aee6da-f819-43e6-9742-e737ed525047","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 832,"y": 416},
-{"name": "inst_22399976","id": "d362e611-bde5-49ae-ab14-ff1e12abeea9","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_22399976","objId": "3bc74585-f979-4858-855f-32b27076e31b","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 832,"y": 448},
-{"name": "inst_534F97FD","id": "00426da0-4007-4b49-ba93-db7110183d8c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_534F97FD","objId": "d42fd5ab-4424-4fc3-91b1-30be68c94f77","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 832,"y": 480},
-{"name": "inst_774368D5","id": "3cccf73e-7a13-4590-afbe-202068545b01","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_774368D5","objId": "97d5f719-ab7a-49da-8724-b706a9592e94","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 832,"y": 512}
+{"name": "inst_170CF693","id": "fb6a96a6-a425-40b9-82b9-f751b5ee0bba","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_170CF693","objId": "00e65a3e-00f5-437f-aa33-1387e822b572","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 398,"y": 298},
+{"name": "inst_5EABEB4A","id": "dcab152b-bd74-4690-a8cd-32b0591c1bf6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5EABEB4A","objId": "04aee6da-f819-43e6-9742-e737ed525047","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 402,"y": 224},
+{"name": "inst_534F97FD","id": "00426da0-4007-4b49-ba93-db7110183d8c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_534F97FD","objId": "d42fd5ab-4424-4fc3-91b1-30be68c94f77","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 575,"y": 217},
+{"name": "inst_22399976","id": "d362e611-bde5-49ae-ab14-ff1e12abeea9","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_22399976","objId": "3bc74585-f979-4858-855f-32b27076e31b","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 542,"y": 242},
+{"name": "inst_774368D5","id": "3cccf73e-7a13-4590-afbe-202068545b01","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_774368D5","objId": "97d5f719-ab7a-49da-8724-b706a9592e94","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 223,"y": 227}
             ],
             "layers": [
 
@@ -359,15 +364,20 @@
             "grid_x": 29,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_45162A80","id": "7e489ddc-d603-4b49-88f0-3d219a7c9732","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_45162A80","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0.1978235,"scaleX": 0.5,"scaleY": 2,"mvc": "1.1","x": 174,"y": 256},
-{"name": "inst_87BC0C1","id": "0b31315e-a178-4cd8-a4c7-88b0571a9e3b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_87BC0C1","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0,"scaleX": 10.0625,"scaleY": 0.5,"mvc": "1.1","x": 174,"y": 352},
-{"name": "inst_41463482","id": "8a2879e6-075d-4c2e-8a62-ff80909655e0","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_41463482","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0,"scaleX": 10.0625,"scaleY": 0.5,"mvc": "1.1","x": 174,"y": 256}
+{"name": "inst_45162A80","id": "7e489ddc-d603-4b49-88f0-3d219a7c9732","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_45162A80","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0.1978235,"scaleX": 0.578125,"scaleY": 4.453125,"mvc": "1.1","x": 133.6651,"y": 125.0006},
+{"name": "inst_87BC0C1","id": "0b31315e-a178-4cd8-a4c7-88b0571a9e3b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_87BC0C1","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0,"scaleX": 9.609375,"scaleY": 0.5,"mvc": "1.1","x": 164,"y": 378},
+{"name": "inst_41463482","id": "8a2879e6-075d-4c2e-8a62-ff80909655e0","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_41463482","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0,"scaleX": 12.07813,"scaleY": 0.5,"mvc": "1.1","x": 158,"y": 125},
+{"name": "inst_3FA00AC2","id": "8e04d330-1ad0-44a8-9cf3-c56aa70e3504","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3FA00AC2","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0,"scaleX": 0.828125,"scaleY": 1.859375,"mvc": "1.1","x": 782,"y": 159},
+{"name": "inst_402651","id": "418b4339-761f-465c-a76b-50e7b03b4ed5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_402651","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0,"scaleX": 0.53125,"scaleY": 3.59375,"mvc": "1.1","x": 894,"y": 156},
+{"name": "inst_6EB5BADC","id": "481e1727-c303-439d-98dd-22d26fac4632","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6EB5BADC","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0,"scaleX": 2.328125,"scaleY": 0.46875,"mvc": "1.1","x": 779,"y": 380},
+{"name": "inst_1E9CAF07","id": "3453f872-8f81-4370-9dc0-6b731c84252f","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1E9CAF07","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 866,"y": 347},
+{"name": "inst_6AB0AA37","id": "5e12fbb5-dc75-4da1-8838-8b21fdd37cc5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6AB0AA37","objId": "ed3eced4-60bc-4c38-8cc8-ba9c9f2485cf","properties": null,"rotation": 0,"scaleX": 1.0625,"scaleY": 1.84375,"mvc": "1.1","x": 831,"y": 157}
             ],
             "layers": [
 
@@ -377,13 +387,40 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
+            "visible": false
+        },
+        {
+            "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Assets_1",
+            "id": "c79403e5-fe2e-46f7-925c-93caa3c39aa0",
+            "assets": [
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_49A64AE7","id": "70db57ce-982e-4d43-ae38-7c92c7cada8e","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 89.60136,"scaleX": 2.185185,"scaleY": 2.777778,"mvc": "1.0","spriteId": "44c96a61-3277-4851-87b7-91a47f8f1d78","userdefined_animFPS": false,"x": 160,"y": 384},
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_5C23651C","id": "0e34849d-7d89-4cb3-9ede-03067795f7dd","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": -90.49392,"scaleX": 3.425926,"scaleY": 3.09596,"mvc": "1.0","spriteId": "15b93049-9736-4bbe-b6c8-014edab1fd47","userdefined_animFPS": false,"x": 991.0518,"y": 89.99159}
+            ],
+            "depth": 1400,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRAssetLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
             "visible": true
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Tiles_7",
             "id": "10d9ab97-1c27-4f87-b059-6f8f0e55f53d",
-            "depth": 1400,
+            "depth": 1500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -466,7 +503,7 @@
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Tiles_6",
             "id": "12362063-9001-443d-9ccb-57a049f07272",
-            "depth": 1500,
+            "depth": 1600,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -549,7 +586,7 @@
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Tiles_2",
             "id": "b4dce23f-77f8-4fb6-b5de-c23a42efa5c8",
-            "depth": 1600,
+            "depth": 1700,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -580,15 +617,15 @@
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,
+                    257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,257,258,259,256,
+                    320,321,322,323,320,321,322,323,320,321,322,323,320,321,322,323,320,321,322,323,321,322,323,321,322,323,321,322,323,321,322,323,321,322,323,323,320,321,322,323,320,321,322,323,320,321,322,323,320,321,322,323,320,321,322,323,321,322,323,321,322,323,321,322,
+                    384,385,386,387,384,385,386,387,384,385,386,387,384,385,386,387,384,385,386,387,384,385,386,387,384,385,386,387,384,385,386,387,321,322,323,321,322,323,321,322,323,321,322,323,321,322,323,321,322,323,321,322,323,321,322,323,384,385,386,387,384,385,386,387,
+                    320,321,322,323,320,321,322,323,320,321,322,323,320,321,322,323,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,320,321,322,323,320,321,322,323,
+                    384,385,386,387,384,385,386,387,384,385,386,387,384,385,386,387,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,384,385,386,387,384,385,386,387,
+                    320,321,322,323,320,321,322,323,320,321,322,323,2147483648,321,322,323,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,320,321,322,323,320,321,322,323,
+                    384,385,386,387,384,385,386,387,384,385,386,387,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,384,385,386,387,384,385,386,387,
+                    320,321,322,323,320,321,322,323,320,321,322,323,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,320,321,322,323,320,321,322,323,
+                    384,385,386,387,384,385,386,387,384,385,386,387,268,269,270,271,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,256,257,258,259,260,261,262,263,384,385,386,387,384,385,386,387,
                     320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,
                     384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,
                     605,601,602,603,604,605,601,602,603,604,605,601,602,603,604,605,601,602,603,604,605,601,602,603,604,605,601,602,603,604,605,601,602,603,604,605,601,602,603,604,605,601,602,603,604,605,601,602,603,604,605,601,602,603,604,605,601,602,603,604,605,601,602,603,
@@ -632,7 +669,7 @@
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Tiles_3",
             "id": "90aa2a47-2739-4ccf-b13c-b431f16b5290",
-            "depth": 1700,
+            "depth": 1800,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -655,17 +692,17 @@
                 "SerialiseHeight": 48,
                 "SerialiseWidth": 64,
                 "TileSerialiseData": [
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3642,3643,3644,3645,3646,3647,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,3642,3643,3644,3645,3646,3647,2147483648,2147483648,2147483648,3642,3643,3644,3645,3646,3647,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3706,3707,3708,3709,3710,3711,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,3706,3707,3708,3709,3710,3711,2147483648,2147483648,2147483648,3706,3707,3708,3709,3710,3711,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3642,3643,3644,3645,3646,3647,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3770,3771,3772,3773,3774,3775,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,3770,3771,3772,3773,3774,3775,2147483648,2147483648,2147483648,3770,3771,3772,3773,3774,3775,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3706,3707,3708,3709,3710,3711,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3834,3835,3836,3837,3838,3839,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,3834,3835,3836,3837,3838,3839,2147483648,2147483648,2147483648,3834,3835,3836,3837,3838,3839,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3770,3771,3772,3773,3774,3775,2147483648,3642,3643,3644,3645,3646,3647,2147483648,2147483648,2147483648,2147483648,3898,3899,3900,3901,3902,3903,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,3898,3899,3900,3901,3902,3903,2147483648,2147483648,2147483648,3898,3899,3900,3901,3902,3903,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3834,3835,3836,3837,3838,3839,2147483648,3706,3707,3708,3709,3710,3711,2147483648,2147483648,2147483648,2147483648,3962,3963,3964,3965,3966,3967,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,3962,3963,3964,3965,3966,3967,2147483648,2147483648,2147483648,3962,3963,3964,3965,3966,3967,2147483648,2147483648,3642,3643,3644,3645,3646,3647,2147483648,2147483648,2147483648,2147483648,2147483648,3898,3899,3900,3901,3902,3903,2147483648,3770,3771,3772,3773,3774,3775,2147483648,2147483648,2147483648,2147483648,4026,4027,4028,4029,4030,4031,2147483648,2147483648,2147483648,2147483648,3642,3643,3644,3645,3646,3647,2147483648,
-                    2147483648,2147483648,4026,4027,4028,4029,4030,4031,2147483648,2147483648,2147483648,4026,4027,4028,4029,4030,4031,2147483648,2147483648,3706,3707,3708,3709,3710,3711,2147483648,2147483648,2147483648,2147483648,2147483648,3962,3963,3964,3965,3966,3967,2147483648,3834,3835,3836,3837,3838,3839,2147483648,2147483648,2147483648,2147483648,4090,4091,4092,4093,4094,4095,2147483648,2147483648,2147483648,2147483648,3706,3707,3708,3709,3710,3711,2147483648,
-                    2147483648,2147483648,4090,4091,4092,4093,4094,4095,2147483648,2147483648,2147483648,4090,4091,4092,4093,4094,4095,2147483648,2147483648,3770,3771,3772,3773,3774,3775,2147483648,2147483648,2147483648,2147483648,2147483648,4026,4027,4028,4029,4030,4031,2147483648,3898,3899,3900,3901,3902,3903,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3770,3771,3772,3773,3774,3775,2147483648,
+                    2147483648,3642,3643,3644,3645,3646,3647,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,458,458,458,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3642,3643,3644,3645,3646,3647,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3642,3643,3644,3645,3646,3647,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+                    2147483648,3706,3707,3708,3709,3710,3711,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,522,522,522,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3706,3707,3708,3709,3710,3711,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3706,3707,3708,3709,3710,3711,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+                    2147483648,3770,3771,3772,3773,3774,3775,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,586,586,586,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3770,3771,3772,3773,3774,3775,2147483648,458,458,458,458,458,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3770,3771,3772,3773,3774,3775,458,458,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+                    2147483648,3834,3835,3836,3837,3838,3839,458,458,458,458,458,458,458,458,458,458,458,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3834,3835,3836,3837,3838,3839,2147483648,522,522,522,522,522,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3834,3835,3836,3837,3838,3839,522,522,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+                    2147483648,3898,3899,3900,3901,3902,3903,522,522,522,522,522,522,522,522,522,522,522,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3898,3899,3900,3901,3902,3903,3643,586,586,586,586,586,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3898,3899,3900,3901,3902,3903,586,586,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+                    2147483648,3962,3963,3964,3965,3966,3967,586,586,586,586,586,586,586,586,586,586,586,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3962,3963,3964,3965,3966,3967,458,458,458,458,458,458,458,458,458,458,458,458,458,458,3962,3963,3964,3965,3966,3967,458,458,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+                    458,4026,4027,4028,4029,4030,4031,458,458,2147483648,458,458,458,458,458,458,458,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,4026,4027,4028,4029,4030,4031,522,522,522,522,522,522,522,522,522,522,522,522,522,522,4026,4027,4028,4029,4030,4031,522,522,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+                    522,4090,4091,4092,4093,4094,4095,522,522,2147483648,522,522,522,522,522,522,522,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,4090,4091,4092,4093,4094,4095,586,586,586,586,586,586,586,586,586,586,586,586,586,586,4090,4091,4092,4093,4094,4095,586,586,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+                    586,586,586,586,586,586,586,586,586,2147483648,586,586,586,586,586,586,586,2147483648,2147483648,3642,3643,3644,3645,3646,3647,2147483648,2147483648,2147483648,2147483648,2147483648,458,3899,458,458,3902,3903,2147483648,3770,3771,3772,458,3774,458,458,2147483648,2147483648,2147483648,4026,4027,4028,458,4030,4031,2147483648,2147483648,2147483648,2147483648,3642,3643,3644,3645,3646,3647,2147483648,
+                    2147483648,2147483648,4026,4027,4028,4029,4030,4031,2147483648,2147483648,2147483648,4026,4027,4028,4029,4030,4031,2147483648,2147483648,3706,3707,3708,3709,3710,3711,2147483648,2147483648,2147483648,2147483648,2147483648,522,3963,522,522,3966,3967,2147483648,3834,3835,3836,522,3838,522,522,2147483648,2147483648,2147483648,4090,4091,4092,522,4094,4095,2147483648,2147483648,2147483648,2147483648,3706,3707,3708,3709,3710,3711,2147483648,
+                    2147483648,2147483648,4090,4091,4092,4093,4094,4095,2147483648,2147483648,2147483648,4090,4091,4092,4093,4094,4095,2147483648,2147483648,3770,3771,3772,3773,3774,3775,2147483648,2147483648,2147483648,2147483648,2147483648,586,4027,586,586,4030,4031,2147483648,3898,3899,3900,586,3902,586,586,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,586,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3770,3771,3772,3773,3774,3775,2147483648,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3834,3835,3836,3837,3838,3839,2147483648,2147483648,2147483648,2147483648,2147483648,4090,4091,4092,4093,4094,4095,2147483648,3962,3963,3964,3965,3966,3967,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3834,3835,3836,3837,3838,3839,2147483648,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3898,3899,3900,3901,3902,3903,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,4026,4027,4028,4029,4030,4031,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3898,3899,3900,3901,3902,3903,2147483648,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3962,3963,3964,3965,3966,3967,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,4090,4091,4092,4093,4094,4095,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3962,3963,3964,3965,3966,3967,2147483648,
@@ -715,7 +752,7 @@
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Tiles_5",
             "id": "910043c4-078d-4360-adac-0597d5c61d7f",
-            "depth": 1800,
+            "depth": 1900,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -750,7 +787,7 @@
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Tiles_4",
             "id": "f7907ec6-50da-4035-a6d5-649bc62e27c9",
-            "depth": 1900,
+            "depth": 2000,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -773,16 +810,16 @@
                 "SerialiseHeight": 48,
                 "SerialiseWidth": 64,
                 "TileSerialiseData": [
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3062,3063,3064,3065,3066,3067,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3126,3127,3128,3129,3130,3131,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3062,3063,3064,3065,3066,3067,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3062,3063,3064,3065,3066,3067,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3190,3191,3192,3193,3194,3195,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3126,3127,3128,3129,3130,3131,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3126,3127,3128,3129,3130,3131,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3254,3255,3256,3257,3258,3259,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3190,3191,3192,3193,3194,3195,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3190,3191,3192,3193,3194,3195,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3318,3319,3320,3321,3322,3323,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3254,3255,3256,3257,3258,3259,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3254,3255,3256,3257,3258,3259,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3318,3319,3320,3321,3322,3323,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3318,3319,3320,3321,3322,3323,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
-                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2998,2999,3000,3001,3002,3003,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2998,2999,3000,3001,3002,3003,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2678,2679,2680,2681,2682,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3062,3063,3064,3065,3066,3067,2147483648,2147483648,2147483648,2678,2679,2680,2681,2682,2678,2679,2680,2681,2682,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3062,3063,3064,3065,3066,3067,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2998,2999,3000,3001,3002,3003,2742,2743,2744,2745,2746,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3126,3127,3128,3129,3130,3131,2147483648,2147483648,2147483648,2998,2999,3000,3001,3002,3003,2743,2744,2745,2746,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3126,3127,3128,3129,3130,3131,2147483648,2998,2999,3000,3001,3002,3003,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3062,3063,3064,3065,3066,3067,2678,2679,2680,2681,2682,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3190,3191,3192,3193,3194,3195,2147483648,2147483648,2147483648,3062,3063,3064,3065,3066,3067,2679,2680,2681,2682,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3190,3191,3192,3193,3194,3195,2147483648,3062,3063,3064,3065,3066,3067,2679,2680,2681,2682,2147483648,2147483648,2147483648,2147483648,3126,3127,3128,3129,3130,3131,2742,2743,2744,2745,2746,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3254,3255,3256,3257,3258,3259,2147483648,2147483648,2147483648,3126,3127,3128,3129,3130,3131,2743,2744,2745,2746,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3254,3255,3256,3257,3258,3259,2147483648,3126,3127,3128,3129,3130,3131,2743,2744,2745,2746,2147483648,2147483648,2147483648,2147483648,3190,3191,3192,3193,3194,3195,2678,2679,2680,2681,2682,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3318,3319,3320,3321,3322,3323,2147483648,2147483648,2147483648,3190,3191,3192,3193,3194,3195,2679,2680,2681,2682,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3318,3319,3320,3321,3322,3323,2147483648,3190,3191,3192,3193,3194,3195,2679,2680,2681,2682,2147483648,2147483648,2147483648,2147483648,3254,3255,3256,3257,3258,3259,2742,2743,2744,2745,2746,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3254,3255,3256,3257,3258,3259,2743,2744,2745,2746,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3254,3255,3256,3257,3258,3259,2743,2744,2745,2746,2147483648,2147483648,2147483648,2147483648,3318,3319,3320,3321,3322,3323,2678,2679,2680,2681,2682,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3318,3319,3320,3321,3322,3323,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3318,3319,3320,3321,3322,3323,2679,2680,2681,2682,2147483648,2147483648,2147483648,2147483648,2147483648,2742,2743,2744,2745,2746,2742,2743,2744,2745,2746,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2742,2743,2744,2745,2746,2742,2743,2744,2745,2746,2147483648,2147483648,2147483648,2147483648,2147483648,2678,2679,2680,2681,2682,2678,2679,2680,2681,2682,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2742,2743,2744,2745,2746,2742,2743,2744,2745,2746,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3062,3063,3064,3065,3066,3067,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3062,3063,3064,3065,3066,3067,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3126,3127,3128,3129,3130,3131,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3126,3127,3128,3129,3130,3131,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,3190,3191,3192,3193,3194,3195,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -833,7 +870,7 @@
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Tiles_1",
             "id": "b2854a12-70dd-4545-b744-b8c28784bac5",
-            "depth": 2000,
+            "depth": 2100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": true,

@@ -2,6 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 
+direction = 0;
 portrait_index = 0;
 voice = snd_sound0;
 name = "Jaquelina";

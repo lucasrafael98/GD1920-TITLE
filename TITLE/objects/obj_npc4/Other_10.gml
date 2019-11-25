@@ -1,5 +1,5 @@
-image_speed = 1;
-path_start(npc4_enter, 2, path_action_stop, false);
+//image_speed = 1;
+//path_start(npc4_enter, 2, path_action_stop, false);
 
 if (!skillcheck(2,1)) {
    
