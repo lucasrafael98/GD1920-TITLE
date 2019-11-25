@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "3bb6a507-0264-4edd-9bef-4243a2931d90",
+            "Value": {
+                "id": "a9c05b74-2451-44c5-9a20-d96ac0c06d72",
+                "resourcePath": "scripts\\npc3_hearing_damage\\npc3_hearing_damage.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3bc74585-f979-4858-855f-32b27076e31b",
             "Value": {
                 "id": "b8e053af-aecd-4f46-91ea-b965ec2bbd08",
@@ -3586,6 +3594,7 @@
         "d1483f75-b183-4544-8058-6cce654fd529",
         "5d24f334-dd89-43d6-81f8-3e29ff3e93f4",
         "49d8d544-4feb-48c2-bdc9-bd381631f78a",
+        "3bb6a507-0264-4edd-9bef-4243a2931d90",
         "059bfa07-6e52-43c4-9396-38656eb5b29d",
         "b84a09fe-3dfd-4288-930f-66b5020a5253",
         "3878e1b4-6e78-4de1-8ca3-8c61c3c85cd0",

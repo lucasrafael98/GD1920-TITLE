@@ -38,4 +38,4 @@ text = [
 ];
 speakers = [id, obj_player,id,id,obj_player,id,obj_player,id,id,obj_player,id,obj_player,id,id];
 next_line = [0, [2,3],4,4,[-1],6,[-1],8,9,[10],11,[12,13],-1,-1];
-scripts = [-1, [-1,-1],-1,-1,[[npc3_continue]],[stopHighlight,id],[[dialog_npc3_forgery_2]],-1,-1,[-1],-1,[[dialog_npc3_forgery_1],[dialog_npc3_forgery_2]],-1,-1];
+scripts = [-1, [[change_variable, obj_player, "s_eavesdropping", (obj_player.s_eavesdropping) - 1],-1],-1,-1,[[npc3_continue]],[stopHighlight,id],[[dialog_npc3_forgery_2]],-1,-1,[-1],-1,[[dialog_npc3_forgery_1],[dialog_npc3_forgery_2]],-1,-1];
