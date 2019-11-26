@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 room_goto_next();
+end_dialogue_time = 60;
+end_dialogue_created = false;
 
 global.game_width = 1024;
 global.game_height = 768;

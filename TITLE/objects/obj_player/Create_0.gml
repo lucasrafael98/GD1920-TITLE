@@ -104,7 +104,7 @@ exit_text = [
 	"Let\'s think about this again."
 ],
 "You don\'t know what was up with that phone call. He looked pretty nervous.",
-"That book he was reading… very strange “friend”, obtaining books from outside the country. But noone would be dumb enough to be associated with terrorists and openly speak against the state of things.",
+"That book he was reading… very strange \"friend\", obtaining books from outside the country. But noone would be dumb enough to be associated with terrorists and openly speak against the state of things.",
 "...Right?",
 [
 	"Yes.",
@@ -115,7 +115,7 @@ exit_text = [
 "He does sound quite angry at the world.",
 "He does look like he doesn\'t want anything to do with strange people… even though he does watch some weird stuff.",
 "You don\'t know what was up with that phone call. He looked pretty nervous.",
-"That book he was reading… very strange “friend”, obtaining books from outside the country. But noone would be dumb enough to be associated with terrorists and openly speak against the state of things.",
+"That book he was reading… very strange \"friend\", obtaining books from outside the country. But noone would be dumb enough to be associated with terrorists and openly speak against the state of things.",
 ];
 exit_speakers = [id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id];
 exit_next_line = [1,[-1,-1],4,4,5,[11,1],8,8,9,[10,1],-1,-1,13,4,15,8];
