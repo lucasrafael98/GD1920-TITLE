@@ -97,25 +97,25 @@ exit_text = [
 	"The obese man. He\'s got some strange ideas."
 ],
 "He does sound quite angry at the world.",
-"He does look like he doesn\'t want anything to do with strange people… even though he does watch some weird stuff.",
+"He does look like he doesn\'t want anything to do with strange people... even though he does watch some weird stuff.",
 "...Right?",
 [
 	"Yes.",
 	"Let\'s think about this again."
 ],
 "You don\'t know what was up with that phone call. He looked pretty nervous.",
-"That book he was reading… very strange \"friend\", obtaining books from outside the country. But noone would be dumb enough to be associated with terrorists and openly speak against the state of things.",
+"That book he was reading... very strange \"friend\", obtaining books from outside the country. But noone would be dumb enough to be associated with terrorists and openly speak against the state of things.",
 "...Right?",
 [
 	"Yes.",
 	"Let\'s think about this again."
 ],
-"YOU GOT HIM!",
-"THE TERRORIST ESCAPED!",
+"The die is cast. The obese man will be intercepted and arrest by the police later today. Until then, all you can do is wait and hope you did the right thing.  ...It\'s been hours since you left the bus. The obese man has been intercepted and interrogated. How surprising. You didn\'t expect that someone colluding with terrorists would be... this obvious. The police didn\'t get a whole lot of information from him, and they concluded that he was probably viewed as somewhat disposable, so no one\'s going to look at you the wrong way on the next job.",
+"The die is cast. The student will be intercepted by the police later today. Until then, all you can do is wait and hope you did the right thing. ... It\'s been hours since you left the bus. The student has been intercepted and interrogated. You made the wrong choice, and the terrorists got wind of this arrest. They will be more wary of you next time.",
 "He does sound quite angry at the world.",
-"He does look like he doesn\'t want anything to do with strange people… even though he does watch some weird stuff.",
+"He does look like he doesn\'t want anything to do with strange people... even though he does watch some weird stuff.",
 "You don\'t know what was up with that phone call. He looked pretty nervous.",
-"That book he was reading… very strange \"friend\", obtaining books from outside the country. But noone would be dumb enough to be associated with terrorists and openly speak against the state of things.",
+"That book he was reading... very strange \"friend\", obtaining books from outside the country. But noone would be dumb enough to be associated with terrorists and openly speak against the state of things.",
 ];
 exit_speakers = [id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id];
 exit_next_line = [1,[-1,-1],4,4,5,[11,1],8,8,9,[10,1],-1,-1,13,4,15,8];
