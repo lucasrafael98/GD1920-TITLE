@@ -53,7 +53,8 @@ intro_text = [
 
 "Sometimes you\'ve got to intrude in people\'s lives to get the good stuff. After you check their passes, there\'s probably a lot of time until new passengers"+
 " come aboard, time which you must seize. People sometimes start talking, so it\'s up to you to hear them. You never know what might be said openly. If someone\'s"+
-" whispering though, you\'ve got to try and read their lips. It\'s not gonna be easy, though.",
+" whispering though, you\'ve got to try and read their lips. It\'s not gonna be easy, though. If you\'re not bad, you\'ll visualize a complete sentence where the"+
+" words seem to be jumbled, but if you haven\'t got practice, both the sentence order and the words are going to be switched.",
 
 
 "Sometimes people don\'t have much to discuss, and they\'re just checking something on their phones or reading. Don\'t stare like some sort of weirdo at their "+
