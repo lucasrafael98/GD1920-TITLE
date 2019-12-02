@@ -6,7 +6,8 @@
     "children": [
         "a41b654a-b77b-4ae6-99d2-b2139648425e",
         "e1d4c53e-4cf0-4941-b3ce-c147f18a580a",
-        "449baa4f-2679-4e70-803a-fcfbfba9496e"
+        "449baa4f-2679-4e70-803a-fcfbfba9496e",
+        "c04eb3ae-e77c-4bc5-bbb9-3b27cc467efb"
     ],
     "filterType": "GMFont",
     "folderName": "Dialogue System",

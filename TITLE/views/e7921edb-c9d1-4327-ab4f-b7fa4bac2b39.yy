@@ -7,7 +7,8 @@
         "37f58222-fd6a-447b-8022-984b0506327b",
         "4292cb56-2027-46d4-a0aa-7c6df94c0127",
         "fc620d17-c451-4b83-9932-903011c5eeae",
-        "0e32ad3c-6781-4f83-ba74-fd0d8d9a91b9"
+        "0e32ad3c-6781-4f83-ba74-fd0d8d9a91b9",
+        "480efbc4-4d08-4297-b47e-bb8f42b8b758"
     ],
     "filterType": "GMSprite",
     "folderName": "Dialogue System",
