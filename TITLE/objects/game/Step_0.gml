@@ -11,7 +11,7 @@ else if(global.timer <= 0 && gameHasEnded && end_dialogue_time > 0){
 	end_dialogue_time --;
 }
 else if(global.timer <= 0 && gameHasEnded && end_dialogue_time <= 0 && !end_dialogue_created){
-	create_textbox(obj_player.exit_text,obj_player.exit_speakers,obj_player.exit_next_line,obj_player.exit_scripts);
+	create_textbox(exit_dialogue);
 	end_dialogue_created = true;
 }
 

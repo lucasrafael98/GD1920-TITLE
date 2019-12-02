@@ -51,4 +51,17 @@ speakers = [id, obj_player,obj_player,obj_player,obj_npc4,obj_player,id,id,obj_p
 next_line = [0, [-1], 3,[4,-1],5,[6,7],-1,-1,-1];
 scripts = [-1,[[npc34_eavesdrop]],-1,[[change_variable,obj_player,"eaves_i",true],-1],-1,[-1,-1],[letNPC3Sit],[letNPC4Sit], [stopHighlight, id]];
 
+dialogue = [
+	createDialogMap(0,text[0],id,1,-1),
+	createDialogMap(1,text[1],obj_player,[-1],[[npc34_eavesdrop]]),
+	createDialogMap(2,text[2],obj_player,3,-1),
+	createDialogMap(3,text[3],obj_player,[4,-1],[[change_variable,obj_player,"eaves_i",true],-1]),
+	createDialogMap(4,text[4],obj_npc4,5,-1),
+	createDialogMap(5,text[5],obj_player,[6,7],[-1,-1]),
+	createDialogMap(6,text[6],id,-1,[letNPC3Sit]),
+	createDialogMap(7,text[7],id,-1,[letNPC4Sit]),
+	createDialogMap(8,text[8],obj_player,-1,[stopHighlight, id]),
+
+];
+
 //}

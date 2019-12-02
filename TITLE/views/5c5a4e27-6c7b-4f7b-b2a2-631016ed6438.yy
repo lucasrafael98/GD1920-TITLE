@@ -18,7 +18,8 @@
         "5e504dd0-188b-433c-b5db-bf4d6c728e01",
         "797b7154-d770-4e35-bc9e-96633a1c61e9",
         "5410ffd1-971c-4541-b4e9-34d35c456888",
-        "a9484753-e9cf-4d44-ae26-87e4ec4b111f"
+        "a9484753-e9cf-4d44-ae26-87e4ec4b111f",
+        "dca248f7-c37d-49ac-893a-551759b9348d"
     ],
     "filterType": "GMScript",
     "folderName": "TITLE_Dialogs",

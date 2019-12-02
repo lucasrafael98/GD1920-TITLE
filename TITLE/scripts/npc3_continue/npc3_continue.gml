@@ -1,6 +1,7 @@
+var temp_next_line = get_dialogue_part(obj_npc3.dialogue,"next_part");
 if(skillcheck(1,2)){
-	obj_npc3.next_line[4] = [7];
+	temp_next_line[4] = [7];
 } else{
-	obj_npc3.next_line[4] = [5];
+	temp_next_line[4] = [5];
 }
-obj_text.next_line = obj_npc3.next_line;
+obj_text.next_line = temp_next_line;
