@@ -11,5 +11,6 @@ global.interact_key = vk_space;
 global.letter_key = ord("L");
 global.choice_dialogue = false;
 global.in_dialogue = false;
+global.in_skill_board = false;
 gameHasEnded = false;
 display_set_gui_size(global.game_width,global.game_height);

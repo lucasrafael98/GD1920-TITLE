@@ -17,7 +17,7 @@ if(input_walk or input_run){
 moveX = 0;
 moveY = 0;
 
-if(!global.in_dialogue){
+if(!global.in_dialogue && !global.in_skill_board){
 	moveY = (input_down - input_up) * spd;
 	if(moveY == 0){ moveX = (input_right - input_left) * spd;}
 }

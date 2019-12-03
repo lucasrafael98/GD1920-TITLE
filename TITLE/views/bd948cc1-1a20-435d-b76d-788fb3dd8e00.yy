@@ -13,7 +13,8 @@
         "2b1c2256-3165-4745-931b-05a2ee49092d",
         "5e504dd0-188b-433c-b5db-bf4d6c728e01",
         "5410ffd1-971c-4541-b4e9-34d35c456888",
-        "a9484753-e9cf-4d44-ae26-87e4ec4b111f"
+        "a9484753-e9cf-4d44-ae26-87e4ec4b111f",
+        "65385c0d-1994-4f26-82e7-aa242b678660"
     ],
     "filterType": "GMScript",
     "folderName": "Internal",

@@ -1,6 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 skill_board_spr = spr_skill_board;
+minus_spr = spr_minus;
+minus_selected_spr = spr_minus1_sel;
+plus_spr = spr_plus;
+plus_selected_spr = spr_plus_sel;
+finish_spr = spr_finish_btn;
+finish_plus_selected_spr = spr_finish_btn_sel;
+
+
+select_spr_size = sprite_get_width(spr_minus); 
+
+select__finish_spr_size = sprite_get_width(spr_finish_btn_sel); 
+
+
 skill_board_spr_width = sprite_get_width(skill_board_spr);
 skill_board_spr_height = sprite_get_height(skill_board_spr);
 
@@ -19,11 +32,15 @@ eavesdropping_title = "Eavesdropping";
 read_lips_title = "Reading\nLips";
 glancing_title = "Glancing";
 
+points_available = 3;
+n_options = 8;
 
-check_passes_text = "omegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\n";
-eavesdropping_text = "omegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\n";
-read_lips_text = "omegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\n";
-glancing_text = "omegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\nomegalul\n";
+check_passes_text =		"omegalul\nomegalul\nomegalul\nomegalul\nomegalul";
+eavesdropping_text =	"omegalul\nomegalul\nomegalul\nomegalul\nomegalul";
+read_lips_text =		"omegalul\nomegalul\nomegalul\nomegalul\nomegalul";
+glancing_text =			"omegalul\nomegalul\nomegalul\nomegalul\nomegalul";
+
+selected_option = 0;
 
 type_color = c_black;
 

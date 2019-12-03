@@ -29,8 +29,6 @@ name = "Player";
 text = ["Default text"];
 active_tbox = noone;
 
-instance_create_layer(0,0,"Text_layer",obj_skill_board);
-
 intro_text = [
 "What a stupid job.",
 
@@ -54,14 +52,7 @@ intro_text = [
 
 "I'm new to this, but I should probably focus on what I'm good at.",
 
-"What... am I good at?",
-
-[
-	"Checking people's passes.",
-	"Eavesdropping on conversations.",
-	"Reading lips.",
-	"Glancing at objects.",
-]
+"What... am I good at?"
 ];
 
 
@@ -77,13 +68,7 @@ intro_dialogue = [
 	createDialogMap(8,intro_text[8],id,9,-1),
 	createDialogMap(9,intro_text[9],id,10,-1),
 	createDialogMap(10,intro_text[10],id,11,-1),
-	createDialogMap(11,intro_text[11],id,12,-1),
-	createDialogMap(12,intro_text[12],id,[-1,-1,-1,-1],[
-														[change_variable, id,"s_checkpasses",s_checkpasses+1],
-														[change_variable, id,"s_eavesdropping",s_eavesdropping+1],
-														[change_variable, id,"s_readlips",s_readlips+1],
-														[change_variable, id,"s_glance",s_glance+1]
-												      ]),
+	createDialogMap(11,intro_text[11],id,-1,[launch_skill_board]),
 ];
 create_textbox(intro_dialogue);
 
