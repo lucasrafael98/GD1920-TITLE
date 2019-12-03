@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "06d30b1c-f716-494d-a311-71ac57c392ea",
+            "Value": {
+                "id": "4857594e-3bbd-4315-8e39-594616d31508",
+                "resourcePath": "objects\\obj_skill_board\\obj_skill_board.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "072a266e-f2f4-4ca1-b1b2-c92bc16eb485",
             "Value": {
                 "id": "a573f4b9-e083-49c6-a5a3-0a6f8caaace6",
@@ -468,6 +476,14 @@
                 "id": "c8e92182-a754-40cf-b517-51c94eec9fb5",
                 "resourcePath": "sprites\\BHL_DB_DOWN\\BHL_DB_DOWN.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "216b2f27-442b-4062-95e6-052e8d51a9ce",
+            "Value": {
+                "id": "c180176b-ca28-42f9-8e9b-3a4af4715226",
+                "resourcePath": "fonts\\fnt_skill_24\\fnt_skill_24.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1703,6 +1719,14 @@
             }
         },
         {
+            "Key": "81a7d234-f070-432f-933a-ca6bf198adf1",
+            "Value": {
+                "id": "55ee9d2f-2a08-45b6-b6bf-070d85f7e6f7",
+                "resourcePath": "fonts\\fnt_skill_16\\fnt_skill_16.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "81e45436-a897-48d5-98c1-cf951f448287",
             "Value": {
                 "id": "00c81027-7f5c-4295-adec-c3b1781c330f",
@@ -2235,6 +2259,14 @@
             "Value": {
                 "id": "7133f973-7d03-433e-b58f-d865c953f45b",
                 "resourcePath": "sprites\\S_NM_DOWN\\S_NM_DOWN.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a5dd6840-93f6-49d2-ab3f-437f8f4bcb19",
+            "Value": {
+                "id": "d014492d-711d-4039-91cd-77f828bc6d6e",
+                "resourcePath": "sprites\\spr_skill_board\\spr_skill_board.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3300,6 +3332,14 @@
                 "id": "d0483309-d032-43fa-bcdc-63ce7f3e695c",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb050929-fa45-46aa-b4cc-fb84258b6df4",
+            "Value": {
+                "id": "0628dc6b-860c-4497-aba5-29f7bad38db6",
+                "resourcePath": "fonts\\fnt_skill_30\\fnt_skill_30.yy",
+                "resourceType": "GMFont"
             }
         },
         {

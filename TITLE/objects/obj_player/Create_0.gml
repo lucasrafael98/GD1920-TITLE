@@ -29,6 +29,8 @@ name = "Player";
 text = ["Default text"];
 active_tbox = noone;
 
+instance_create_layer(0,0,"Text_layer",obj_skill_board);
+
 intro_text = [
 "What a stupid job.",
 
