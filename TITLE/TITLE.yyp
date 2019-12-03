@@ -919,6 +919,14 @@
             }
         },
         {
+            "Key": "423386cc-4112-453d-8e6c-310e64989b9f",
+            "Value": {
+                "id": "97d7051a-c548-4d6f-9d5a-34c070e23112",
+                "resourcePath": "sprites\\Ruins\\Ruins.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "423495da-dcb5-4015-a64a-ff33b03b6bd9",
             "Value": {
                 "id": "14a0ffe2-a8d4-4753-864b-157dfcc36f3d",
@@ -1663,6 +1671,14 @@
             }
         },
         {
+            "Key": "8035ed20-e101-465c-831e-d38e85dbe7b7",
+            "Value": {
+                "id": "3b62c8ec-df51-4cb8-a290-b8b5eb5ed6ca",
+                "resourcePath": "views\\8035ed20-e101-465c-831e-d38e85dbe7b7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "804e1d2f-c564-4609-8efe-a570a4634689",
             "Value": {
                 "id": "7864e8c9-e390-421d-8860-a2aee1f89773",
@@ -2383,6 +2399,14 @@
             }
         },
         {
+            "Key": "b3cc1087-0db2-4ac1-8495-5bc3e170e32d",
+            "Value": {
+                "id": "376eb223-35a6-4358-89de-8c7c4dcfde3d",
+                "resourcePath": "sprites\\Road\\Road.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b45b6e5d-3f1a-447e-9a27-4e2729888509",
             "Value": {
                 "id": "686eec0f-cd4a-4ff5-a93d-0b51b421e8ac",
@@ -2671,6 +2695,14 @@
             }
         },
         {
+            "Key": "cab8a475-992a-49d6-909a-06254c2bde69",
+            "Value": {
+                "id": "29d7406c-65d6-4528-aace-ca7fc876449f",
+                "resourcePath": "sprites\\Bridge\\Bridge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc6a94c1-9c0d-4f63-abda-ef7b857daa39",
             "Value": {
                 "id": "5689f6c0-5b8a-4490-8c62-bad8b231dac1",
@@ -2839,6 +2871,14 @@
             }
         },
         {
+            "Key": "d97676e2-fe20-4878-96a1-6055103bc25e",
+            "Value": {
+                "id": "863165b6-3b58-4cca-a84c-3ed7fd700e84",
+                "resourcePath": "sprites\\Desert\\Desert.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d999c1dc-1819-40ca-a5c5-259d114da4cf",
             "Value": {
                 "id": "ae2d1503-be96-448e-9c30-7f4b01d2e9a0",
@@ -2908,6 +2948,14 @@
                 "id": "ad48a66d-2da0-45b2-984a-f2580ae4b9ac",
                 "resourcePath": "views\\ddc8d9da-dbd6-464f-8d2e-45ffabdc01b2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "df4207ed-97e1-4b0f-8fa6-dfcd2939751e",
+            "Value": {
+                "id": "3f253ad0-db36-4cb1-8cd3-43e92837f387",
+                "resourcePath": "sprites\\Swamp\\Swamp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
