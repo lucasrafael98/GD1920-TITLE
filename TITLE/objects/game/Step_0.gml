@@ -26,4 +26,15 @@ if(keyboard_check_pressed(global.letter_key)){
 	}
 }
 
+if(keyboard_check_pressed(global.journal_key)){
+	var journal_instance = instance_find(obj_journal, 0);
+	if(journal_instance != noone){
+		with(journal_instance){
+			instance_destroy();
+		}
+	}else{
+		instance_create_depth(0,0,10,obj_journal);	
+	}
+}
+
 ///show_debug_message(string(global.timer));

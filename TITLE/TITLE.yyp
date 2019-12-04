@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "16b03755-8568-4866-bfff-cf9271a9a17f",
+            "Value": {
+                "id": "c29c8bd3-aa79-458a-acb6-f61434eaa5df",
+                "resourcePath": "sprites\\spr_ui_bar\\spr_ui_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1720a478-6898-48d5-a98a-c5c4250a2932",
             "Value": {
                 "id": "a37b44e6-4fc3-4c04-a4f4-50f4f7e6332c",
@@ -492,6 +500,14 @@
                 "id": "c180176b-ca28-42f9-8e9b-3a4af4715226",
                 "resourcePath": "fonts\\fnt_skill_24\\fnt_skill_24.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "21d1f00a-e82d-46ed-8600-aadb55631cc7",
+            "Value": {
+                "id": "69eecdec-b90f-4be4-9d80-9a2a859bc095",
+                "resourcePath": "sprites\\spr_time_bar_outline_font\\spr_time_bar_outline_font.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3047,6 +3063,14 @@
             }
         },
         {
+            "Key": "e0bb13e9-0ee6-46b5-bafa-ca7c25665e37",
+            "Value": {
+                "id": "0c539eda-0b8e-41ec-833c-08699a50f474",
+                "resourcePath": "objects\\obj_ui_bar\\obj_ui_bar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e0e26fab-c4c5-4cd3-90a5-12ca97468fa9",
             "Value": {
                 "id": "cd813a1d-cdfb-4889-8a20-f8faa31cf35a",
@@ -3235,6 +3259,14 @@
             "Value": {
                 "id": "14bcb8ef-b8e2-42f2-957e-5e7a4d0c2b8a",
                 "resourcePath": "sprites\\H_P_DOWN\\H_P_DOWN.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eca061fb-0803-4e04-a487-acfcba6c71a7",
+            "Value": {
+                "id": "936691b8-18c6-4883-b278-5f7acf07fbfa",
+                "resourcePath": "sprites\\spr_sus_bar_outline_font\\spr_sus_bar_outline_font.yy",
                 "resourceType": "GMSprite"
             }
         },

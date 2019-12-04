@@ -9,6 +9,7 @@ global.game_height = 768;
 global.timer = 60 * 1000 * 100;
 global.interact_key = vk_space;
 global.letter_key = ord("L");
+global.journal_key = ord("J");
 global.choice_dialogue = false;
 global.in_dialogue = false;
 global.in_skill_board = false;
