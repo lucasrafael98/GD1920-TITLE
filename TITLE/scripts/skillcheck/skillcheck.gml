@@ -1,6 +1,6 @@
 var skill = argument[0];
 var dc = argument[1];
-	obj_player.time = obj_player.time + 0.5 ; //just an example
+	global.skillcheckTimer= global.skillcheckTimer + 0.5 ; //Subject to balancing
 switch skill{
 	case 1:
 		var result = (obj_player.s_checkpasses) >= dc;

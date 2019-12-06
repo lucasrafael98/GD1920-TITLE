@@ -21,8 +21,6 @@ glance_npc5 = false;
 readlips_npc5 = true;
 a_suspicion = 1;
 
-time = 1;
-
 portrait_index = 0;
 voice = snd_sound0;
 name = "Player";

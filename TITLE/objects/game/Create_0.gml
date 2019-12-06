@@ -7,9 +7,19 @@ end_dialogue_created = false;
 global.game_width = 1024;
 global.game_height = 768;
 global.timer = 60 * 1000 * 100;
+
+global.skillcheckTimer = 1;
+
 global.interact_key = vk_space;
+global.read_key = ord("R");
+global.eavesdrop_key = ord("E");
+global.checkpass_key = ord("Q");
+global.glance_key = ord("W");
+
 global.letter_key = ord("L");
 global.journal_key = ord("J");
+global.skip_key = ord("Z");
+
 global.choice_dialogue = false;
 global.in_dialogue = false;
 global.in_skill_board = false;

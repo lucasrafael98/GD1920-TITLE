@@ -1,11 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 if (global.timer <= 0 && !gameHasEnded)
 {
 	with(obj_music){event_user(0);}
 	gameHasEnded = true;
 }
+
+
 else if(global.timer <= 0 && gameHasEnded && end_dialogue_time > 0){
 	show_debug_message(end_dialogue_time);
 	end_dialogue_time --;
@@ -35,6 +38,16 @@ if(keyboard_check_pressed(global.journal_key)){
 	}else{
 		instance_create_depth(0,0,10,obj_journal);	
 	}
+}
+
+if(keyboard_check_pressed(global.skip_key) && !global.in_dialogue && !global.in_skill_board){
+	global.skillcheckTimer = 10;
+	with(obj_music){event_user(0);}
+	
+	gameHasEnded = true;
+	
+	create_textbox(obj_player.exit_dialogue);
+	end_dialogue_created = true;
 }
 
 ///show_debug_message(string(global.timer));

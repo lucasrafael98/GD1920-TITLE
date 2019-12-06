@@ -8,4 +8,4 @@ if(obj_player.readlips_npc5 and obj_player.glance_npc5){
 } else{
 	temp_next_line[1] = [-1,8];
 }
-obj_text.next_line = temp_next_lineM;
+obj_text.next_line = temp_next_line;

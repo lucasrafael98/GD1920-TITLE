@@ -64,7 +64,8 @@ if(moveY != 0){
 		moveY = 0;
 	}
 }
-
+/*
+// "Space-bar" Key Pressed
 if(keyboard_check_pressed(global.interact_key)){
 	
 	if(active_tbox == noone){
@@ -82,6 +83,87 @@ if(keyboard_check_pressed(global.interact_key)){
 		}
 	}
 }
+*/
+// "R" Key pressed (Read-Lips)
+if(keyboard_check_pressed(global.read_key)){
+	
+	if(active_tbox == noone){
+		var inst = collision_rectangle(x-radius,y-radius,x+radius,y+radius,obj_npc,false,false);
+	
+		if(inst != noone){
+			with(inst){
+				event_user(0);
+				var tbox = create_textbox(dialogue);
+			}
+			active_tbox = tbox;
+		}
+	}else{
+		if(!instance_exists(active_tbox)){
+			active_tbox = noone;
+		}
+	}
+}
+
+// "W" Key pressed (Glance)
+if(keyboard_check_pressed(global.glance_key)){
+	
+	if(active_tbox == noone){
+		var inst = collision_rectangle(x-radius,y-radius,x+radius,y+radius,obj_npc,false,false);
+	
+		if(inst != noone){
+			with(inst){
+				event_user(1);
+				var tbox = create_textbox(dialogue);
+			}
+			active_tbox = tbox;
+		}
+	}else{
+		if(!instance_exists(active_tbox)){
+			active_tbox = noone;
+		}
+	}
+}
+
+// "E" Key pressed (Eavesdrop)
+if(keyboard_check_pressed(global.eavesdrop_key)){
+	
+	if(active_tbox == noone){
+		var inst = collision_rectangle(x-radius,y-radius,x+radius,y+radius,obj_npc,false,false);
+	
+		if(inst != noone){
+			with(inst){
+				event_user(2);
+				var tbox = create_textbox(dialogue);
+			}
+			active_tbox = tbox;
+		}
+	}else{
+		if(!instance_exists(active_tbox)){
+			active_tbox = noone;
+		}
+	}
+}
+
+// "Q" Key pressed (Checkpass)
+if(keyboard_check_pressed(global.checkpass_key)){
+	
+	if(active_tbox == noone){
+		var inst = collision_rectangle(x-radius,y-radius,x+radius,y+radius,obj_npc,false,false);
+	
+		if(inst != noone){
+			with(inst){
+				event_user(3);
+				var tbox = create_textbox(dialogue);
+			}
+			active_tbox = tbox;
+		}
+	}else{
+		if(!instance_exists(active_tbox)){
+			active_tbox = noone;
+		}
+	}
+}
+
 
 x += moveX;
 y += moveY;

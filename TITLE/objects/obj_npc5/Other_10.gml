@@ -1,3 +1,4 @@
+//READ
 event0dc = 2;
 canInteract = true;
 text = [

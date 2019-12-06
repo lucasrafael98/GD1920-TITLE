@@ -20,6 +20,7 @@ letter_text = "\n*SKILLS*\n"
 + "\nReadlips: "+ string(obj_player.s_readlips)
 + "\nGlance: "+ string(obj_player.s_glance)
 + "\nCheckpasses: "+ string(obj_player.s_checkpasses)
++ "\n\n PRESS 'Z' to fast forward time"
 +"\n\nWe caught word of someone initiated into this new organization.\n They won\'t have much to tell, but anything goes.\n\n"+
 " Seems like we can never find anything about them, but even the most\n tightly knit group has a loose end or two.\n We\'ve been told he\'s a bit on the large side and"+
 " he takes this bus \ndaily, though we don\'t know when he gets in.";

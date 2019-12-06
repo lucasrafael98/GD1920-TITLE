@@ -1,9 +1,9 @@
-//image_speed = 1;
-//path_start(npc1_exit, 2, path_action_stop, false);
-//GLANCE
+/// @description Insert description here
+// You can write your code in this editor
+//EAVESDROP
 canInteract = true;
 text = [
-    "He is not doing anything special...",
+    "Nothing interesting to listen here...",
 
 ];
 speakers = [id,id];
