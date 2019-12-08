@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "17442ded-9a25-4f70-b73c-91c99cd988ad",
+            "Value": {
+                "id": "cb7ddab8-7535-4a06-a000-199204fbe1f5",
+                "resourcePath": "sprites\\Skill_bar\\Skill_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "177dc3e7-db08-4284-a269-4cbd0b2cc856",
             "Value": {
                 "id": "af6dffec-1fe5-495b-9d20-9f29a2d5f221",
@@ -3579,6 +3587,14 @@
             "Value": {
                 "id": "d0483309-d032-43fa-bcdc-63ce7f3e695c",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fab4c104-14ec-457b-a0a7-acc05b71b4fc",
+            "Value": {
+                "id": "ced5aec1-ef89-4670-9dff-c46e1784e5ec",
+                "resourcePath": "objects\\obj_skill_bar\\obj_skill_bar.yy",
                 "resourceType": "GMObject"
             }
         },
