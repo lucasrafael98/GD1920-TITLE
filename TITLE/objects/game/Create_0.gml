@@ -16,10 +16,10 @@ global.checkpasses = 1;
 global.skillcheckTimer = 1;
 
 global.interact_key = vk_space;
-global.read_key = ord("R");
-global.eavesdrop_key = ord("E");
+global.read_key = ord("E");
+global.eavesdrop_key = ord("W");
 global.checkpass_key = ord("Q");
-global.glance_key = ord("W");
+global.glance_key = ord("R");
 
 global.letter_key = ord("L");
 global.journal_key = ord("J");

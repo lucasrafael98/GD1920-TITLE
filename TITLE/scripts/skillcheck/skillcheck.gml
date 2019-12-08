@@ -17,7 +17,7 @@ switch skill{
 		if(result){ create_textbox_success("SUCCESS","Glance",c_green); }
 		else{ create_textbox_success("FAILURE","Glance",c_red); }
 		return result;
-	case 4:
+	case 4: // never reached, check skillBranch_RL
 		var result = (obj_player.s_readlips - obj_player.a_suspicion) >= dc;
 		if(result){ create_textbox_success("SUCCESS","Read Lips",c_green); }
 		else{ create_textbox_success("FAILURE","Read Lips",c_red); }

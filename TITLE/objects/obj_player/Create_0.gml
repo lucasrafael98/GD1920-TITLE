@@ -19,7 +19,7 @@ eaves_i = false;
 glance_npc4 = false;
 glance_npc5 = false;
 readlips_npc5 = true;
-a_suspicion = 1;
+a_suspicion = 0;
 
 portrait_index = 0;
 voice = snd_sound0;
@@ -28,29 +28,20 @@ text = ["Default text"];
 active_tbox = noone;
 
 intro_text = [
-"What a stupid job.",
+"I never expected this.",
 
-"\"Go to the force\", they said. \"You\'ll investigate important things\", they said." +" Meanwhile, I\'m drafted into being undercover... as a fucking conductor? God damn, this job was a mistake.",
+"After years of trying my hardest working in the force, it just seems like you can never do enough. The \"best\" cops, they\'re just the ones with friends or family higher up, in the Institute of Stability. It\'s impossible to compete when everything in this damn job is stacked against you.",
 
-"You know, I tried being a decent cop but it\'s impossible. The \"best\" cops, they\'re just the ones that have friends or family higher above,"+" up in the Institute of Stability. It\'s just impossible to compete when every single thing in this damn job is stacked against you.",
+"But I suppose it\'s better than being your average Joe. Or unemployed. Or homeless. Or dead. Since I don\'t have any influence, I was sent to these new conductor jobs. ",
 
-"Guess it\'s better than being your average Joe. Or unemployed. Or homeless. Or dead. The job starts in a few minutes."+" I think I have to check some passes or something, but I should probably try to do this properly. Chief gave me a few pointers,"+" so I should probably read them before I start..",
+"I don\'t understand the point of trying to find out about this new terrorist cell from checking people\'s passes disguised as a conductor, but I guess all I can do is try my best. Yet again. ",
 
-"\"So you got forced into the conductor jobs? What a mess. Honestly, I don\'t even know who came up with this, what a terrible goddamn idea."+" Public paranoia is at an all-time high, and the powers that be still want these insane operations happening?",
+"Well, I got this letter from chief, as well as this journal. I should probably read it before I start.",
 
-"Anyhow, I know you tried your best but sometimes all you got just ain\'t enough in this life. Still, you gotta keep playing with the cards you\'re dealt,"+ " so might as well make the most out of it. See, this conductor job, it ain\'t just about taking passes and checking if someone\'s the bad guy. ",
-
-"Sometimes you\'ve got to intrude in people\'s lives to get the good stuff. After you check their passes, there\'s probably a lot of time until new passengers"+" come aboard, time which you must seize. People sometimes start talking, so it\'s up to you to hear them. You never know what might be said openly. If someone\'s"+" whispering though, you\'ve got to try and read their lips. It\'s not gonna be easy, though. If you\'re not bad, you\'ll visualize a complete sentence where the"+" words seem to be jumbled, but if you haven\'t got practice, both the sentence order and the words are going to be switched.",
-
-"Sometimes people don\'t have much to discuss, and they\'re just checking something on their phones or reading. Don\'t stare like some sort of weirdo at their "+"stuff or they\'ll catch on within seconds. Just... glance at it, and try to keep what you just saw in your memory. I know it\'s strange, and it ain\'t easy if you\'re"+" not too observant, but you\'ll get better over time.",
-
-"Anyway, enough with long-winded explanations. We caught word of someone initiated into this new organization. They won\'t have much to tell, but anything goes."+" Seems like we can never find anything about them, but even the most tightly knit group has a loose end or two. We\'ve been told he\'s a bit on the large side and"+" he takes this bus daily, though we don\'t know when he gets in. ",
-
-"Check that he doesn\'t get out before you can identify him, because you\'ll have just wasted your time, and you ain\'t got much of it. Good luck.\"",
-
-"I'm new to this, but I should probably focus on what I'm good at.",
+"I should probably focus on what I'm good at when I start.",
 
 "What... am I good at?"
+
 ];
 
 
@@ -61,12 +52,7 @@ intro_dialogue = [
 	createDialogMap(3,intro_text[3],id,4,-1),
 	createDialogMap(4,intro_text[4],id,5,-1),
 	createDialogMap(5,intro_text[5],id,6,-1),
-	createDialogMap(6,intro_text[6],id,7,-1),
-	createDialogMap(7,intro_text[7],id,8,-1),
-	createDialogMap(8,intro_text[8],id,9,-1),
-	createDialogMap(9,intro_text[9],id,10,-1),
-	createDialogMap(10,intro_text[10],id,11,-1),
-	createDialogMap(11,intro_text[11],id,-1,[launch_skill_board]),
+	createDialogMap(6,intro_text[6],id,-1,[launch_skill_board]),
 ];
 if(room == rm_1) {create_textbox(intro_dialogue)};
 

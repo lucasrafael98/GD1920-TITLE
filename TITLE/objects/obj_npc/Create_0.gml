@@ -9,3 +9,8 @@ voice = snd_sound0;
 name = "Anonymous";
 text = ["Default text"];
 dialogue = [];
+
+alreadyReadLips = false;
+alreadyGlanced = false;
+alreadyEavesdropped = false;
+alreadyCheckedPass = false;

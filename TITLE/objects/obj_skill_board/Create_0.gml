@@ -35,10 +35,10 @@ glancing_title = "Glancing";
 points_available = 3;
 n_options = 8;
 
-check_passes_text =		"omegalul\nomegalul\nomegalul\nomegalul\nomegalul";
-eavesdropping_text =	"omegalul\nomegalul\nomegalul\nomegalul\nomegalul";
-read_lips_text =		"omegalul\nomegalul\nomegalul\nomegalul\nomegalul";
-glancing_text =			"omegalul\nomegalul\nomegalul\nomegalul\nomegalul";
+check_passes_text =		"How good you\n are at \nobserving\n passes for\n discrepancies.";
+eavesdropping_text =	"How good you\n are at \nlistening in\n on strangers'\n conversations.";
+read_lips_text =		"How good you\n are at \nreading a \nwhispering \nperson's lips.";
+glancing_text =			"How good you\n are at \nkeeping a \nquick observation\n in memory.";
 
 selected_option = 0;
 

@@ -1,0 +1,1 @@
+obj_npc1.personalSuspicion = 1;

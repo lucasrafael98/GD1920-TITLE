@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "177dc3e7-db08-4284-a269-4cbd0b2cc856",
+            "Value": {
+                "id": "af6dffec-1fe5-495b-9d20-9f29a2d5f221",
+                "resourcePath": "scripts\\skillBranch_RL\\skillBranch_RL.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "17c0f346-eeba-4bd7-b020-f25b1b666ec9",
             "Value": {
                 "id": "c04f607c-55ec-4299-bf8a-a67f50e8042b",
@@ -796,6 +804,14 @@
                 "id": "c2d7dd83-3fda-4439-8b81-cd2159a95796",
                 "resourcePath": "views\\36af61ca-55ff-48df-9a3f-8bfc3e85da14.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3735d4a5-d790-4349-9b8f-364c9879ccc2",
+            "Value": {
+                "id": "435c94a4-4f7e-43fc-a93c-a37497e4640e",
+                "resourcePath": "scripts\\npc1_personal\\npc1_personal.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2655,6 +2671,14 @@
             }
         },
         {
+            "Key": "bbd7f1ed-7f5b-4499-a3b8-809d77052f3d",
+            "Value": {
+                "id": "7ee2db13-b1ce-42f8-b7cc-8db9bba9ed0f",
+                "resourcePath": "scripts\\skillBranch\\skillBranch.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bcba119d-63ec-453c-b526-538a468e0c33",
             "Value": {
                 "id": "f5545fee-e1c7-4005-abc2-51af0cb488a0",
@@ -3546,6 +3570,9 @@
         "5410ffd1-971c-4541-b4e9-34d35c456888",
         "a9484753-e9cf-4d44-ae26-87e4ec4b111f",
         "65385c0d-1994-4f26-82e7-aa242b678660",
+        "bbd7f1ed-7f5b-4499-a3b8-809d77052f3d",
+        "177dc3e7-db08-4284-a269-4cbd0b2cc856",
+        "3735d4a5-d790-4349-9b8f-364c9879ccc2",
         "831e2289-707f-4ded-a879-6817610801f7",
         "84c658d5-b943-48bc-93df-219afd7cc1aa",
         "2c383cff-9ffc-4a7c-b87c-7fcb944ba052",

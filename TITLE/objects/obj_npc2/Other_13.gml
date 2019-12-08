@@ -1,37 +1,45 @@
 //CHECKPASS
-
+if(alreadyCheckedPass){
+	event_inherited();
+} else {
+	alreadyCheckedPass = true;
 text = [
-	"A man with ragged clothes and unkempt hair approaches you. You resist gagging when this awful smell of garbage shoots through your nostrils. He hands you"+" a stained pass with a hand that seems to lack any sort of fat.", 
-	
+	"You approach a man with ragged clothes and unkempt hair. You resist gagging when a strong smell of garbage shoots through your nostrils. He hands you a very stained paper.", 
+	"Thank fuck you have a pair of gloves. You have no idea where these stains come from, but the smell is giving you a pretty good idea (well, it ain\'t good but... you get it, man).",
+	"Everyone seems to be suspicious of you. You can\'t quite focus with so many eyes on you, so you see nothing wrong with this pass. Seems very valid, even though this man isn\'t very pleasing to the... nose.",
 	[
-		"[check his pass]",
-		"Please get the hell out of here."
-	], 
-	
-	"Thankfully you have gloves, because you can\'t tell where these stains came from. You can\'t even make out the name, not that it matters since the reason for travel"+" is \"i ned to\". You\'re a bit of an amateur conductor, but even you know that\'s bullshit.",
-	
-	[
-		"You... \"ned\" to?",
-		"Alright, please get an actual pass next time. Out."
+		"\"I can\'t quite understand your name, sir.\"",
+		"\"What are these stops?\"",
+		"\"You... ‘ned\' to?\"",
+		"\"This pass is an obvious fake. Sir, you\'re going to have to get out at the next stop.\"",
 	],
-	
-	"\"Please sir, I need some money. The bus is the only place where there\'s people all the time. I can\'t get a job anywhere...\" the smell is just too much when he starts"+" talking. You\'re barely holding it in.",
-	
+	"\"Broyin Sattah.\" His accent is thick, but you can understand this man is called Bryan Sutter.",
+	"\"Wel\', the pass they gave me sed ah could enter this stop and ge\' ou\' the un\' two stops aftah.\"",
+	"\"Yee, ah need to get in this ‘ere bus ser. Ah\'ve go\' no choice but to get some food from any chari\'abul passahs-by. Please, don\'t make me ge\' out.\"",
+	"\"Ser, please. Ah go\' nowher\' to go. Please, le\' me be.\" His breath is nearly too much for you to handle. You have to get out of here quickly.",
 	[
-		"Look, I can\'t get you in like this. Get cleaner and we\'ll talk. Sorry.",
-		"Get the hell out of here, right now."
+		"\"Fine. You may stay.\"",
+		"\"I\'m sorry, but you can\'t be here.\"",
 	],
-	
-	"\"Alright, alright.\" He leaves with no fuss. You feel a smidge of pity, overshadowed by the relief that is being able to breathe without holding everything in."
+	"\"Thank ye, thank ye ser.\" He seems extremely grateful, though you shouldn\'t be letting these people in without a pass. Some people look at you in doubt.",
+	"He stares at his feet. \"...‘eartless man y\' ar\'. Alrigh\'. I\'ll... fucken leave.\"",
+	["Alright, you may come in."],
+	"\"Thank ye, thank ye ser.\" Some people look at you in doubt. You may have screwed up a bit here."
 ];
 
 dialogue = [
-	createDialogMap(0,text[0],id,1,-1),
-	createDialogMap(1,text[1],obj_player,[2,4],[-1,-1]),
-	createDialogMap(2,text[2],id,3,-1),
-	createDialogMap(3,text[3],obj_player,[4,4],[-1,-1]),
-	createDialogMap(4,text[4],id,5,-1),
-	createDialogMap(5,text[5],obj_player,[6,-1],[[refuse_npc2_2],[refuse_npc2_2]]),
-	createDialogMap(6,text[6],id,-1,[stopHighlight, id]),
-
+	createDialogMap(0,text[0],id,-1,[skillBranch, id, 0, 1, 1, 1, 2]),
+	createDialogMap(1,text[1],id,3,-1),
+	createDialogMap(2,text[2],id,11,-1),
+	createDialogMap(3,text[3],id,[4,5,6,7],[-1,-1,-1,-1]),
+	createDialogMap(4,text[4],id,3,-1),
+	createDialogMap(5,text[5],id,3,-1),
+	createDialogMap(6,text[6],id,3,-1),
+	createDialogMap(7,text[7],id,8,-1),
+	createDialogMap(8,text[8],id,[9,10],[-1,-1]),
+	createDialogMap(9,text[9],id,-1,[player_increase_suspicion_end]),
+	createDialogMap(10,text[10],id,-1,-1),
+	createDialogMap(11,text[11],id,[12],[-1]),
+	createDialogMap(12,text[12],id,-1,[player_increase_suspicion_end])
 ];
+}
