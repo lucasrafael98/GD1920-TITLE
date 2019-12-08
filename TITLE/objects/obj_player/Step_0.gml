@@ -8,6 +8,11 @@ input_down = keyboard_check(vk_down);
 input_walk = keyboard_check(vk_control);
 input_run = keyboard_check(vk_shift);
 
+if(room==rm_2 and game.gameHasEnded and global.alpha <= 0){
+	room_goto_next();
+	global.room_state = "ENTERING";
+}
+
 if(input_walk or input_run){
 	spd = abs((input_walk * w_spd) - (input_run*r_spd));
 } else{
@@ -191,7 +196,3 @@ y += moveY;
 //	image_index = 0;
 //	walkSpeed = 3.5;
 //}
-
-
-
-

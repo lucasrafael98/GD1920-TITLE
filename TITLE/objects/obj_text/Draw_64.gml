@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_sprite(text_box,0,text_box_x,text_box_y);
-draw_sprite(text_box_image,1,text_box_image_x,text_box_image_y);
+if(room == rm_2) draw_sprite(text_box,0,text_box_x,text_box_y);
+if(room != rm_2) draw_sprite_ext(spr_fade_sprite,1,0,0,1,1,0,c_white,0.5);
+if(room == rm_2) draw_sprite(text_box_image,1,text_box_image_x,text_box_image_y);
 
-draw_set_font(font);
+if(room == rm_2) draw_set_font(font);
+else draw_set_font(fnt_text_20);
 
 if(!global.choice_dialogue){
 

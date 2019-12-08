@@ -10,10 +10,10 @@ spd = n_spd;
 
 radius = 16; 
 
-s_eavesdropping = 1;
-s_readlips = 1;
-s_glance = 1;
-s_checkpasses = 1;
+s_eavesdropping = global.eavesdropping;
+s_readlips = global.readlips;
+s_glance = global.glance;
+s_checkpasses = global.checkpasses;
 
 eaves_i = false;
 glance_npc4 = false;
@@ -68,7 +68,7 @@ intro_dialogue = [
 	createDialogMap(10,intro_text[10],id,11,-1),
 	createDialogMap(11,intro_text[11],id,-1,[launch_skill_board]),
 ];
-create_textbox(intro_dialogue);
+if(room == rm_1) {create_textbox(intro_dialogue)};
 
 exit_text = [
 "First day on the job. It wasn\'t that bad, I suppose. Now, I only have to figure out who we\'re looking for.",
@@ -130,3 +130,5 @@ exit_dialogue = [
 	createDialogMap(11,exit_text[11],id,15,-1),
 	createDialogMap(11,exit_text[11],id,8,-1)
 ];
+
+if(room == rm_3) {create_textbox(exit_dialogue)};

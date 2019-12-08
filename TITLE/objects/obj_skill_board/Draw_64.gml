@@ -20,10 +20,10 @@ draw_text_color(x_offset + 4*col_size - col_size/2,y_offset - string_height("M")
 
 draw_set_halign(fa_center); draw_set_valign(fa_center);
 c1 = type_color;
-draw_text_color(x_offset +   col_size - col_size/2,y_offset*1.25 - string_height("M"),string(obj_player.s_checkpasses),c1,c1,c1,c1,1);
-draw_text_color(x_offset + 2*col_size - col_size/2,y_offset*1.25 - string_height("M"),string(obj_player.s_eavesdropping),c1,c1,c1,c1,1);
-draw_text_color(x_offset + 3*col_size - col_size/2,y_offset*1.25 - string_height("M"),string(obj_player.s_readlips),c1,c1,c1,c1,1);
-draw_text_color(x_offset + 4*col_size - col_size/2,y_offset*1.25 - string_height("M"),string(obj_player.s_glance),c1,c1,c1,c1,1);
+draw_text_color(x_offset +   col_size - col_size/2,y_offset*1.25 - string_height("M"),string(global.checkpasses),c1,c1,c1,c1,1);
+draw_text_color(x_offset + 2*col_size - col_size/2,y_offset*1.25 - string_height("M"),string(global.eavesdropping),c1,c1,c1,c1,1);
+draw_text_color(x_offset + 3*col_size - col_size/2,y_offset*1.25 - string_height("M"),string(global.readlips),c1,c1,c1,c1,1);
+draw_text_color(x_offset + 4*col_size - col_size/2,y_offset*1.25 - string_height("M"),string(global.glance),c1,c1,c1,c1,1);
 
 draw_set_font(font_s_text);
 draw_set_halign(fa_center); draw_set_valign(fa_center);

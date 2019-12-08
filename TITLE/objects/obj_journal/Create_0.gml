@@ -7,15 +7,21 @@ journal_box_temp_height = sprite_get_height(journal_box_temp);
 journal_x = room_width/2 - journal_box_temp_width/2;
 journal_y = room_height/2 - journal_box_temp_height/2;
 
+journal_kb_temp = spr_keyboard;
+journal_kb_temp_width = sprite_get_width(journal_kb_temp);
+journal_kb_temp_height = sprite_get_height(journal_kb_temp);
 
-x_offset = 40;
-y_offset = 70;
+kb_x = room_width/1.75 - journal_kb_temp_width/2;
+kb_y = room_height/2.3 - journal_kb_temp_height/2;
+
+x_offset = 50;
+y_offset = 150;
 
 
 journal_box_text_x = journal_x + x_offset;
 journal_box_text_y = journal_y + y_offset;
 
-letter_text = "\n\n*SKILLS*"
+letter_text = "\n*SKILLS*\n"
 + "\nEavesdropping: "+ string(obj_player.s_eavesdropping)
 + "\nReadlips: "+ string(obj_player.s_readlips)
 + "\nGlance: "+ string(obj_player.s_glance)

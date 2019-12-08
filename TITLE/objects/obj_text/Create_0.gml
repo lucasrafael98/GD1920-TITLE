@@ -1,30 +1,44 @@
 /// @description Insert description here
 // You can write your code in this editor
-text_box = spr_text_box;
-text_box_image = spr_text_box_image;
+if(room != rm_2){
 
-text_box_width = sprite_get_width(text_box);
-text_box_height = sprite_get_height(text_box);
+	text_box_x = room_width/2;
+	text_box_y = room_height/3;
 
-text_box_image_width = sprite_get_width(text_box_image);
-text_box_image_height = sprite_get_height(text_box_image);
+	x_buffer = 30;
+	y_buffer = 15;
 
-text_box_x = 0;
-text_box_y = global.game_height - text_box_height;
+	text_x = text_box_x + x_buffer;
+	text_y = text_box_y + y_buffer;
 
-text_box_image_x = 30;
-text_box_image_y = text_box_y + 30;
+	text_max_width = room_width/2 - 2*(x_buffer) -15;
+}else{
+	text_box = spr_text_box;
+	text_box_image = spr_text_box_image;
 
-x_buffer = 25;
-y_buffer = 8;
+	text_box_width = sprite_get_width(text_box);
+	text_box_height = sprite_get_height(text_box);
+
+	text_box_image_width = sprite_get_width(text_box_image);
+	text_box_image_height = sprite_get_height(text_box_image);
+
+	text_box_x = 0;
+	text_box_y = global.game_height - text_box_height;
+
+	text_box_image_x = 30;
+	text_box_image_y = text_box_y + 30;
+
+	x_buffer = 25;
+	y_buffer = 8;
+
+	text_x = text_box_x + text_box_image_x + text_box_image_width + x_buffer;
+	text_y = text_box_image_y +  y_buffer;
+
+	text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width -15;
+}
 
 pause = false;
 portrait_index = 0;
-text_x = text_box_x + text_box_image_x + text_box_image_width + x_buffer;
-text_y = text_box_image_y +  y_buffer;
-
-text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width -15;
-
 voice = snd_sound0;
 counter = 0;
 text[0] = "";
