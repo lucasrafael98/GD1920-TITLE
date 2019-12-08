@@ -10,5 +10,6 @@ switch(len){
 	case 4: script_execute(s,a[0],a[1],a[2],a[3]);break;
 	case 5: script_execute(s,a[0],a[1],a[2],a[3],a[4]);break;
 	case 6: script_execute(s,a[0],a[1],a[2],a[3],a[4],a[5]);break;
+	case 7: script_execute(s,a[0],a[1],a[2],a[3],a[4],a[5],a[6]);break;
 
 }
