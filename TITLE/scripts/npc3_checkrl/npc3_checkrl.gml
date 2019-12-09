@@ -1,0 +1,1 @@
+obj_npc3.relips_success = true;

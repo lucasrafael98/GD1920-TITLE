@@ -2,6 +2,9 @@
 //path_start(npc3_notsit, 2, path_action_stop, false);
 
 //CHECKPASS
+with(obj_music){
+	event_user(0);
+}
 if(alreadyCheckedPass){
 	event_inherited();
 } else {

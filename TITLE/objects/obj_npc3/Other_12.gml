@@ -1,6 +1,9 @@
 //image_speed = 1;
 //path_start(npc3_sit, 2, path_action_stop, false);
 //EAVESDROP
+with(obj_music){
+	event_user(0);
+}
 if(alreadyEavesdropped){
 	event_inherited();
 } else {
@@ -33,7 +36,7 @@ if(alreadyEavesdropped){
 	dialogue = [
 		createDialogMap(0,text[0],id,1,-1),
 		createDialogMap(1,text[1],obj_player,[-1,-1],[[skillBranch, id, 1, 2, 1, 2, 3],-1]),
-		createDialogMap(2,text[2],obj_player,4,-1),
+		createDialogMap(2,text[2],obj_player,4,[npc3_checked]),
 		createDialogMap(3,text[3],obj_player,-1,-1),
 		createDialogMap(4,text[4],obj_player,[5,-1],[-1,-1]),
 		createDialogMap(5,text[5],obj_npc4,6,-1),

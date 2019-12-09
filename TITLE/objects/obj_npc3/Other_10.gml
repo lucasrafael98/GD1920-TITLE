@@ -1,6 +1,9 @@
 //image_speed = 1;
 //path_start(npc3_enter, 2, path_action_stop, false);
 //READ
+with(obj_music){
+	event_user(0);
+}
 alreadyReadLips = true;
 if(alreadyReadLips){
 	event_inherited();

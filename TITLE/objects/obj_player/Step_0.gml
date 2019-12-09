@@ -8,6 +8,12 @@ input_down = keyboard_check(vk_down);
 input_walk = keyboard_check(vk_control);
 input_run = keyboard_check(vk_shift);
 
+if(a_suspicion > 5){
+	a_susp_mod = 1;
+} if(a_suspicion > 10){
+	a_susp_mod = 2;
+}
+
 if(room==rm_2 and game.gameHasEnded and global.alpha <= 0){
 	room_goto_next();
 	global.room_state = "ENTERING";

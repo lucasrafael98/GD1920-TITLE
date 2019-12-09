@@ -6,7 +6,7 @@ if(alreadyGlanced){
 	event_inherited();
 } else {
 	canInteract = true;
-	alreadyGlanced = false;
+	alreadyGlanced = true;
 	text = [
 		"The young student seems to be enraptured by what he sees on the computer screen. You wonder if it\'s worth taking a look.",
 		[
@@ -28,7 +28,7 @@ if(alreadyGlanced){
 	dialogue = [
 		createDialogMap(0,text[0],id,1,-1),
 		createDialogMap(1,text[1],id,[-1,-1],[[skillBranch, id, 1, 3, 2, 2, 3],-1]),
-		createDialogMap(2,text[2],id,4,-1),
+		createDialogMap(2,text[2],id,4,[npc4_checkgl]),
 		createDialogMap(3,text[3],id,6,-1),
 		createDialogMap(4,text[4],id,[5,-1],[-1,-1]),
 		createDialogMap(5,text[5],id,-1,[player_increase_suspicion_end, id]),

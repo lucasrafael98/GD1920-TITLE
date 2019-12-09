@@ -23,9 +23,8 @@ switch(global.room_state){
 	}
 }
 
-if (global.timer <= 0 && !gameHasEnded)
+if (global.skillcheckTimer >= 18 && !gameHasEnded)
 {
-	with(obj_music){event_user(0);}
 	gameHasEnded = true;
 	global.room_state = "EXITING";
 }
@@ -78,7 +77,7 @@ if(keyboard_check_pressed(global.journal_key)){
 }
 
 if(keyboard_check_pressed(global.skip_key) && !global.in_dialogue && !global.in_skill_board){
-	global.skillcheckTimer = 10;
+	global.skillcheckTimer = 18;
 	with(obj_music){event_user(0);}
 	
 	gameHasEnded = true;

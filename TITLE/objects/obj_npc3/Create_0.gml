@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
+
+glance_success = false;
+eavesd_success = false;
+relips_success = false;
+
 canInteract = true;
 colorLevel = 120;
 

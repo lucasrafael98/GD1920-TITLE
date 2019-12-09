@@ -6,7 +6,7 @@ end_dialogue_created = false;
 
 global.game_width = 1024;
 global.game_height = 768;
-global.timer = 60 * 1000 * 100;
+global.timer = 180 * 1000 * 100;
 
 global.eavesdropping = 1;
 global.readlips = 1;

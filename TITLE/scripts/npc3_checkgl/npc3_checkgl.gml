@@ -1,0 +1,1 @@
+obj_npc3.glance_success = true;

@@ -9,7 +9,7 @@ if(alreadyCheckedPass){
 	event_inherited();
 } else {
 	canInteract = true;
-	alreadyCheckedPass = false;
+	alreadyCheckedPass = true;
 	text = [
 		"An incredibly large man stands in front of you. He hands you his pass without a word.",
 		["Check his pass."],

@@ -1,10 +1,13 @@
 //GLANCE
+with(obj_music){
+	event_user(0);
+}
 alreadyGlanced = true;
 if(alreadyGlanced){
 	event_inherited();
 } else {
 	canInteract = true;
-	alreadyGlanced = false;
+	alreadyGlanced = true;
 	text = [
 	    "He is not doing anything special...",
 

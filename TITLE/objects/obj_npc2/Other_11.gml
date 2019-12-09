@@ -18,17 +18,17 @@ if(alreadyGlanced){
 			"\"Fucking hell, did you get all of that now?\"",
 			"Impressive. I guess I\'ll leave him alone.",
 		],
-		"\"It\'s  me bloody money! You have no business with it. Leave me alone.\""
+		"\"It\'s  me bloody money! You have no business with it. Leave me alone.\"The other passangers look at the both of you."
 	];
 	speakers = [id,id];
 	next_line = [-1];
 	scripts = [-1];
 	dialogue = [
-		createDialogMap(0,text[0],id,-1,-1),
-		createDialogMap(1,text[1],id,[-1,-1], [[skillcheck, id, 1, 4, 0, 2, 3],-1]),
+		createDialogMap(0,text[0],id,1,-1),
+		createDialogMap(1,text[1],id,[-1,-1], [[skillBranch, id, 1, 4, 0, 2, 3],-1]),
 		createDialogMap(2,text[2],id,4,-1),
 		createDialogMap(3,text[3],id,-1,-1),
 		createDialogMap(4,text[4],id,[5,-1],[-1,-1]),
-		createDialogMap(5,text[5],id,-1,-1),
+		createDialogMap(5,text[5],id,-1,[player_increase_suspicion_end, id]),
 	];
 }
