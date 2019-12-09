@@ -12,6 +12,7 @@ if(alreadyCheckedPass){
 	alreadyCheckedPass = false;
 	text = [
 		"An incredibly large man stands in front of you. He hands you his pass without a word.",
+		["Check his pass."],
 		"You notice the reason for travel. \"Work\"? Wasn\'t it \"work-related\"?",
 		"Everything seems to check out.",
 		["\"Did something happen with this pass?\""],
@@ -26,14 +27,15 @@ if(alreadyCheckedPass){
 	];
 
 	dialogue = [
-		createDialogMap(0,text[0],id,-1,[skillBranch, id, 0, 1, 2, 1, 2]),
-		createDialogMap(1,text[1],id,3,-1),
-		createDialogMap(2,text[2],id,9,-1),
-		createDialogMap(3,text[3],id,[4],[-1]),
-		createDialogMap(4,text[4],id,5,-1),
-		createDialogMap(5,text[5],id,[6],[-1]),
-		createDialogMap(6,text[6],id,7,-1),
-		createDialogMap(7,text[7],id,[-1,-1],[-1,-1]),
-		createDialogMap(8,text[8],id,[-1],[-1]),
+		createDialogMap(0,text[0],id,1,-1),
+		createDialogMap(1,text[1],id,[-1],[[skillBranch, id, 1, 1, 2, 2, 3]]),
+		createDialogMap(2,text[2],id,4,-1),
+		createDialogMap(3,text[3],id,9,-1),
+		createDialogMap(4,text[4],id,[5],[-1]),
+		createDialogMap(5,text[5],id,6,-1),
+		createDialogMap(6,text[6],id,[7],[-1]),
+		createDialogMap(7,text[7],id,8,-1),
+		createDialogMap(8,text[8],id,[-1,-1],[-1,-1]),
+		createDialogMap(9,text[9],id,[-1],[-1]),
 	];
 }

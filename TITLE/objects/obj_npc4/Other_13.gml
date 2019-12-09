@@ -7,9 +7,10 @@ if(alreadyCheckedPass){
 	event_inherited();
 } else {
 	canInteract = true;
-	alreadyCheckedPass = false;
+	alreadyCheckedPass = true;
 	text = [
 		"A larger young man stands in front of you, seemingly angry at the world. \"Damn entitled old people. That geezer just got in front of me without a word!\" He sighs. \"Anyway, let\'s get this over with already.\" he hands you his pass.",
+		["Check his pass."],
 		"Everything in order. The letter mentioned a fat man, so you should pay attention to this one. He\'s a student at the Institute of Technical Mastery, and he\'s been granted permission to get on this bus.",
 		"Everything is in order. Nothing seems to stand out here.",
 		[
@@ -24,12 +25,13 @@ if(alreadyCheckedPass){
 		]
 	];
 	dialogue = [
-		createDialogMap(0,text[0],id,-1,[skillcheck, id, 0, 1, 2, 1, 2]),
-		createDialogMap(1,text[1],id,3,-1),
-		createDialogMap(2,text[2],id,6,-1),
-		createDialogMap(3,text[3],id,[4,5,-1],[-1,-1,-1]),
-		createDialogMap(4,text[4],id,3,-1),
-		createDialogMap(5,text[5],id,3,-1),
-		createDialogMap(6,text[6],id,[-1],[-1])
+		createDialogMap(0,text[0],id,1,-1),
+		createDialogMap(1,text[1],id,[-1],[[skillBranch, id, 1, 1, 2, 2, 3]]),
+		createDialogMap(2,text[2],id,4,-1),
+		createDialogMap(3,text[3],id,7,-1),
+		createDialogMap(4,text[4],id,[5,6,-1],[-1,-1,-1]),
+		createDialogMap(5,text[5],id,4,-1),
+		createDialogMap(6,text[6],id,4,-1),
+		createDialogMap(7,text[7],id,[-1],[-1])
 	];
 }

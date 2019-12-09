@@ -8,6 +8,7 @@ if(alreadyCheckedPass){
 	alreadyCheckedPass = true;
 	text = [
 		"You see a slightly overweight old man. He looks at you. \"Why wasn\'t I given priority when entering this bus? It\'s so cold outside, and still an elder such as myself was made to wait before that woman and the ghastly man with that awful smell! Anyway, here\'s the bloody pass, get on with it.\"",
+		["Check his pass."],
 		"Everything seems to be in order... Wait. You notice something slightly off. You peel off a layer in the pass, revealing a woman\'s photo, and the name \"Martha Davies\".",
 		"Everything seems to be in order. Old people are usually given a pass to nearby food distribution centers in Winter, mostly so they don\'t die out in the cold.",
 		["Show him the true pass. \"Sir, what\'s this?\""],
@@ -26,16 +27,17 @@ if(alreadyCheckedPass){
 		"\"Alright, thank you.\" You hand him back the pass and go away. "
 	];
 	dialogue = [
-		createDialogMap(0,text[0],id,-1,[skillBranch, id, 0, 1, 3, 1, 2]),
-		createDialogMap(1,text[1],id,3,-1),
-		createDialogMap(2,text[2],id,8,-1),
-		createDialogMap(3,text[3],id,[4],[-1]),
-		createDialogMap(4,text[4],id,5,-1),
-		createDialogMap(5,text[5],id,[6,7],[-1,-1]),
-		createDialogMap(6,text[6],id,-1,-1),
+		createDialogMap(0,text[0],id,1,-1),
+		createDialogMap(1,text[1],obj_player,[-1],[[skillBranch, id, 1, 1, 3, 2, 3]]),
+		createDialogMap(2,text[2],obj_player,4,-1),
+		createDialogMap(3,text[3],obj_player,9,-1),
+		createDialogMap(4,text[4],obj_player,[5],[-1]),
+		createDialogMap(5,text[5],id,6,-1),
+		createDialogMap(6,text[6],obj_player,[7,8],[-1,-1]),
 		createDialogMap(7,text[7],id,-1,-1),
-		createDialogMap(8,text[8],id,[9,10],[-1,-1]),
-		createDialogMap(9,text[9],id,8,-1),
-		createDialogMap(10,text[10],id,-1,-1),
+		createDialogMap(8,text[8],id,-1,-1),
+		createDialogMap(9,text[9],obj_player,[10,11],[-1,-1]),
+		createDialogMap(10,text[10],id,9,-1),
+		createDialogMap(11,text[11],id,-1,-1),
 	];
 }

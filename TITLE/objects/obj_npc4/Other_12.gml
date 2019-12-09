@@ -42,8 +42,8 @@ if(alreadyEavesdropped){
 		createDialogMap(6,text[6],id,7,-1),
 		createDialogMap(7,text[7],id,[8,10],[-1,-1]),
 		createDialogMap(8,text[8],id,9,-1),
-		createDialogMap(9,text[9],id,-1,letNPC3Sit()),
+		createDialogMap(9,text[9],id,-1,[letNPC3Sit]),
 		createDialogMap(10,text[10],id,11,-1),
-		createDialogMap(11,text[11],id,-1,letNPC4Sit())
+		createDialogMap(11,text[11],id,-1,[letNPC4Sit])
 	];
 }

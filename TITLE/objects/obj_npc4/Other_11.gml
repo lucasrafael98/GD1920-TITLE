@@ -19,7 +19,7 @@ if(alreadyGlanced){
 			"\"What the hell is that!?\"",
 			"Back away slowly."
 		],
-		"He almost jumps off his seat. \"WHAT THE- Why the fuck are you looking at my computer, dude!? Go away! You can\'t even have some goddamn privacy without some weirdo looking at you these days. Fucking government spies or something stalking us all the time. I bet you\'re one of them!\" The other passengers look at both of you. [suspicion increases]",
+		"He almost jumps off his seat. \"WHAT THE- Why the fuck are you looking at my computer, dude!? Go away! You can\'t even have some goddamn privacy without some weirdo looking at you these days. Fucking government spies or something stalking us all the time. I bet you\'re one of them!\" The other passengers look at both of you.",
 		[
 			"Try again.",
 			"It\'s probably nothing interesting."

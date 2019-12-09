@@ -32,16 +32,16 @@ if(alreadyEavesdropped){
 	];
 	dialogue = [
 		createDialogMap(0,text[0],id,1,-1),
-		createDialogMap(1,text[1],id,[-1,-1],[[skillBranch, id, 1, 2, 1, 2, 3],-1]),
-		createDialogMap(2,text[2],id,4,-1),
-		createDialogMap(3,text[3],id,-1,-1),
-		createDialogMap(4,text[4],id,[5,-1],[-1,-1]),
-		createDialogMap(5,text[5],id,6,-1),
+		createDialogMap(1,text[1],obj_player,[-1,-1],[[skillBranch, id, 1, 2, 1, 2, 3],-1]),
+		createDialogMap(2,text[2],obj_player,4,-1),
+		createDialogMap(3,text[3],obj_player,-1,-1),
+		createDialogMap(4,text[4],obj_player,[5,-1],[-1,-1]),
+		createDialogMap(5,text[5],obj_npc4,6,-1),
 		createDialogMap(6,text[6],id,7,-1),
-		createDialogMap(7,text[7],id,[8,10],[-1,-1]),
-		createDialogMap(8,text[8],id,9,-1),
-		createDialogMap(9,text[9],id,-1,letNPC3Sit()),
+		createDialogMap(7,text[7],obj_player,[8,10],[-1,-1]),
+		createDialogMap(8,text[8],obj_npc4,9,-1),
+		createDialogMap(9,text[9],id,-1,[letNPC3Sit]),
 		createDialogMap(10,text[10],id,11,-1),
-		createDialogMap(11,text[11],id,-1,letNPC4Sit())
+		createDialogMap(11,text[11],obj_npc4,-1,[letNPC4Sit])
 	];
 }

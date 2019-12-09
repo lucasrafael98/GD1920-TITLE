@@ -31,7 +31,7 @@ if(alreadyReadLips){
 		createDialogMap(4,text[4],id,5,-1),
 		createDialogMap(5,text[5],id,[6,-1],[-1,-1]),
 		createDialogMap(6,text[6],id,7,-1),
-		createDialogMap(7,text[7],id,-1,[player_increase_suspicion_end]),
+		createDialogMap(7,text[7],id,-1,[player_increase_suspicion_end, id]),
 	];
 	
 }

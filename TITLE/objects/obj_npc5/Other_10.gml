@@ -19,7 +19,7 @@ if(alreadyReadLips){
 			"\"What seems to be the problem?\"",
 			"I should probably just ignore this."
 		],
-		"You startle him. His hands are shaking. \"H-hey! Nothing\'s wrong here. Did anyone ask you anything, man? Get off my back.\" The other passengers exchange looks. Why would a conductor be intruding on people\'s calls? [suspicion increased]"
+		"You startle him. His hands are shaking. \"H-hey! Nothing\'s wrong here. Did anyone ask you anything, man? Get off my back.\" The other passengers exchange looks. Why would a conductor be intruding on people\'s calls?"
 	];
 	dialogue = [
 		createDialogMap(0,text[0],id,1,-1),
