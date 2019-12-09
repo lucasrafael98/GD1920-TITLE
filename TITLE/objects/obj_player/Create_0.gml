@@ -48,13 +48,13 @@ intro_text = [
 
 
 intro_dialogue = [
-	createDialogMap(0,intro_text[0],id,1,-1),
+	createDialogMap(0,intro_text[0],id,1,[npc_move,obj_npc1]),
 	createDialogMap(1,intro_text[1],id,2,-1),
-	createDialogMap(2,intro_text[2],id,3,-1),
+	createDialogMap(2,intro_text[2],id,3,[npc_move,obj_npc2]),
 	createDialogMap(3,intro_text[3],id,4,-1),
-	createDialogMap(4,intro_text[4],id,5,-1),
-	createDialogMap(5,intro_text[5],id,6,-1),
-	createDialogMap(6,intro_text[6],id,7,-1),
+	createDialogMap(4,intro_text[4],id,5,[npc_move,obj_npc3]),
+	createDialogMap(5,intro_text[5],id,6,[npc_move,obj_npc4]),
+	createDialogMap(6,intro_text[6],id,7,[npc_move,obj_npc5]),
 	createDialogMap(7,intro_text[7],id,-1,[launch_skill_board]),
 ];
 if(room == rm_1) {create_textbox(intro_dialogue)};

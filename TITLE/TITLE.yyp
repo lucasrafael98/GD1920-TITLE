@@ -1207,6 +1207,14 @@
             }
         },
         {
+            "Key": "4b28a733-3509-4ee5-868c-346f1f14b230",
+            "Value": {
+                "id": "e8b6949f-39f0-4a0c-a301-c626eac1b689",
+                "resourcePath": "scripts\\npc_move\\npc_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4b731695-6bdd-4b96-bdb8-b531f242160c",
             "Value": {
                 "id": "cec54d04-e4fe-451e-88d4-e48b0afcd073",
@@ -1452,6 +1460,14 @@
                 "id": "64e61a7e-fc44-49d4-98af-1f40361a9e49",
                 "resourcePath": "sprites\\BHG_LB_LEFT\\BHG_LB_LEFT.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "60b0801b-780a-4042-865e-5319700fb040",
+            "Value": {
+                "id": "dc3ff492-e441-4295-87ec-cf1b1deb743a",
+                "resourcePath": "scripts\\npc_move_exit\\npc_move_exit.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1900,6 +1916,14 @@
                 "id": "7f6f73c4-e29a-4cc8-a588-3a8a2890f893",
                 "resourcePath": "scripts\\get_dialogue_part\\get_dialogue_part.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "83d517bc-44d2-4080-9bd4-9a55c62c68f6",
+            "Value": {
+                "id": "46b49913-5197-43e1-b9fe-39de6db5d6c8",
+                "resourcePath": "objects\\obj_npc6\\obj_npc6.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3207,6 +3231,14 @@
             }
         },
         {
+            "Key": "e01fcdd4-c6fc-421a-b6fe-17b6f873fe10",
+            "Value": {
+                "id": "80516fe2-6347-4df5-9ee1-270d7221126b",
+                "resourcePath": "paths\\exit_bus\\exit_bus.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "e0260bac-16b1-4867-9cc7-a309716ee0ab",
             "Value": {
                 "id": "9340693a-76bf-4981-9fbf-161091c134d8",
@@ -3290,7 +3322,7 @@
             "Key": "e3273322-48ed-4515-a156-7b9ae9107995",
             "Value": {
                 "id": "1399a756-e54f-4531-bd5b-93da5b2ec2a9",
-                "resourcePath": "paths\\path12\\path12.yy",
+                "resourcePath": "paths\\enter_bus\\enter_bus.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -3685,6 +3717,8 @@
         "bbd7f1ed-7f5b-4499-a3b8-809d77052f3d",
         "177dc3e7-db08-4284-a269-4cbd0b2cc856",
         "3735d4a5-d790-4349-9b8f-364c9879ccc2",
+        "4b28a733-3509-4ee5-868c-346f1f14b230",
+        "60b0801b-780a-4042-865e-5319700fb040",
         "831e2289-707f-4ded-a879-6817610801f7",
         "84c658d5-b943-48bc-93df-219afd7cc1aa",
         "2c383cff-9ffc-4a7c-b87c-7fcb944ba052",
