@@ -6,6 +6,11 @@ glance_success = false;
 eavesd_success = false;
 relips_success = false;
 
+dc_rl = 3;
+dc_ch = 2;
+dc_gl = 4;
+dc_ed = 2;
+
 canInteract = true;
 colorLevel = 120;
 portrait_index = 0;

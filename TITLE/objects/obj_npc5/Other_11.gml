@@ -33,7 +33,7 @@ if(alreadyGlanced){
 	];
 	dialogue = [
 		createDialogMap(0,text[0],id,1,-1),
-		createDialogMap(1,text[1],id,[-1,-1],[[skillBranch, id, 1, 3, 3, 2, 3],-1]),
+		createDialogMap(1,text[1],id,[-1,-1],[[skillBranch, id, 1, 3, dc_gl, 2, 3],-1]),
 		createDialogMap(2,text[2],id,4,[npc5_checkgl]),
 		createDialogMap(3,text[3],id,9,-1),
 		createDialogMap(4,text[4],id,[5,-1],[-1,-1]),
@@ -41,7 +41,7 @@ if(alreadyGlanced){
 		createDialogMap(6,text[6],id,[7,8],[-1,-1]),
 		createDialogMap(7,text[7],id,-1,-1),
 		createDialogMap(8,text[8],id,-1,-1),
-		createDialogMap(9,text[9],id,[-1,-1],[[skillBranch, id, 1, 3, 3-1, 2, 10],-1]),
+		createDialogMap(9,text[9],id,[-1,-1],[[skillBranch, id, 9, 3, dc_gl-1, 2, 10],-1]),
 		createDialogMap(10,text[10],id,-1,[player_increase_suspicion_end, id])
 	];
 }

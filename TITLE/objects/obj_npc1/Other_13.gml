@@ -8,11 +8,11 @@ if(alreadyCheckedPass){
 	
 		[
 			"\"What do you do for work?\"",
-			"\"Why are you only allowed on these stops?\"",
+			"\"Why are you only allowed on these stops? Don't you have houses to visit.\"",
 			"\"Alright, everything checks out.\""
 		],
 		"\"Real estate\", she replies with little fanfare. Not the hottest area right now, which explains her gaunt figure.",
-		"\"I only need to go to work and get back home, same as everybody.\"",
+		"\"I only need to go to work and get back home, same as everybody. With the war going on, there aren't many houses for sale.\"",
 		"The woman nods and takes back her pass."
 	];
 	dialogue = [

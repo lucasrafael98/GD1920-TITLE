@@ -30,7 +30,7 @@ text = [
 
 dialogue = [
 	createDialogMap(0,text[0],id,1,-1),
-	createDialogMap(1,text[1],id,[-1],[[skillBranch, id, 1, 1, 1, 2, 3]]),
+	createDialogMap(1,text[1],id,[-1],[[skillBranch, id, 1, 1, dc_ch, 2, 3]]),
 	createDialogMap(2,text[2],id,4,-1),
 	createDialogMap(3,text[3],id,12,-1),
 	createDialogMap(4,text[4],id,[5,6,7,8],[-1,-1,-1,-1]),

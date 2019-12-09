@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
-
-glance_success = false;
-eavesd_success = false;
-relips_success = false;
+dc_rl = 2;
+dc_gl = 4;
+dc_ed = 3;
+dc_ch = 2;
 
 canInteract = true;
 colorLevel = 120;

@@ -1,1 +1,1 @@
-obj_npc5.glance_success = true;
+global.npc5_glance_success = true;

@@ -13,6 +13,16 @@ global.readlips = 1;
 global.glance = 1;
 global.checkpasses = 1;
 
+global.npc3_glance_success = false;
+global.npc3_eavesd_success = false;
+global.npc3_relips_success = false;
+global.npc4_glance_success = false;
+global.npc4_eavesd_success = false;
+global.npc4_relips_success = false;
+global.npc5_glance_success = false;
+global.npc5_eavesd_success = false;
+global.npc5_relips_success = false;
+
 global.skillcheckTimer = 1;
 
 global.interact_key = vk_space;

@@ -26,7 +26,7 @@ if(alreadyEavesdropped){
 	scripts = [-1];
 	dialogue = [
 		createDialogMap(0,text[0],id,1,-1),
-		createDialogMap(1,text[1],obj_player,[-1,-1],[[skillBranch, id, 1, 2, 1+personalSuspicion, 2, 3],-1]),
+		createDialogMap(1,text[1],obj_player,[-1,-1],[[skillBranch, id, 1, 2, dc_ed+personalSuspicion, 2, 3],-1]),
 		createDialogMap(2,text[2],id,4,-1),
 		createDialogMap(3,text[3],id,-1,-1),
 		createDialogMap(4,text[4],id,[5,-1],[-1,-1]),

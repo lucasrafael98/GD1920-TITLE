@@ -1,1 +1,1 @@
-obj_npc4.relips_success = true;
+global.npc4_relips_success = true;

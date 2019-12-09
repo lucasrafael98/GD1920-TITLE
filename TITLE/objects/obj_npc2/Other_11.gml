@@ -25,7 +25,7 @@ if(alreadyGlanced){
 	scripts = [-1];
 	dialogue = [
 		createDialogMap(0,text[0],id,1,-1),
-		createDialogMap(1,text[1],id,[-1,-1], [[skillBranch, id, 1, 4, 0, 2, 3],-1]),
+		createDialogMap(1,text[1],id,[-1,-1], [[skillBranch, id, 1, 4, dc_gl, 2, 3],-1]),
 		createDialogMap(2,text[2],id,4,-1),
 		createDialogMap(3,text[3],id,-1,-1),
 		createDialogMap(4,text[4],id,[5,-1],[-1,-1]),

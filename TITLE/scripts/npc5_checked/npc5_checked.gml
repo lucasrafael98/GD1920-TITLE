@@ -1,1 +1,1 @@
-obj_npc5.eavesd_success = true;
+global.npc5_eavesd_success = true;

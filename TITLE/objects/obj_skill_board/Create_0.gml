@@ -32,7 +32,8 @@ eavesdropping_title = "Eavesdropping";
 read_lips_title = "Reading\nLips";
 glancing_title = "Glancing";
 
-points_available = 3;
+points_available = 5;
+max_points_available = 5;
 n_options = 8;
 
 check_passes_text =		"How good you\n are at \nobserving\n passes for\n discrepancies.";

@@ -31,7 +31,7 @@ if(alreadyCheckedPass){
 	];
 	dialogue = [
 		createDialogMap(0,text[0],id,1,-1),
-		createDialogMap(1,text[1],obj_player,[-1],[[skillBranch, id, 1, 1, 3, 2, 3]]),
+		createDialogMap(1,text[1],obj_player,[-1],[[skillBranch, id, 1, 1, dc_ch, 2, 3]]),
 		createDialogMap(2,text[2],obj_player,4,-1),
 		createDialogMap(3,text[3],obj_player,9,-1),
 		createDialogMap(4,text[4],obj_player,[5],[-1]),

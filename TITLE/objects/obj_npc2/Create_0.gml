@@ -4,6 +4,12 @@ event_inherited();
 canInteract = true;
 colorLevel = 120;
 portrait_index = 0;
+
+dc_gl = 0;
+dc_rl = 1;
+dc_ed = 2;
+dc_ch = 1;
+
 voice = snd_sound0;
 name = "Lmaobama";
 text = [

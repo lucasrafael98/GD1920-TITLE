@@ -23,7 +23,7 @@ if(alreadyReadLips){
 	];
 	dialogue = [
 		createDialogMap(0,text[0],id,1,-1),
-		createDialogMap(1,text[1],id,[-1,-1],[[skillBranch_RL, id, 1, 4, 3, 2, 3, 4],-1]),
+		createDialogMap(1,text[1],id,[-1,-1],[[skillBranch_RL, id, 1, 4, dc_rl, 2, 3, 4],-1]),
 		createDialogMap(2,text[2],id,5,[npc4_checkrl]),
 		createDialogMap(3,text[3],id,5,[npc4_checkrl]),
 		createDialogMap(4,text[4],id,5,-1),
