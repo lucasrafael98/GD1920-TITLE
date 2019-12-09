@@ -33,7 +33,7 @@ if(alreadyGlanced){
 		createDialogMap(3,text[3],id,6,-1),
 		createDialogMap(4,text[4],id,[5,-1],[-1,-1]),
 		createDialogMap(5,text[5],id,-1,-1),
-		createDialogMap(6,text[6],id,[-1,-1],[[skillBranch, id, 1, 3, 2-1, 2, 7],-1]),
+		createDialogMap(6,text[6],id,[-1,-1],[[skillBranch, id, 6, 3, 2-1, 2, 7],-1]),
 		createDialogMap(7,text[7],id,8,-1),
 		createDialogMap(8,text[8],id,-1,[player_increase_suspicion_end]),
 	];

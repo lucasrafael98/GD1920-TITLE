@@ -33,3 +33,5 @@ display_set_gui_size(global.game_width,global.game_height);
 
 global.room_state = "ENTERING";
 global.alpha = 0;
+
+global.music = instance_create_layer(0,0,"Instances",obj_music);

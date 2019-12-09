@@ -37,9 +37,9 @@ dialogue = [
 	createDialogMap(6,text[6],id,3,-1),
 	createDialogMap(7,text[7],id,8,-1),
 	createDialogMap(8,text[8],id,[9,10],[-1,-1]),
-	createDialogMap(9,text[9],id,-1,[player_increase_suspicion_end]),
+	createDialogMap(9,text[9],id,-1,[player_increase_suspicion_end, id]),
 	createDialogMap(10,text[10],id,-1,-1),
 	createDialogMap(11,text[11],id,[12],[-1]),
-	createDialogMap(12,text[12],id,-1,[player_increase_suspicion_end])
+	createDialogMap(12,text[12],id,-1,[player_increase_suspicion_end, id])
 ];
 }
