@@ -1,8 +1,8 @@
 {
-    "id": "94322b20-1f21-4dc0-9e5b-6c171969f4ed",
+    "id": "21e68708-38a5-4c20-8e7f-85df1b37ceff",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "cirloop",
+    "name": "cirloop2",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 320,

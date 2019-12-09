@@ -1,6 +1,8 @@
 //image_speed = 1;
 //path_start(npc4_fwd, 2, path_action_stop, false);
-
+with(obj_music){
+	event_user(0);
+}
 if(alreadyEavesdropped){
 	event_inherited();
 } else {

@@ -1,3 +1,6 @@
+with(obj_music){
+	event_user(0);
+}
 if(alreadyReadLips){
 	event_inherited();
 } else {

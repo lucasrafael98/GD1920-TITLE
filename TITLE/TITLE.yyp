@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "21e68708-38a5-4c20-8e7f-85df1b37ceff",
+            "Value": {
+                "id": "5a9536e1-dac7-4c4b-b7f0-81efa5530c79",
+                "resourcePath": "sounds\\cirloop2\\cirloop2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2224311b-dcca-4225-9bf4-172504090d53",
             "Value": {
                 "id": "760293c7-e94b-4bba-9cf4-274397f271b5",

@@ -2,7 +2,9 @@
 //path_start(npc4_fwd, 2, path_action_stop, false);
 
 //CHECKPASS
-
+with(obj_music){
+	event_user(0);
+}
 if(alreadyCheckedPass){
 	event_inherited();
 } else {
@@ -31,8 +33,7 @@ if(alreadyCheckedPass){
 		createDialogMap(4,text[4],id,5,-1),
 		createDialogMap(5,text[5],id,[6],[-1]),
 		createDialogMap(6,text[6],id,7,-1),
-		createDialogMap(7,text[7],id,-1,-1),
-		createDialogMap(8,text[8],id,-1,-1),
-		createDialogMap(9,text[9],id,1,-1)
+		createDialogMap(7,text[7],id,[-1,-1],[-1,-1]),
+		createDialogMap(8,text[8],id,[-1],[-1]),
 	];
 }

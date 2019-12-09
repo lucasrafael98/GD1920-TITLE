@@ -30,7 +30,9 @@ active_tbox = noone;
 intro_text = [
 "I never expected this.",
 
-"After years of trying my hardest working in the force, it just seems like you can never do enough. The \"best\" cops, they\'re just the ones with friends or family higher up, in the Institute of Stability. It\'s impossible to compete when everything in this damn job is stacked against you.",
+"After years of trying my hardest working in the force, it just seems like you can never do enough.",
+
+"The \"best\" cops, they\'re just the ones with friends or family higher up, in the Institute of Stability. It\'s impossible to compete when everything in this damn job is stacked against you.",
 
 "But I suppose it\'s better than being your average Joe. Or unemployed. Or homeless. Or dead. Since I don\'t have any influence, I was sent to these new conductor jobs. ",
 
@@ -52,7 +54,8 @@ intro_dialogue = [
 	createDialogMap(3,intro_text[3],id,4,-1),
 	createDialogMap(4,intro_text[4],id,5,-1),
 	createDialogMap(5,intro_text[5],id,6,-1),
-	createDialogMap(6,intro_text[6],id,-1,[launch_skill_board]),
+	createDialogMap(6,intro_text[6],id,7,-1),
+	createDialogMap(7,intro_text[7],id,-1,[launch_skill_board]),
 ];
 if(room == rm_1) {create_textbox(intro_dialogue)};
 
