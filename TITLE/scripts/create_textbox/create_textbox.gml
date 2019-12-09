@@ -2,10 +2,12 @@ var tbox = instance_create_layer(0,0,"Text_Layer",obj_text);
 
 with(tbox){
 	global.in_dialogue = true;
-	text = get_dialogue_part(argument[0],"text");
-	speakers = get_dialogue_part(argument[0],"speaker");
-	next_line = get_dialogue_part(argument[0],"next_part");
-	scripts = get_dialogue_part(argument[0],"script");
+	target = argument1;
+	type = argument2;
+	text = get_dialogue_part(argument0,"text");
+	speakers = get_dialogue_part(argument0,"speaker");
+	next_line = get_dialogue_part(argument0,"next_part");
+	scripts = get_dialogue_part(argument0,"script");
 	var len = array_length_1d(text);
 	var i=0;repeat(len){
 		var temp_speakers = get_dialogue_part(argument[0],"speaker");

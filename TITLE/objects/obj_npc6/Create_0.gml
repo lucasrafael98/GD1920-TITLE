@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
-
+my_id = obj_npc6;
 canInteract = true;
 colorLevel = 120;
 portrait_index = 0;

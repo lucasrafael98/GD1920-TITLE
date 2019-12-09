@@ -4,7 +4,7 @@ event_inherited();
 canInteract = true;
 colorLevel = 120;
 portrait_index = 0;
-
+my_id = obj_npc2;
 dc_gl = 0;
 dc_rl = 1;
 dc_ed = 2;

@@ -5,7 +5,7 @@ event_inherited();
 glance_success = false;
 eavesd_success = false;
 relips_success = false;
-
+my_id = obj_npc3;
 dc_rl = 1;
 dc_gl = 4;
 dc_ed = 2;

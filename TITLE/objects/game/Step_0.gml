@@ -35,7 +35,7 @@ else if(global.timer <= 0 && gameHasEnded && end_dialogue_time > 0){
 	end_dialogue_time --;
 }
 else if(global.timer <= 0 && gameHasEnded && end_dialogue_time <= 0 && !end_dialogue_created){
-	create_textbox(exit_dialogue);
+	create_textbox(exit_dialogue,obj_player.id,"nooonecares");
 	end_dialogue_created = true;
 }
 

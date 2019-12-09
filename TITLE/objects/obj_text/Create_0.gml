@@ -25,18 +25,19 @@ if(room != rm_2){
 	text_box_x = 0;
 	text_box_y = global.game_height - text_box_height;
 
-	text_box_image_x = 30;
+	text_box_image_x = 50;
 	text_box_image_y = text_box_y + 30;
 
 	x_buffer = 25;
 	y_buffer = 8;
-
+	
 	text_x = text_box_x + text_box_image_x + text_box_image_width + x_buffer;
 	text_y = text_box_image_y +  y_buffer;
 
-	text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width -15;
+	text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width -15;	
 }
-
+target = noone;
+type = "";
 pause = false;
 portrait_index = 0;
 voice = snd_sound0;

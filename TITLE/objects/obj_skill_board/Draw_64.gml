@@ -53,10 +53,6 @@ var i = 0;var j = 0;repeat(n_options){
 			draw_sprite(minus_spr,0,x_offset + j*col_size - col_size/2 - select_spr_size*1.2,y_offset*2 - string_height("M"));
 		}
 	}else{
-		show_debug_message("LUL:");
-		show_debug_message(i);
-		show_debug_message(j);
-		show_debug_message("LUL:");
 		if(i == selected_option){
 			draw_sprite(plus_selected_spr,0,x_offset + j*col_size - col_size/2 + select_spr_size*0.2,y_offset*2 - string_height("M"));
 		}

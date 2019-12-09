@@ -5,7 +5,7 @@ dc_rl = 2;
 dc_gl = 4;
 dc_ed = 3;
 dc_ch = 2;
-
+my_id = obj_npc5;
 canInteract = true;
 colorLevel = 120;
 portrait_index = 0;

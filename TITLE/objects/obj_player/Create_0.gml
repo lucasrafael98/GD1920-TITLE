@@ -58,7 +58,7 @@ intro_dialogue = [
 	createDialogMap(6,intro_text[6],id,7,[npc_move,obj_npc5]),
 	createDialogMap(7,intro_text[7],id,-1,[launch_skill_board]),
 ];
-if(room == rm_1) {create_textbox(intro_dialogue)};
+if(room == rm_1) {create_textbox(intro_dialogue,id,"noonecares")};
 
 exit_text = [
 	"First day on the job. It wasn\'t that bad, I suppose. Now, I only have to figure out who we\'re looking for.",
@@ -147,4 +147,4 @@ exit_dialogue = [
 	createDialogMap(33,exit_text[33],id,-1,-1),
 ];
 
-if(room == rm_3) {create_textbox(exit_dialogue)};
+if(room == rm_3) {create_textbox(exit_dialogue,id,"noonecares")};

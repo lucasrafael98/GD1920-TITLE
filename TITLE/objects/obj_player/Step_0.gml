@@ -75,36 +75,17 @@ if(moveY != 0){
 		moveY = 0;
 	}
 }
-/*
-// "Space-bar" Key Pressed
-if(keyboard_check_pressed(global.interact_key)){
-	
-	if(active_tbox == noone){
-		var inst = collision_rectangle(x-radius,y-radius,x+radius,y+radius,obj_npc,false,false);
-	
-		if(inst != noone){
-			with(inst){
-				var tbox = create_textbox(dialogue);
-			}
-			active_tbox = tbox;
-		}
-	}else{
-		if(!instance_exists(active_tbox)){
-			active_tbox = noone;
-		}
-	}
-}
-*/
-// "R" Key pressed (Read-Lips)
 if(keyboard_check_pressed(global.read_key)){
 	
 	if(active_tbox == noone){
 		var inst = collision_rectangle(x-radius,y-radius,x+radius,y+radius,obj_npc,false,false);
 	
 		if(inst != noone){
+			show_debug_message(object_get_name(inst));
 			with(inst){
 				event_user(0);
-				var tbox = create_textbox(dialogue);
+
+				var tbox = create_textbox(dialogue,my_id,"read");
 			}
 			active_tbox = tbox;
 		}
@@ -124,7 +105,7 @@ if(keyboard_check_pressed(global.glance_key)){
 		if(inst != noone){
 			with(inst){
 				event_user(1);
-				var tbox = create_textbox(dialogue);
+				var tbox = create_textbox(dialogue,my_id,"glance");
 			}
 			active_tbox = tbox;
 		}
@@ -144,7 +125,7 @@ if(keyboard_check_pressed(global.eavesdrop_key)){
 		if(inst != noone){
 			with(inst){
 				event_user(2);
-				var tbox = create_textbox(dialogue);
+				var tbox = create_textbox(dialogue,my_id,"eaves");
 			}
 			active_tbox = tbox;
 		}
@@ -164,7 +145,7 @@ if(keyboard_check_pressed(global.checkpass_key)){
 		if(inst != noone){
 			with(inst){
 				event_user(3);
-				var tbox = create_textbox(dialogue);
+				var tbox = create_textbox(dialogue,my_id,"check");
 			}
 			active_tbox = tbox;
 		}

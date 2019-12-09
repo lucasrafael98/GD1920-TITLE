@@ -5,3 +5,5 @@ global.timer -= 10 * 60 * 1000;
 with(obj_music){
 	event_user(1);
 }
+
+obj_player.active_tbox = noone;

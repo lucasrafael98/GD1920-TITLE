@@ -8,6 +8,9 @@ portrait_index = portraits[page];
 show_debug_message(text[page]);
 
 if(!is_array(text[page])){
+	if(type == "check"){
+		text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width -15 - 170;
+	}
 	text_wrapped = string_wrap_better(text[page],text_max_width);
 	str_len = string_length(text_wrapped);
 	global.choice_dialogue = false;
