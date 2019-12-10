@@ -1,6 +1,6 @@
 canInteract = true;
 text = [
-    "What, you trying to listen to what I\'m hearing? It\'s \"Contemplation in Repetition\" by Stechyo. Go do your goddamn job.",
+    "What, you trying to check out what I\'m listening to? It\'s \"Contemplation in Repetition\" by Stechyo, also known as Lucas Rafael. Go do your goddamn job.",
 
 ];
 dialogue = [
