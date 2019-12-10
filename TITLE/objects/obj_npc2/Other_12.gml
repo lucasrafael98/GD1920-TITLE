@@ -29,7 +29,7 @@ if(alreadyEavesdropped){
 		"\"But I... I\'ve already told him, I have nothing.\" she opens her wallet, revealing... nothing. She\'s pretty much out of money, same as everyone. \"Please, both of you, leave me alone!\"",
 		"She\'s on the verge of crying. Everyone is looking at you, wondering why you\'re letting the man beg in the bus like this.",
 		"Miss Kursztova is more wary of you as well. You\'ll have to take extra care when talking to her.",
-		"\"Ah, ‘ell. Tha\' was a waste o\' time.\" He goes away without another word."
+		"\"Ah, \'ell. Tha\' was a waste o\' time.\" He stays in the same place, not uttering another word."
 	];
 	dialogue = [
 		createDialogMap(0,text[0],id,1,-1),
@@ -41,10 +41,10 @@ if(alreadyEavesdropped){
 		createDialogMap(6,text[6],id,7,-1),
 		createDialogMap(7,text[7],id,[8,10],[-1,-1]),
 		createDialogMap(8,text[8],id,9,-1),
-		createDialogMap(9,text[9],id,-1,-1),
+		createDialogMap(9,text[9],id,-1,[NPC2Leaves]),
 		createDialogMap(10,text[10],id,11,-1),
 		createDialogMap(11,text[11],id,12,[player_increase_suspicion]),
 		createDialogMap(12,text[12],id,13,[npc1_personal]),
-		createDialogMap(13,text[13],id,-1,-1)
+		createDialogMap(13,text[13],id,-1,[NPC1Leaves])
 	];
 }

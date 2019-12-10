@@ -94,7 +94,7 @@ exit_text = [
 	"He seemed like a bit of an ass, but he just wanted \"his\" seat for some reason.",
 	"Placeholder for RL",
 	"Placeholder for RL",
-	"Placeholder for GL",
+	"He seemed to be supporting the government. I\'m not sure if agree, but why would a terrorist be so openly in support of the current state of things?",
 	"...Right?",
 	[
 		"Yes.",

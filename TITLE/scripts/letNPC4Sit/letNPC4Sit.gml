@@ -1,7 +1,4 @@
 with (obj_npc3){
-	event_user(3);
+	event_user(6);
 	canInteract = false;
-}
-with (obj_npc4){
-	event_user(2);
 }

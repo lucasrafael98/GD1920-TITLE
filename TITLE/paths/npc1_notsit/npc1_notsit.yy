@@ -1,50 +1,50 @@
 {
-    "id": "bcba119d-63ec-453c-b526-538a468e0c33",
+    "id": "b21d6675-d8ac-4519-98bf-bc39c7a32f9b",
     "modelName": "GMPath",
     "mvc": "1.0",
-    "name": "npc4_notsit",
+    "name": "npc1_notsit",
     "closed": false,
     "hsnap": 0,
     "kind": 0,
     "points": [
         {
-            "id": "808e5de7-8e7b-4220-a47f-7f7f3cc20aae",
+            "id": "cecd94c2-a71d-47dd-b246-bfbcbb21adbb",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 790.2316,
-            "y": 219.6891,
+            "x": 791.1629,
+            "y": 417.53064,
             "speed": 100
         },
         {
-            "id": "5d7c3067-e7e1-4247-9f82-f1512b12bb32",
+            "id": "bc42e1d7-28d6-4a96-879d-3f4eacfa2091",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 732.7578,
-            "y": 221.047836,
+            "x": 715.9103,
+            "y": 417.889374,
             "speed": 100
         },
         {
-            "id": "5877b912-fe3f-43ca-8031-d9b66ce57410",
+            "id": "a7122430-6d0e-4d21-bcb6-db741b5ddaaa",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 732.9028,
-            "y": 160.642761,
+            "x": 707.9865,
+            "y": 63.32885,
             "speed": 100
         },
         {
-            "id": "cd760ef6-fc98-432b-a8e6-f882c845f80e",
+            "id": "618e4201-10d2-40cd-ba33-2cdafa64bdb4",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 678.283936,
-            "y": 159.1465,
+            "x": 681.497742,
+            "y": 64.68761,
             "speed": 100
         },
         {
-            "id": "95a4bafc-6e8a-4b73-9605-25ab4874a1a6",
+            "id": "00ebc3b9-6fe8-45f5-9e8d-5474aed0e39b",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 680.283936,
-            "y": 174.711517,
+            "x": 680.7115,
+            "y": 75.25262,
             "speed": 100
         }
     ],

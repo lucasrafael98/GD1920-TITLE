@@ -6,5 +6,5 @@ ui_bar_height = sprite_get_height(spr_ui_bar);
 
 time_bar_y = ui_bar_height/2
 
-draw_sprite_ext(spr_time_bar,0,x,time_bar_y,global.skillcheckTimer/15,1,0,c_white,1);
+draw_sprite_ext(spr_time_bar,0,x,time_bar_y,global.skillcheckTimer/global.time_limit,1,0,c_white,1);
 draw_sprite(spr_time_bar_outline_font,0,x,time_bar_y);

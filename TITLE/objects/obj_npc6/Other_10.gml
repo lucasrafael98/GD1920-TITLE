@@ -1,6 +1,6 @@
 canInteract = true;
 text = [
-    "Go do your goddamn job.",
+    "I\'m not speaking right now. Go do your job and stop bothering me.",
 
 ];
 dialogue = [

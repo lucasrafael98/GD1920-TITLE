@@ -23,7 +23,7 @@ switch(global.room_state){
 	}
 }
 
-if (global.skillcheckTimer >= 15 && !gameHasEnded)
+if (global.skillcheckTimer >= global.time_limit && !gameHasEnded)
 {
 	gameHasEnded = true;
 	global.room_state = "EXITING";

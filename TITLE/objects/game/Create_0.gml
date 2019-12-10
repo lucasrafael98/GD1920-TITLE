@@ -8,6 +8,8 @@ global.game_width = 1024;
 global.game_height = 768;
 global.timer = 180 * 1000 * 100;
 
+global.time_limit = 13;
+
 global.eavesdropping = 1;
 global.readlips = 1;
 global.glance = 1;
