@@ -5,13 +5,13 @@ if(room != rm_2){
 	text_box_x = room_width/2;
 	text_box_y = room_height/3;
 
-	x_buffer = 30;
-	y_buffer = 15;
+	x_buffer = -400;
+	y_buffer = -50;
 
 	text_x = text_box_x + x_buffer;
 	text_y = text_box_y + y_buffer;
 
-	text_max_width = room_width/2 - 2*(x_buffer) -15;
+	text_max_width = room_width/2 - 2*(x_buffer) -1300;
 }else{
 	text_box = spr_text_box;
 	text_box_image = spr_text_box_image;

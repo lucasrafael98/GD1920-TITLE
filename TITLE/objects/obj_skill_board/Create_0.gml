@@ -17,8 +17,12 @@ select__finish_spr_size = sprite_get_width(spr_finish_btn_sel);
 skill_board_spr_width = sprite_get_width(skill_board_spr);
 skill_board_spr_height = sprite_get_height(skill_board_spr);
 
-skill_board_x = surface_get_width(application_surface)/2 - skill_board_spr_width/2;
-skill_board_y = surface_get_height(application_surface)/2 - skill_board_spr_height/2;
+skill_board_x = camera_get_view_x(camera)+camera_get_view_width(camera)/2;
+skill_board_y = camera_get_view_y(camera)+camera_get_view_height(camera)/2;
+
+show_debug_message(camera_get_view_x(camera));
+show_debug_message(camera_get_view_y(camera));
+
 
 col_size = skill_board_spr_width / 4;
 

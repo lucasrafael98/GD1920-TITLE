@@ -28,7 +28,7 @@ if(room == rm_2){
 }
 
 if(room == rm_2) draw_set_font(font);
-else draw_set_font(fnt_text_20);
+else draw_set_font(fnt_text_16);
 
 if(!global.choice_dialogue){
 

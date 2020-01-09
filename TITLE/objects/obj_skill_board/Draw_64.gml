@@ -2,7 +2,6 @@
 // You can write your code in this editor
 draw_set_font(font_s_title);
 draw_sprite(skill_board_spr,0,skill_board_x,skill_board_y);
-draw_set_halign(fa_center); draw_set_valign(fa_center);
 var c1 = type_color;
 draw_text_color(x_offset + skill_board_spr_width/2,y_offset/2 - string_height("M"),skill_title,c1,c1,c1,c1,1);
 
