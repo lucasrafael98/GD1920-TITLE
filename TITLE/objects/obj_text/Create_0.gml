@@ -25,8 +25,8 @@ if(room != rm_2){
 	text_box_x = 0;
 	text_box_y = global.game_height - text_box_height;
 
-	text_box_image_x = 50;
-	text_box_image_y = text_box_y + 30;
+	text_box_image_x = 100;
+	text_box_image_y = text_box_y + 60;
 
 	x_buffer = 25;
 	y_buffer = 8;

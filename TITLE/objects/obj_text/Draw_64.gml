@@ -6,10 +6,10 @@ if(room == rm_2){
 	//show_debug_message(object_get_name(target));
 	////show_debug_message(obj_npc1);
 	if(type == "check" and target != obj_npc6){
-		text_x = 160 + text_box_x + text_box_image_x + text_box_image_width + x_buffer;
+		text_x = 140 + text_box_x + text_box_image_x + text_box_image_width + x_buffer;
 		text_y = text_box_image_y +  y_buffer;
 
-		text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width -15 - 170;
+		text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width -15 - 220;
 		if(target == obj_npc1){
 			text_box_image = BHL_DB;
 		}else if(target == obj_npc2){
@@ -19,11 +19,23 @@ if(room == rm_2){
 		}else if(target == obj_npc4){
 			text_box_image = FM_DB;
 		}else if(target == obj_npc5){
-			text_box_image = BM_P;
+			text_box_image = FM_P;
 		}
-		draw_sprite_ext(text_box_image,1,text_box_image_x - 30,text_box_image_y + 15,0.4,0.4,0,c_white,1);
-	}else{
-		draw_sprite(text_box_image,1,text_box_image_x,text_box_image_y);
+		draw_sprite_ext(text_box_image,1,text_box_image_x - 60,text_box_image_y -5,0.4,0.4,0,c_white,1);
+	}else if (type == "read" and target != obj_npc6){
+		draw_set_halign(fa_center); draw_set_valign(fa_center);
+		draw_sprite(read_lips,1,text_box_image_x + 60,text_box_image_y + 100);
+		draw_set_halign(fa_top); draw_set_valign(fa_left);
+	}
+	else if (type == "glance" and target != obj_npc6){
+		draw_set_halign(fa_center); draw_set_valign(fa_center);
+		draw_sprite(Book,1,text_box_image_x + 60,text_box_image_y + 100);
+		draw_set_halign(fa_top); draw_set_valign(fa_left);
+	}
+	else if (type == "eaves" and target != obj_npc6){
+		draw_set_halign(fa_center); draw_set_valign(fa_center);
+		draw_sprite(eaves,1,text_box_image_x + 60,text_box_image_y + 100);
+		draw_set_halign(fa_top); draw_set_valign(fa_left);
 	}
 }
 

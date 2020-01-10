@@ -28,6 +28,7 @@ global.npc5_relips_success = false;
 global.skillcheckTimer = 1;
 
 global.interact_key = vk_space;
+global.escape_key = vk_escape;
 global.read_key = ord("R");
 global.eavesdrop_key = ord("E");
 global.checkpass_key = ord("Q");

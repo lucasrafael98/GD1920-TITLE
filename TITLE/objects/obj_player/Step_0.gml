@@ -156,6 +156,32 @@ if(keyboard_check_pressed(global.checkpass_key)){
 	}
 }
 
+if(keyboard_check_pressed(global.escape_key)){
+	
+	if(active_tbox != noone){
+		if(instance_exists(active_tbox)){
+			with(active_tbox){
+				instance_destroy();
+			}
+		}
+		active_tbox = noone;
+	}
+	var letter_instance = instance_find(obj_text_letter, 0);
+	var journal_instance = instance_find(obj_journal, 0);
+	if(journal_instance != noone){
+		with(journal_instance){
+			instance_destroy();
+		}
+		
+	}
+	if(letter_instance != noone){
+		with(letter_instance){
+			instance_destroy();
+		}
+		
+	}
+}
+
 
 x += moveX;
 y += moveY;

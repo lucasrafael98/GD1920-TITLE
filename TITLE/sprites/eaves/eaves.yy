@@ -1,8 +1,8 @@
 {
-    "id": "79f02754-8db0-4e9d-9159-d17da36a6d57",
+    "id": "a23b57c2-8dc8-499e-bd47-c9c9a356f529",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Book",
+    "name": "eaves",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -16,24 +16,31 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "59c06c77-4322-424d-9d99-859f3588c24d",
+            "id": "e93c96cd-018c-4ae3-8e39-72b6e234490a",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "79f02754-8db0-4e9d-9159-d17da36a6d57",
+            "SpriteId": "a23b57c2-8dc8-499e-bd47-c9c9a356f529",
             "compositeImage": {
-                "id": "15984111-84ec-4916-9f6a-efbecd983dd4",
+                "id": "ad499d65-a127-412f-a8a9-ba8fa5f497b4",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "59c06c77-4322-424d-9d99-859f3588c24d",
+                "FrameId": "e93c96cd-018c-4ae3-8e39-72b6e234490a",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "b1aafa4e-ecd2-4e59-a28b-2ee130a12b70",
+                    "id": "c0139357-dce5-4506-bbda-e3c473bb325c",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "59c06c77-4322-424d-9d99-859f3588c24d",
-                    "LayerId": "f1cd8374-555c-45cb-8461-73e237f92385"
+                    "FrameId": "e93c96cd-018c-4ae3-8e39-72b6e234490a",
+                    "LayerId": "4ac29c09-60d9-4eef-9bed-938565b74d2c"
+                },
+                {
+                    "id": "db4d30d9-0f79-41d2-a1a4-a487142596b3",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "e93c96cd-018c-4ae3-8e39-72b6e234490a",
+                    "LayerId": "0c98bcbb-c6f7-4db8-afd2-864fd75aa4de"
                 }
             ]
         }
@@ -43,13 +50,24 @@
     "height": 256,
     "layers": [
         {
-            "id": "f1cd8374-555c-45cb-8461-73e237f92385",
+            "id": "4ac29c09-60d9-4eef-9bed-938565b74d2c",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "79f02754-8db0-4e9d-9159-d17da36a6d57",
+            "SpriteId": "a23b57c2-8dc8-499e-bd47-c9c9a356f529",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "0c98bcbb-c6f7-4db8-afd2-864fd75aa4de",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "a23b57c2-8dc8-499e-bd47-c9c9a356f529",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 1",
             "opacity": 100,
             "visible": true
         }
