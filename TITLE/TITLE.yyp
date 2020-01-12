@@ -3895,6 +3895,14 @@
             }
         },
         {
+            "Key": "e7af5060-bed7-418d-85e3-35af8d1d10f9",
+            "Value": {
+                "id": "d814bd81-d2eb-4f02-8ae0-18eb846ae9af",
+                "resourcePath": "sprites\\building_falling\\building_falling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e82ff46f-d697-4c5d-add3-64cc8329c70d",
             "Value": {
                 "id": "be47fec9-179a-4150-b23c-b42d6d983293",
