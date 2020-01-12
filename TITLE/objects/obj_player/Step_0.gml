@@ -33,21 +33,23 @@ if(!global.in_dialogue && !global.in_skill_board){
 	if(moveY == 0){ moveX = (input_right - input_left) * spd;}
 }
 
-if(moveX < 0){
-	image_speed = spd/2;
-	sprite_index = S_P_LEFT;
-} else if(moveX > 0){
-	image_speed = spd/2;
-	sprite_index = S_P_RIGHT;
-} else if(moveY < 0){
-	image_speed = spd/2;
-	sprite_index = S_P_UP;
-} else if(moveY > 0){
-	image_speed = spd/2;
-	sprite_index = S_P_DOWN;
-}else{
-	image_speed = 0;
-	image_index = 0;
+if(!global.escape_key_activated){
+	if(moveX < 0){
+		image_speed = spd/2;
+		sprite_index = S_P_LEFT;
+	} else if(moveX > 0){
+		image_speed = spd/2;
+		sprite_index = S_P_RIGHT;
+	} else if(moveY < 0){
+		image_speed = spd/2;
+		sprite_index = S_P_UP;
+	} else if(moveY > 0){
+		image_speed = spd/2;
+		sprite_index = S_P_DOWN;
+	}else{
+		image_speed = 0;
+		image_index = 0;
+	}
 }
 
 if(moveX != 0){
@@ -182,9 +184,10 @@ if(keyboard_check_pressed(global.escape_key)){
 	}
 }
 
-
-x += moveX;
-y += moveY;
+if(!global.escape_key_activated){
+	x += moveX;
+	y += moveY;
+}
 
 //if (keyboard_check(vk_shift)){
 //	walkSpeed =7;

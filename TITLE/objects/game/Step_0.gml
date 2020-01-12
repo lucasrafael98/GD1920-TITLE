@@ -1,5 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(keyboard_check_pressed(global.escape_key)){
+	var letter_instance = instance_find(obj_text_letter, 0);
+	var journal_instance = instance_find(obj_journal, 0);
+	if (letter_instance == noone && journal_instance == noone){
+		var esc_menu_instance = instance_find(obj_pause_menu, 0);
+		if(esc_menu_instance != noone){
+			with(esc_menu_instance){
+				global.escape_key_activated = false;
+				instance_destroy();
+			}
+		
+		}else{
+			global.escape_key_activated = true;
+			instance_create_layer(0,0,"pause_Layer",obj_pause_menu);
+		}
+	}
+}
 
 switch(global.room_state){
 	case "IN_GAME":
@@ -39,7 +56,7 @@ else if(global.timer <= 0 && gameHasEnded && end_dialogue_time <= 0 && !end_dial
 	end_dialogue_created = true;
 }
 
-if(keyboard_check_pressed(global.letter_key)){
+if(keyboard_check_pressed(global.letter_key) && (room == rm_2 or room == rm_5)){
 	var letter_instance = instance_find(obj_text_letter, 0);
 	var journal_instance = instance_find(obj_journal, 0);
 	if(journal_instance != noone){
@@ -50,15 +67,17 @@ if(keyboard_check_pressed(global.letter_key)){
 	}
 	if(letter_instance != noone){
 		with(letter_instance){
+			global.escape_key_activated = false;
 			instance_destroy();
 		}
 		
 	}else{
+		global.escape_key_activated = true;
 		instance_create_depth(0,0,10,obj_text_letter);	
 	}
 }
 
-if(keyboard_check_pressed(global.journal_key)){
+if(keyboard_check_pressed(global.journal_key) && (room == rm_2 or room == rm_5)){
 	var letter_instance = instance_find(obj_text_letter, 0);
 	var journal_instance = instance_find(obj_journal, 0);
 	if(letter_instance != noone){
@@ -69,9 +88,11 @@ if(keyboard_check_pressed(global.journal_key)){
 	}
 	if(journal_instance != noone){
 		with(journal_instance){
+			global.escape_key_activated = false;
 			instance_destroy();
 		}
 	}else{
+		global.escape_key_activated = true;
 		instance_create_depth(0,0,10,obj_journal);	
 	}
 }

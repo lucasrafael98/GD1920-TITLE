@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto_next();
+//room_goto_next();
+
 end_dialogue_time = 60;
 end_dialogue_created = false;
 
@@ -41,6 +42,7 @@ global.skip_key = ord("Z");
 global.choice_dialogue = false;
 global.in_dialogue = false;
 global.in_skill_board = false;
+global.escape_key_activated=false;
 gameHasEnded = false;
 display_set_gui_size(global.game_width,global.game_height);
 
