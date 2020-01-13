@@ -11,7 +11,7 @@ if(room != rm_2 and room != rm_5 and room != rm_10){
 	text_x = text_box_x + x_buffer;
 	text_y = text_box_y + y_buffer;
 
-	text_max_width = room_width/2 - 2*(x_buffer) -1300;
+	text_max_width = room_width/2 - 2*(x_buffer) -1350;
 }else{
 	text_box = spr_text_box;
 	text_box_image = spr_text_box_image;
@@ -34,7 +34,7 @@ if(room != rm_2 and room != rm_5 and room != rm_10){
 	text_x = text_box_x + text_box_image_x + text_box_image_width + x_buffer;
 	text_y = text_box_image_y +  y_buffer;
 
-	text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width -15;	
+	text_max_width = text_box_width - 2*(x_buffer) - text_box_image_width -90;	
 }
 target = noone;
 type = "";

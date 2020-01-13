@@ -342,7 +342,7 @@ newlife_dialogue = [
             createDialogMap(1,newlife_text[1],id,2,-1),
             createDialogMap(2,newlife_text[2],id,3,-1),
             createDialogMap(3,newlife_text[3],id,4,-1),
-            createDialogMap(4,newlife_text[4],id,-1,-1)
+            createDialogMap(4,newlife_text[4],id,-1,[endgame])
 ];
 
 smind_text = [
@@ -368,7 +368,7 @@ goodend_text = [
 goodend_dialogue = [
             createDialogMap(0,goodend_text[0],id,1,-1),
             createDialogMap(1,goodend_text[1],id,2,-1),
-            createDialogMap(2,goodend_text[2],id,-1,-1)
+            createDialogMap(2,goodend_text[2],id,-1,[endgame])
 ];
 
 poolblood_text = [
@@ -380,7 +380,7 @@ poolblood_text = [
 poolblood_dialogue = [
             createDialogMap(0,poolblood_text[0],id,1,-1),
             createDialogMap(1,poolblood_text[1],id,2,-1),
-            createDialogMap(2,poolblood_text[2],id,-1,-1)
+            createDialogMap(2,poolblood_text[2],id,-1,[endgame])
 ];
 
 showdown_text = [

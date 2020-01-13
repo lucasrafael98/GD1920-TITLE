@@ -2751,6 +2751,14 @@
             }
         },
         {
+            "Key": "8e4db38c-7844-4efb-9136-8a4f86f4912d",
+            "Value": {
+                "id": "078247fb-d74d-471f-9e44-6b4a3c24ab7a",
+                "resourcePath": "scripts\\endgame\\endgame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8e87ff36-0f1f-4952-829d-01e78c3e8bea",
             "Value": {
                 "id": "39b64fc6-c1f0-4042-b6a6-4735562798eb",
@@ -4941,7 +4949,8 @@
         "b6bd8dd2-9a5d-4724-92c9-8398f2e1ea20",
         "afb06d5a-32e8-4c8b-a550-b57a5cb2f0ab",
         "329f09c5-88ef-4c3f-b43b-889461a67d76",
-        "f1aa5605-4eff-4d15-92af-c3899ce809f9"
+        "f1aa5605-4eff-4d15-92af-c3899ce809f9",
+        "8e4db38c-7844-4efb-9136-8a4f86f4912d"
     ],
     "tutorial": ""
 }
