@@ -36,7 +36,7 @@ if(alreadyGlanced){
         ];
 	dialogue = [
             createDialogMap(0,text[0],id,1,-1),
-            createDialogMap(1,text[1],id,[-1,-1],[[skillBranch, id, 1, 3, obj_npc_l2_5.dc_gl, 2, 4], [skillBranch, id, 1, 3, dc_gl, 7, 22]]),
+            createDialogMap(1,text[1],id,[-1,-1],[[skillBranch2, id, 1, 3, dc_gl, 2, 4], [skillBranch21, id, 1, 3, obj_npc_l2_2.dc_gl, 7, 22]]),
             createDialogMap(2,text[2],id,3,-1),
             createDialogMap(3,text[3],id,[-1],[-1]),
             createDialogMap(4,text[4],id,5,-1),
@@ -50,7 +50,7 @@ if(alreadyGlanced){
             createDialogMap(12,text[12],id,[13,-1],[-1,-1]),
             createDialogMap(13,text[13],id,14,-1),
             createDialogMap(14,text[14],id,[15,16],[-1,-1]),
-            createDialogMap(15,text[15],id,17,[change_variable, obj_player, s_eavesdropping, s_eavesdropping-1]),
+            createDialogMap(15,text[15],id,17,[change_variable, obj_player, "s_eavesdropping", obj_player.s_eavesdropping-1]),
             createDialogMap(16,text[16],id,17,-1),
             createDialogMap(17,text[17],id,18,-1),
             createDialogMap(18,text[18],id,19,[player_increase_suspicion_var, 3]),

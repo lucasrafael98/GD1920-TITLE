@@ -36,7 +36,7 @@ if(alreadyGlanced){
         ];
 	dialogue = [
             createDialogMap(0,text[0],id,1,-1),
-            createDialogMap(1,text[1],id,[-1,-1],[[skillBranch, id, 1, 3, dc_gl, 2, 4], [skillBranch, id, 1, 3, obj_npc_l2_2.dc_gl, 7, 22]]),
+            createDialogMap(1,text[1],id,[-1,-1],[[skillBranch2, id, 1, 3, dc_gl, 2, 4], [skillBranch21, id, 1, 3, obj_npc_l2_2.dc_gl, 7, 22]]),
             createDialogMap(2,text[2],id,3,-1),
             createDialogMap(3,text[3],id,[-1],[-1]),
             createDialogMap(4,text[4],id,5,-1),

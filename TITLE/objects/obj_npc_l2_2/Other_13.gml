@@ -22,7 +22,7 @@ if(alreadyCheckedPass){
             createDialogMap(0,text[0],id,1,-1),
             createDialogMap(1,text[1],id,[-1],[[skillBranch, id, 1, 1, obj_npc_l2_5.dc_ch, 2, 5]]),
             createDialogMap(2,text[2],id,3,-1),
-            createDialogMap(3,text[3],id,[4,-1],[-1, [skillBranch, id, 3, 1, dc_ch, 6, 10]]),
+            createDialogMap(3,text[3],id,[4,-1],[-1, [skillBranch21, id, 3, 1, dc_ch, 6, 10]]),
             createDialogMap(4,text[4],id,3,-1),
             createDialogMap(5,text[5],id,-1,[skillBranch_alt, id, 5, 1, dc_ch, 6, 10]),
             createDialogMap(6,text[6],id,7,-1),
