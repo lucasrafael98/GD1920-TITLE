@@ -3,7 +3,7 @@
 event_inherited();
 rlips_success = false;
 glance_success = false;
-my_id = obj_npc1;
+my_id = obj_npc_l2_3;
 canInteract = true;
 colorLevel = 120;
 direction = 0;

@@ -3,7 +3,7 @@
 event_inherited();
 cpass_success = false;
 eavesd_success = false;
-my_id = obj_npc1;
+my_id = obj_npc_l2_1;
 canInteract = true;
 colorLevel = 120;
 direction = 0;

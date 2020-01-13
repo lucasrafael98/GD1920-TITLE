@@ -2,7 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 arrest_success = false;
-my_id = obj_npc1;
+my_id = obj_npc_l2_2;
 canInteract = true;
 colorLevel = 120;
 direction = 0;

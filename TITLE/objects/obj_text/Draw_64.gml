@@ -20,7 +20,19 @@ if(room == rm_2 or room == rm_5 or room == rm_10){
 			text_box_image = FM_DB;
 		}else if(target == obj_npc5){
 			text_box_image = FM_P;
-		} else {text_box_image = FM_P;}
+		} else if(target == obj_npc_l2_1){
+			text_box_image = grace;
+		} else if(target == obj_npc_l2_2){
+			text_box_image = kristen_phillips;
+		} else if(target == obj_npc_l2_3){
+			text_box_image = Kurzstov;
+		} else if(target == obj_npc_l2_4){
+			text_box_image = sutherland;
+		} else if(target == obj_npc_l2_5){
+			text_box_image = joseph_phillipst;
+		} else if(target == obj_npc_l2_6){
+			text_box_image = sutter;
+		} else {text_box_image = defaultt;}
 		draw_sprite_ext(text_box_image,1,text_box_image_x - 60,text_box_image_y -5,0.4,0.4,0,c_white,1);
 	}else if (type == "read" and target != obj_npc6){
 		draw_set_halign(fa_center); draw_set_valign(fa_center);

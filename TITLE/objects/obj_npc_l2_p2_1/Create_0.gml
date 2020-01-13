@@ -2,7 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 
-my_id = obj_npc1;
+my_id = obj_npc_l2_p2_1;
 canInteract = true;
 colorLevel = 120;
 direction = 0;
