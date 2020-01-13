@@ -10,9 +10,6 @@ spd = n_spd;
 
 radius = 16; 
 
-l2c1_accusee1 = id;
-l2c1_accusee2 = id;
-
 s_eavesdropping = global.eavesdropping;
 s_readlips = global.readlips;
 s_glance = global.glance;
@@ -366,9 +363,9 @@ goodend_text = [
 ];
 
 goodend_dialogue = [
-            createDialogMap(0,smind_text[0],id,1,-1),
-            createDialogMap(1,smind_text[1],id,2,-1),
-            createDialogMap(2,smind_text[2],id,-1,-1)
+            createDialogMap(0,goodend_text[0],id,1,-1),
+            createDialogMap(1,goodend_text[1],id,2,-1),
+            createDialogMap(2,goodend_text[2],id,-1,-1)
 ];
 
 poolblood_text = [
@@ -378,9 +375,9 @@ poolblood_text = [
 ];
 
 poolblood_dialogue = [
-            createDialogMap(0,smind_text[0],id,1,-1),
-            createDialogMap(1,smind_text[1],id,2,-1),
-            createDialogMap(2,smind_text[2],id,-1,-1)
+            createDialogMap(0,poolblood_text[0],id,1,-1),
+            createDialogMap(1,poolblood_text[1],id,2,-1),
+            createDialogMap(2,poolblood_text[2],id,-1,-1)
 ];
 
 showdown_text = [
@@ -403,7 +400,7 @@ showdown_text = [
         "\"You are going to help me with this, and you are going to get your promotion. You will do what is needed of you, without further question. Or you will be shot like the useless, meek animal that you are. There is no arguing here. Do you understand?\"",
         ["\"I can\'t do what you ask of me.\" Draw your weapon.", "\"I... I do. Let\'s begin.\""],
         "Wait... you better be goddamn sure about what you\'re gonna do. Are you sure about this?",
-        ["Yes, I am.","Let me rethink this."],
+        ["Yes, I am.","No, I\'m not gonna kill all these innocent people. *Draw your weapon*"],
         "Time...",
         "...slows...",
         "...down.",
@@ -433,7 +430,7 @@ showdown_dialogue = [
             createDialogMap(14,showdown_text[14],id,15,[changeMusic]),
             createDialogMap(15,showdown_text[15],id,16,-1),
             createDialogMap(16,showdown_text[16],id,17,-1),
-            createDialogMap(17,showdown_text[17],id,[20,18],[-1,-1]),
+            createDialogMap(17,showdown_text[17],id,[20,18],[[changeMusic],-1]),
             createDialogMap(18,showdown_text[18],id,19,-1),
             createDialogMap(19,showdown_text[19],id,[-1,20],[[start_smind_end],[changeMusic]]),
             createDialogMap(20,showdown_text[20],id,21,-1),
@@ -448,11 +445,11 @@ showdown_dialogue = [
 ];
 
 if(room == rm_3) {create_textbox(exit_dialogue,id,"noonecares")};
-if(room == rm_6) {
+else if(room == rm_6) {
 	create_textbox(exit_dialogue2,id,"noonecares")
 };
-if(room == rm_7) {create_textbox(newlife_dialogue,id,"noonecares")};
-if(room == rm_8) {create_textbox(poolblood_dialogue,id,"noonecares")};
-if(room == rm_9) {create_textbox(goodend_dialogue,id,"noonecares")};
-if(room == rm_11) {create_textbox(showdown_dialogue,id,"noonecares")};
-if(room == rm_13) {create_textbox(smind_dialogue,id,"noonecares")};
+else if(room == rm_7) {create_textbox(newlife_dialogue,id,"noonecares")};
+else if(room == rm_8) {create_textbox(poolblood_dialogue,id,"noonecares")};
+else if(room == rm_9) {create_textbox(goodend_dialogue,id,"noonecares")};
+else if(room == rm_11) {create_textbox(showdown_dialogue,id,"noonecares")};
+else if(room == rm_13) {create_textbox(smind_dialogue,id,"noonecares")};

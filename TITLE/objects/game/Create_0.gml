@@ -5,6 +5,9 @@
 end_dialogue_time = 60;
 end_dialogue_created = false;
 
+global.l2c1_accusee1 = 0;
+global.l2c1_accusee2 = 0;
+
 global.game_width = 1024;
 global.game_height = 768;
 global.timer = 180 * 1000 * 100;

@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 if(room = rm_11){
 	sprite_index = S_P_BL;
 	image_speed = 0;
