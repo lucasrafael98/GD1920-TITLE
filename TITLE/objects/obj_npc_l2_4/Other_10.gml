@@ -15,7 +15,7 @@ if(alreadyReadLips){
         "You try reading his lips and... wait, aren\'t you supposed to be bad at this? You can perfectly understand what he\'s saying.\n\"Its not supposed to make sense.\"",
         ["\"Are you talking to yourself or something?\"","Screw this, I\'m outta here."],
         "Only now did he notice you. \"Oh, hello. I\'m doing this fun game where you try to jumble words. I don\'t know, feels like you\'re trying to visualize what someone\'s saying when you read their lips. I\'ve been doing this since I was created. Have you ever tried it?\" ",
-        ["\"... ‘Created\'?\"","\"Yeah, I try it all the time.\"","\"Uh... okay.\" Leave him alone."],
+        ["\"... \'Created\'?\"","\"Yeah, I try it all the time.\"","\"Uh... okay.\" Leave him alone."],
         "\"Yes.\" He doesn\'t say anything else.",
         "\"Great!\" He doesn\'t say anything else."
         ];

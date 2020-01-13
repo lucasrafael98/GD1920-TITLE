@@ -6,8 +6,6 @@ if(room == rm_2){
 	with(obj_music){
 		event_user(1);
 	}
-} else if (room == rm_5){
-	global.timer2 -= 10 * 60 * 1000;
 }
 
 obj_player.active_tbox = noone;

@@ -11,7 +11,7 @@ if(alreadyGlanced){
         ["Take a glance at his laptop.","Leave the man alone."],
         "You see a pretty strange computer game. It\'s being played from a person\'s eyes, and you can see bars with \"Hunger\" and \"Exhaustion\" mostly in the red. He seems to be cutting up a bull in parts. It\'s very... brown and dull-looking.",
         ["\"Seems like a fun game.\"","Leave him alone with his game."],
-        "He\'s a bit startled and notices you. He doesn\'t seem to question why you\'re looking at him, but he seems interested in talking about the game. \"This isn\'t a... ‘fun\' game. Honestly... do you think games can be art?\"",
+        "He\'s a bit startled and notices you. He doesn\'t seem to question why you\'re looking at him, but he seems interested in talking about the game. \"This isn\'t a... \'fun\' game. Honestly... do you think games can be art?\"",
         ["\"Video games are for children.\"","\"Hmm... maybe. What makes you think that?\""],
         "\"I see there\'s no reasoning with you.\" He gets back to his game.",
         "\"Well... it seems to explore the human condition in a way that hasn\'t been done before in your average cinematic shooter. You see, I\'m currently about to die of starvation and exhaustion, but hopefully this bull will gift me with some food so I can survive for another three minutes. I hate this game... but I also love it. It\'s hard to explain.\"",

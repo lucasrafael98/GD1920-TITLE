@@ -8,7 +8,7 @@ if(alreadyCheckedPass){
         ["\"Madam, could I please have your passport?\""],
         "\"Of course.\" She hands you her passport.",
         "Windsor Enterprises, a very, very successful arms corporation fueling the war down south. You remember this woman\'s face; she\'s the chairman.",
-        ["\"Hey, I\'ve seen you on TV.\"","\"May I inquire to the specifics of your ‘official business\'?\"","\"Thank you madam, everything checks out.\""],
+        ["\"Hey, I\'ve seen you on TV.\"","\"May I inquire to the specifics of your \'official business\'?\"","\"Thank you madam, everything checks out.\""],
         "\"You probably have.\" She doesn\'t even bother looking at you, as if you\'re a mere insect in her presence.",
         "\"You don\'t look like a shareholder of Windsor Enterprises, so no.\" ",
         "Windsor Enterprises? Doesn\'t ring a bell, though it seems pretty official. You\'re sure it\'s fine."

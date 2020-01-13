@@ -329,5 +329,65 @@ exit_dialogue2 = [
             createDialogMap(75,exit_text2[75],id,-1,[startCarriage2])
 ];
 
+newlife_text = [
+        "Free.",
+        "Finally, free.",
+        "When we crossed the border, I just jumped.  Train line wasn\'t moving fast enough to kill me. Got out in a pretty rough shape though.",
+        "After a very hungry night out in the woods, I managed to walk into a small town in the middle of nowhere. Nice people, took me in and fixed me up. I\'ve been helping out in their farm for a couple of weeks. ",
+        "No one\'s come looking. And I doubt they will. Nobody ever gave a fuck about me anyway."
+];
+
+newlife_dialogue = [
+            createDialogMap(0,newlife_text[0],id,1,-1),
+            createDialogMap(1,newlife_text[1],id,2,-1),
+            createDialogMap(2,newlife_text[2],id,3,-1),
+            createDialogMap(3,newlife_text[3],id,4,-1),
+            createDialogMap(4,newlife_text[4],id,-1,-1)
+];
+
+smind_text = [
+        "At what cost do we succumb and do the things they tell us to?",
+        "I was quite successful after I got my promotion. Got into the Institute of Stability. Reached the point where I was one of those people that decided what was on a \"need to know\" basis. I saw some shit, but nothing as bad as that day.",
+        "It\'s been... years. I\'ve done everything that was asked of me, but it gets to a point where you just can\'t take that shit. The drinking helped, well, until it didn\'t.",
+        "I\'m probably gonna get evicted tomorrow. Can\'t even get myself out of my head, this shattered palace of decayed neurons, forming the rotting, dysfunctional web that used to be a human being. It\'s dark here."
+];
+
+smind_dialogue = [
+            createDialogMap(0,smind_text[0],id,1,-1),
+            createDialogMap(1,smind_text[1],id,2,-1),
+            createDialogMap(2,smind_text[2],id,3,-1),
+            createDialogMap(3,smind_text[3],id,-1,-1)
+];
+
+goodend_text = [
+        "Sometimes, you\'ve just gotta say \"No.\"",
+        "Took me a while to open my eyes. Well, at least it felt like a long time. I immediately saw Edwards lying on the floor, on top of a pool of blood. The intervention guys managed to get the terrorists thanks to me. I told them I got the leader. Thankfully they didn\'t notice his ID. We managed to get the location of the bombs, and disarmed them.",
+        "I figured I wasn\'t wanted back home, and word got around that I saved everyone on that train. I never went back to Burnham. Got a nice, cozy desk job on Westburgh PD. Life is good."
+];
+
+goodend_dialogue = [
+            createDialogMap(0,smind_text[0],id,1,-1),
+            createDialogMap(1,smind_text[1],id,2,-1),
+            createDialogMap(2,smind_text[2],id,-1,-1)
+];
+
+poolblood_text = [
+        "Took me a while to open my eyes. Found myself in a pool of blood of my own making. So much blood for a tiny little hole... I didn\'t find the right people. They must have distracted me, or shot me from behind. I failed. And now all evidence of this will be erased in the forthcoming blast.",
+        "Maybe in another life, I would have been successful. Or should I have caved and done what was expected and wanted of me? I\'m too near death to think this properly through now, and I suppose it\'s pointless given the situation.",
+        "It\'s so cold..."
+];
+
+poolblood_dialogue = [
+            createDialogMap(0,smind_text[0],id,1,-1),
+            createDialogMap(1,smind_text[1],id,2,-1),
+            createDialogMap(2,smind_text[2],id,-1,-1)
+];
+
 if(room == rm_3) {create_textbox(exit_dialogue,id,"noonecares")};
-if(room == rm_6) {create_textbox(exit_dialogue2,id,"noonecares")};
+if(room == rm_6) {
+	create_textbox(exit_dialogue2,id,"noonecares")
+};
+if(room == rm_7) {create_textbox(newlife_dialogue,id,"noonecares")};
+if(room == rm_8) {create_textbox(poolblood_dialogue,id,"noonecares")};
+if(room == rm_9) {create_textbox(goodend_dialogue,id,"noonecares")};
+if(room == rm_13) {create_textbox(smind_dialogue,id,"noonecares")};

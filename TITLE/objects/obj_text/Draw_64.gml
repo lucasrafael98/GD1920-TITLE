@@ -66,7 +66,13 @@ if(!global.choice_dialogue){
 }else{
 	var c = text_col;
 	var i = 0, y_add = 0;repeat(text_array_len){
-		if(choice == i){ draw_sprite(spr_dialog_selected,0,text_x-x_buffer*1.75,text_y+y_add-y_buffer+5);}
+		if(choice == i){ 
+			if(room != rm_2 and room != rm_5 and room != rm_10){
+				draw_sprite(spr_dialog_selected,0,text_x-45,text_y+y_add-3);
+			}else{
+				draw_sprite(spr_dialog_selected,0,text_x-x_buffer*1.75,text_y+y_add-y_buffer+5);
+			}
+		}
 		else{c = text_col}
 		draw_text_ext_color(text_x,text_y+y_add,text_array[i],text_height,text_max_width,c,c,c,c,1);
 		y_add += string_height_ext(text_array[i],text_height,text_max_width);

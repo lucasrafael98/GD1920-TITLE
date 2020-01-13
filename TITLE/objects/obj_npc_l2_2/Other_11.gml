@@ -29,7 +29,7 @@ if(alreadyGlanced){
         "You and the other passengers bring him to another carriage to lock him there. He\'ll go back to the capital when we get to the border crossing. You thank the other people. This got messy, though.",
         "You think of asking Kristen if there\'s anything more she can tell you about her lovely husband. Should you?",
         ["Yes.","No."],
-        "You approach her. \"Was there any reason he did all of this?\" She looks at you, and replies \"I don\'t know. He kept calling some people, saying he was gonna meet them in Westburgh and... ‘trade\'. He had a gun, but he couldn\'t get it through security. He said he\'d kill me if I sought help though... Thank you. I\'m glad I\'m getting off this country.\"",
+        "You approach her. \"Was there any reason he did all of this?\" She looks at you, and replies \"I don\'t know. He kept calling some people, saying he was gonna meet them in Westburgh and... \'trade\'. He had a gun, but he couldn\'t get it through security. He said he\'d kill me if I sought help though... Thank you. I\'m glad I\'m getting off this country.\"",
         "You can\'t see anything out of the ordinary, but you can give it another go.",
         ["Give it another go.","Best not to."],
         "\"You got something you want to say? Or are you just staring like a dumbass?\" Joseph stares at you, and other people notice."
