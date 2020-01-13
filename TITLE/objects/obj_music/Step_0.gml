@@ -49,6 +49,10 @@ if(room == rm_2 && cur_room = 1){
 	audio_play_sound(pluc_c4, 1000, true);
 	audio_play_sound(pluc_c5, 1000, true);
 	cur_room = 11;
+}else if(room == rm_12 && cur_room != 12){
+	audio_stop_all()
+	audio_play_sound(smind_music1, 1000, false);
+	cur_room = 12;
 }else if(room == rm_13 && cur_room != 13){
 	audio_stop_all()
 	audio_play_sound(drifting, 1000, false);

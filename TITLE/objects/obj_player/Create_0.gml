@@ -8,6 +8,9 @@ n_spd = 2;
 r_spd = 3;
 spd = n_spd;
 
+vert_vel = 0;
+grav = 0.5;
+
 radius = 16; 
 
 s_eavesdropping = global.eavesdropping;
@@ -353,7 +356,7 @@ smind_dialogue = [
             createDialogMap(0,smind_text[0],id,1,-1),
             createDialogMap(1,smind_text[1],id,2,-1),
             createDialogMap(2,smind_text[2],id,3,-1),
-            createDialogMap(3,smind_text[3],id,-1,-1)
+            createDialogMap(3,smind_text[3],id,-1,[changeto12])
 ];
 
 goodend_text = [

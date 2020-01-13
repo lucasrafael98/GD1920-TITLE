@@ -21,29 +21,21 @@ if(keyboard_check_pressed(global.escape_key)){
 switch(global.room_state){
 	case "IN_GAME":
 	{
-		global.alpha = 1;
-		break;
-	}
-	case "BETWEEN_ROOMS":
-	{
-		global.alpha = 0;
+		draw_set_alpha(1);
 		break;
 	}
 	case "EXITING":
 	{
 		global.alpha -= 0.05;
-		if(global.alpha < 0) {
-			global.room_state = "BETWEEN_ROOMS";
-			room_goto(global.next_room);
-		}
+		if(global.alpha < 0) {global.alpha = 0}
+		draw_set_alpha(global.alpha);
 		break;
 	}
 	case "ENTERING":
 	{
 		global.alpha += 0.05;
-		if(global.alpha > 1) {
-			global.room_state = "IN_GAME";
-		}
+		if(global.alpha > 1) {global.alpha = 1}
+		draw_set_alpha(global.alpha);
 		break;
 	}
 }
