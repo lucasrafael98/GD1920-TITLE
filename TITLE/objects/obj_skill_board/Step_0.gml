@@ -26,7 +26,7 @@ else if(keyboard_check_pressed(vk_right)){
 		case 4:	if(points_available < max_points_available && global.readlips > 1)					{global.readlips--;			points_available++;}break;
 		case 7:	if(points_available >0 && global.glance >= 1 && global.glance < 10)					{global.glance++;			points_available--;}break;
 		case 6:	if(points_available < max_points_available && global.glance > 1)					{global.glance--;			points_available++;}break;
-		case 8:	global.room_state = "EXITING";break;
+		case 8:	global.room_state = "EXITING"; break;
 
 	}
 }

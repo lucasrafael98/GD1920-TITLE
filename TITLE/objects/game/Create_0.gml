@@ -11,7 +11,6 @@ global.l2c1_accusee2 = 0;
 global.game_width = 1024;
 global.game_height = 768;
 global.timer = 180 * 1000 * 100;
-
 // "new life" ending
 global.newlife = false;
 
@@ -44,6 +43,8 @@ global.glance_key = ord("W");
 global.letter_key = ord("L");
 global.journal_key = ord("J");
 global.skip_key = ord("Z");
+
+global.next_room = choose_lvl;
 
 global.choice_dialogue = false;
 global.in_dialogue = false;

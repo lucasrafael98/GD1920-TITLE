@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "329f09c5-88ef-4c3f-b43b-889461a67d76",
+            "Value": {
+                "id": "d168bfc4-4070-4009-b043-14290b09fd2b",
+                "resourcePath": "scripts\\transition_out\\transition_out.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "32d3193f-d6f5-407c-af10-a7507584e509",
             "Value": {
                 "id": "551d8657-40df-4efb-842e-d575de1f2d81",
@@ -2831,6 +2839,14 @@
             }
         },
         {
+            "Key": "99250bbc-93cc-4bff-9de9-401c4ea03c0d",
+            "Value": {
+                "id": "006bd8ee-cf1e-4aed-b51d-320235dc0626",
+                "resourcePath": "sprites\\spr_success\\spr_success.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9ae8282f-12a2-482c-9a78-386ffcc41929",
             "Value": {
                 "id": "eeeea0d9-05a8-4f35-8561-04332347503d",
@@ -4071,6 +4087,14 @@
             }
         },
         {
+            "Key": "de33c80a-e4b5-4fc5-bcea-4bfb68bc346f",
+            "Value": {
+                "id": "9e169fc9-98c0-4510-87d2-a94db93a143b",
+                "resourcePath": "sprites\\spr_fader\\spr_fader.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "df4207ed-97e1-4b0f-8fa6-dfcd2939751e",
             "Value": {
                 "id": "3f253ad0-db36-4cb1-8cd3-43e92837f387",
@@ -4471,6 +4495,14 @@
             }
         },
         {
+            "Key": "f2301e19-f9b9-4341-9f77-370aff360df5",
+            "Value": {
+                "id": "cd667da2-4616-42d5-a3b2-f390f229005d",
+                "resourcePath": "sprites\\spr_failure\\spr_failure.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f25665a2-2d56-4216-b355-53d84816688f",
             "Value": {
                 "id": "dc0b647f-e66f-4cd5-bbc2-82f7ed32d7e2",
@@ -4777,7 +4809,8 @@
         "677e1434-1784-4399-a1e1-3830ca6b02f6",
         "55da3d89-0e8b-4c5e-882f-23c6833e5696",
         "b6bd8dd2-9a5d-4724-92c9-8398f2e1ea20",
-        "afb06d5a-32e8-4c8b-a550-b57a5cb2f0ab"
+        "afb06d5a-32e8-4c8b-a550-b57a5cb2f0ab",
+        "329f09c5-88ef-4c3f-b43b-889461a67d76"
     ],
     "tutorial": ""
 }

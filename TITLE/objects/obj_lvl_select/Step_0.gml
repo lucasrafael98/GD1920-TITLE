@@ -8,8 +8,12 @@ else if(keyboard_check_pressed(vk_right)){
 	if(selected_option == 0){selected_option++}
 	else{selected_option = 0}
 }else if(keyboard_check_pressed(global.interact_key)){
-	if(selected_option == 0){room_goto(rm_1);}
+	if(selected_option == 0){
+		global.room_state = "EXITING";
+		global.next_room = rm_1;
+		}
 	else{
-		room_goto(rm_4);
+		global.room_state = "EXITING";
+		global.next_room = rm_4;
 		}
 }
