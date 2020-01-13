@@ -8,10 +8,10 @@ colorLevel = 120;
 direction = 0;
 portrait_index = 0;
 voice = snd_sound0;
-name = "Katerina Kursztova";
+name = "James Sutherland";
 personalSuspicion = 0;
 
-dc_rl = 2;
-dc_ed = 1;
-dc_gl = 2;
-dc_ch = 1;
+dc_rl = 7;
+dc_ed = -1;
+dc_gl = 5;
+dc_ch = 2;

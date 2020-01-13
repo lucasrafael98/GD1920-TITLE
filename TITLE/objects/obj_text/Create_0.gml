@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(room != rm_2){
+if(room != rm_2 and room != rm_5 and room != rm_5){
 
 	text_box_x = room_width/2;
 	text_box_y = room_height/3;

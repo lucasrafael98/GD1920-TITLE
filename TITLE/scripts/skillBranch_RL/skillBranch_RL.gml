@@ -9,10 +9,10 @@ branch3 = argument[6];
 show_debug_message("Hello?");
 
 var temp_next_line = get_dialogue_part(npc.dialogue,"next_part");
-if((obj_player.s_readlips - obj_player.a_suspicion) >= dc + 1){
+if((obj_player.s_readlips - obj_player.a_susp_mod) >= dc + 1){
 	temp_next_line[line] = [branch1];
 	create_textbox_success("SUCCESS","Read Lips",c_green); 
-} else if((obj_player.s_readlips - obj_player.a_suspicion) >= dc){
+} else if((obj_player.s_readlips - obj_player.a_susp_mod) >= dc){
 	temp_next_line[line] = [branch2];
 	create_textbox_success("SUCCESS","Read Lips",c_green); 
 } else{

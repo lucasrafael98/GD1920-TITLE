@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(room == rm_2) draw_sprite(text_box,0,text_box_x,text_box_y);
-if(room != rm_2) draw_sprite_ext(spr_fade_sprite,1,0,0,1,1,0,c_white,0.5);
-if(room == rm_2){
+if(room == rm_2 or room == rm_5 or room == rm_10) draw_sprite(text_box,0,text_box_x,text_box_y);
+if(room != rm_2 and room != rm_5 and room != rm_10) draw_sprite_ext(spr_fade_sprite,1,0,0,1,1,0,c_white,0.5);
+if(room == rm_2 or room == rm_5 or room == rm_10){
 	//show_debug_message(object_get_name(target));
 	////show_debug_message(obj_npc1);
 	if(type == "check" and target != obj_npc6){
@@ -20,7 +20,7 @@ if(room == rm_2){
 			text_box_image = FM_DB;
 		}else if(target == obj_npc5){
 			text_box_image = FM_P;
-		}
+		} else {text_box_image = FM_P;}
 		draw_sprite_ext(text_box_image,1,text_box_image_x - 60,text_box_image_y -5,0.4,0.4,0,c_white,1);
 	}else if (type == "read" and target != obj_npc6){
 		draw_set_halign(fa_center); draw_set_valign(fa_center);
@@ -39,7 +39,7 @@ if(room == rm_2){
 	}
 }
 
-if(room == rm_2) draw_set_font(font);
+if(room == rm_2 or room == rm_5 or room == rm_10) draw_set_font(font);
 else draw_set_font(fnt_text_16);
 
 if(!global.choice_dialogue){

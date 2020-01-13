@@ -18,6 +18,10 @@ if(room==rm_2 and game.gameHasEnded and global.alpha <= 0){
 	room_goto_next();
 	global.room_state = "ENTERING";
 }
+else if(room==rm_5 and game.gameHasEnded and global.alpha <= 0){
+	room_goto_next();
+	global.room_state = "ENTERING";
+}
 
 if(input_walk or input_run){
 	spd = abs((input_walk * w_spd) - (input_run*r_spd));

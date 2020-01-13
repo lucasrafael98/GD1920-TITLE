@@ -4,22 +4,27 @@ if(alreadyCheckedPass){
 } else {
 	alreadyCheckedPass = true;
 	text = [
-		"A thin woman with black hair stands in front of you. She reeks of cigarettes, but doesn\'t look repulsive otherwise. She hands you the pass without a word.", 
-	
-		[
-			"\"What do you do for work?\"",
-			"\"Why are you only allowed on these stops? Don't you have houses to visit.\"",
-			"\"Alright, everything checks out.\""
+        "You see a blonde man with a very dense beard in front of you. He looks completely focused on something else, as if this \"real\" world is not important to him.",
+        [
+			"\"Sir, could I please have your pass?\""
 		],
-		"\"Real estate\", she replies with little fanfare. Not the hottest area right now, which explains her gaunt figure.",
-		"\"I only need to go to work and get back home, same as everybody. With the war going on, there aren't many houses for sale.\"",
-		"The woman nods and takes back her pass."
-	];
+        "Kursztov? Might this man be related to that realtor in your first conductor assignment?",
+        [
+			"\"Would you happen by any chance to know a Katerina Kurstova, sir?\"",
+			"\"You are a citizen of Westburgh?\"",
+			"\"Alright, your passport is quite valid.\""
+		],
+        "He suddenly gets a lot more focused in this reality. He gets out of his thousand-yard stare to look at you in rage and pain, saying only: \"Do not ask me about her.\"",
+        "\"Yes I am. Not this Burnham shithole where people\'s souls come to die.\"",
+        "Citizens of Westburgh are allowed on this train. Apart from that, you don\'t notice anything of note."
+    ];
 	dialogue = [
-		createDialogMap(0,text[0],id,1,-1),
-		createDialogMap(1,text[1],obj_player,[2,3,4],[-1,-1,-1]),
-		createDialogMap(2,text[2],id,1,-1),
-		createDialogMap(3,text[3],id,1,-1),
-		createDialogMap(4,text[4],id,-1,-1)
-	];
+            createDialogMap(0,text[0],id,1,-1),
+            createDialogMap(1,text[1],id,[-1],[[skillBranch, id, 1, 1, dc_ch, 2, 6]]),
+            createDialogMap(2,text[2],id,3,-1),
+            createDialogMap(3,text[3],id,[4,5,-1],[-1,-1,-1]),
+            createDialogMap(4,text[4],id,3,-1),
+            createDialogMap(5,text[5],id,3,-1),
+            createDialogMap(6,text[6],id,-1,-1)
+    ];
 }

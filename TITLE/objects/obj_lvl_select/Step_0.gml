@@ -9,5 +9,7 @@ else if(keyboard_check_pressed(vk_right)){
 	else{selected_option = 0}
 }else if(keyboard_check_pressed(global.interact_key)){
 	if(selected_option == 0){room_goto(rm_1);}
-	else{room_goto(rm_4);}
+	else{
+		room_goto(rm_4);
+		}
 }

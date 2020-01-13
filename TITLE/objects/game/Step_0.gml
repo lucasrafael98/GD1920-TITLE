@@ -40,6 +40,10 @@ switch(global.room_state){
 	}
 }
 
+if(room == rm_5){
+	global.time_limit = 11;
+}
+
 if (global.skillcheckTimer >= global.time_limit && !gameHasEnded)
 {
 	gameHasEnded = true;
@@ -52,7 +56,11 @@ else if(global.timer <= 0 && gameHasEnded && end_dialogue_time > 0){
 	end_dialogue_time --;
 }
 else if(global.timer <= 0 && gameHasEnded && end_dialogue_time <= 0 && !end_dialogue_created){
-	create_textbox(exit_dialogue,obj_player.id,"nooonecares");
+	if(room == rm_2){
+		create_textbox(exit_dialogue,obj_player.id,"nooonecares");
+	} else if(room == rm_5){
+		create_textbox(exit_dialogue2,obj_player.id,"nooonecares");
+	}
 	end_dialogue_created = true;
 }
 
@@ -98,8 +106,13 @@ if(keyboard_check_pressed(global.journal_key) && (room == rm_2 or room == rm_5))
 }
 
 if(keyboard_check_pressed(global.skip_key) && !global.in_dialogue && !global.in_skill_board){
-	global.skillcheckTimer = 15;
-	with(obj_music){event_user(0);}
+	if(room == rm_5 && global.skillcheckTimer == 1){
+		global.newlife = true;
+	}
+	global.skillcheckTimer = global.time_limit;
+	if(room == rm_2){
+		with(obj_music){event_user(0);}
+	}
 	
 	gameHasEnded = true;
 	global.room_state = "EXITING";
