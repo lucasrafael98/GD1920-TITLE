@@ -184,7 +184,7 @@ exit_text2 = [
         ["Yes.","No."],
         "She doesn\'t seem suspicious at all. More like she was terrified or something.",
         "She doesn\'t seem suspicious at all. More like she was terrified or something.",
-        "PLACEHOLDER ARREST TEXT", // 50
+        "She was probably a victim of her husband. Does that mean she\'s innocent, though?", // 50
         "... is she one of the terrorists, then?",
         ["Yes.","No."],
         "He seemed a bit aloof, but might he have been nervous about doing something in this train?",
@@ -383,6 +383,70 @@ poolblood_dialogue = [
             createDialogMap(2,smind_text[2],id,-1,-1)
 ];
 
+showdown_text = [
+        "A forty-year-old man with a groomed brown beard and a smug smile keeps staring at you. Eventually, an utterance escapes his lips. \"You\'re finally here. Took you long enough.\"",
+        ["\"Who are you?\""],
+        "He strokes his chin. \"Well, you\'re a conductor aren\'t you? I\'m sure you\'re used to getting everything out of someone\'s documents.\" He hands you his passport.",
+        "This passport is invalid. Is this even a passport? There\'s so many pointless information here...",
+        "Wait... You\'re so used to checking these damn things that, faced with a completely different paper, you can\'t even recognize it. \"Institute of Stability\". ",
+        "... Fuck. What is he doing here?",
+        "He\'s got a Level VIII IoS card? That\'s the highest level of clearance in the Institute of Stability! He must be one of ten people in the country with that.",
+        "He\'s got a Level VIII IoS card? Doesn\'t ring a bell.",
+        ["\"What the hell are you doing here?\""],
+        "\"My job. And you\'re going to help me. Or at least, stay the fuck out of my way.\"",
+        ["\"And what is \'your job\' supposed to be?\""],
+        "He points at you, and then at himself. \"We... are going to blow up this train. Unless you feel like having a holy moral streak, in which case you\'ll be shot by my associates which you no doubt failed to catch on the last carriage, you useless fuck of a cop.\"",
+        ["\"Pretty sure I caught them, asshole.\"","\"Wait... you\'re part of the terrorist association I\'ve been trying to catch this whole time?\""],
+        "\"I doubt it. You were a useless cop. This whole playing around, looking and listening to people, it\'s  what the police makes the useless worst-of-the-worst trash they somehow employ do.\"",
+        "\"More to say that your so-called \'terrorists\' are unknowingly a branch of the eye-oh-ess. This started out with me, but those idealistic, naive dumbfucks never got wise. This was never about revolution, it\'s about making the right moves to keep a stable country that way.\"",
+        "\"I mean, what do you think that people are gonna do when this train is blown up? There won\'t be any more getting out of the country. Everyone stays here, no bad word gets out, no productive workers in the grand scheme of society are lost.\"",
+        "\"You are going to help me with this, and you are going to get your promotion. You will do what is needed of you, without further question. Or you will be shot like the useless, meek animal that you are. There is no arguing here. Do you understand?\"",
+        ["\"I can\'t do what you ask of me.\" Draw your weapon.", "\"I... I do. Let\'s begin.\""],
+        "Wait... you better be goddamn sure about what you\'re gonna do. Are you sure about this?",
+        ["Yes, I am.","Let me rethink this."],
+        "Time...",
+        "...slows...",
+        "...down.",
+        "You feel a cocktail of blood and chemicals rushing through your body. This ain\'t a fight-or-flight; you've got nowhere to fly here.",
+        "You can\'t even hear anything except for the noise inside your head.",
+        "You can see your hands moving. And his as well.",
+        "You\'re both drawing, but who\'s gonna be faster?",
+        "You won\'t know until your ears start to ring from the shot, and you finally have the courage to open your eyes and look at what you\'ve done.",
+        "Here goes nothing."
+];
+
+showdown_dialogue = [
+            createDialogMap(0,showdown_text[0],id,1,-1),
+            createDialogMap(1,showdown_text[1],id,[2],[-1]),
+            createDialogMap(2,showdown_text[2],id,3,[skillBranch_showdown, id, 2, 1, 999, 3, 3]),
+            createDialogMap(3,showdown_text[3],id,4,[skillBranch_showdown, id, 3, 1, -999, 4, 4]),
+            createDialogMap(4,showdown_text[4],id,5,[changeMusic]),
+            createDialogMap(5,showdown_text[5],id,-1,[skillBranch_showdown, id, 5, 1, 8, 6, 7]),
+            createDialogMap(6,showdown_text[6],id,8,[changeMusic]),
+            createDialogMap(7,showdown_text[7],id,8,[changeMusic]),
+            createDialogMap(8,showdown_text[8],id,[9],[-1]),
+            createDialogMap(9,showdown_text[9],id,10,[changeMusic]),
+            createDialogMap(10,showdown_text[10],id,[11],[-1]),
+            createDialogMap(11,showdown_text[11],id,12,[changeMusic]),
+            createDialogMap(12,showdown_text[12],id,[13,14],[-1,[changeMusic]]),
+            createDialogMap(13,showdown_text[13],id,12,-1),
+            createDialogMap(14,showdown_text[14],id,15,[changeMusic]),
+            createDialogMap(15,showdown_text[15],id,16,-1),
+            createDialogMap(16,showdown_text[16],id,17,-1),
+            createDialogMap(17,showdown_text[17],id,[20,18],[-1,-1]),
+            createDialogMap(18,showdown_text[18],id,19,-1),
+            createDialogMap(19,showdown_text[19],id,[-1,20],[[start_smind_end],[changeMusic]]),
+            createDialogMap(20,showdown_text[20],id,21,-1),
+            createDialogMap(21,showdown_text[21],id,22,[changeMusic]),
+            createDialogMap(22,showdown_text[22],id,23,-1),
+            createDialogMap(23,showdown_text[23],id,24,[changeMusic]),
+            createDialogMap(24,showdown_text[24],id,25,-1),
+            createDialogMap(25,showdown_text[25],id,26,[changeMusic]),
+            createDialogMap(26,showdown_text[26],id,27,-1),
+            createDialogMap(27,showdown_text[27],id,28,[changeMusic]),
+            createDialogMap(28,showdown_text[28],id,-1,[check_showdown_end])
+];
+
 if(room == rm_3) {create_textbox(exit_dialogue,id,"noonecares")};
 if(room == rm_6) {
 	create_textbox(exit_dialogue2,id,"noonecares")
@@ -390,4 +454,5 @@ if(room == rm_6) {
 if(room == rm_7) {create_textbox(newlife_dialogue,id,"noonecares")};
 if(room == rm_8) {create_textbox(poolblood_dialogue,id,"noonecares")};
 if(room == rm_9) {create_textbox(goodend_dialogue,id,"noonecares")};
+if(room == rm_11) {create_textbox(showdown_dialogue,id,"noonecares")};
 if(room == rm_13) {create_textbox(smind_dialogue,id,"noonecares")};
